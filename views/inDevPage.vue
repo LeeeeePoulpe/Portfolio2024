@@ -1,0 +1,14 @@
+<template>
+  <div class="chat chat-start">
+    <div class="chat-bubble">It's over Anakin, <br/>I have the high ground.</div>
+  </div>
+  <div class="chat chat-end">
+    <div class="chat-bubble">You underestimate my power!</div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "InDevPage"
+}
+</script>
