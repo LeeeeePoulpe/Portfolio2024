@@ -1,13 +1,9 @@
 <template>
-  <div>
-    <inDevPage />
-  </div>
+  <SpeedInsights />
+  <inDevPage />
 </template>
 
-<script>
-import InDevPage from "~/views/inDevPage.vue";
-
-export default {
-  components: {InDevPage}
-}
+<script setup>
+import { SpeedInsights } from '@vercel/speed-insights/vue';
+import inDevPage from "~/views/inDevPage.vue";
 </script>
