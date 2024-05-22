@@ -30,7 +30,7 @@
         <div class="chat-bubble">Mais votre portoflio est vide ?</div>
       </div>
       <div class="chat chat-start">
-        <div class="chat-bubble">Oui effectivement le site est en cours de développement, en attendant je vous à
+        <div class="chat-bubble">Oui effectivement le site est en cours de développement, en attendant je vous mets à
           disposition de quoi me contacter sociaux et mon CV
         </div>
       </div>
