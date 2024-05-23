@@ -27,21 +27,6 @@ export default {
       return this.windowWidth > 1110;
     },
   },
-
-  mounted() {
-    this.$nextTick(function () {
-      window.addEventListener('resize', this.updateWindowWidth);
-    });
-  },
-
-  methods: {
-    updateWindowWidth() {
-      this.windowWidth = window.innerWidth;
-    },
-  },
-  beforeDestroy() {
-    window.removeEventListener('resize', this.updateWindowWidth);
-  },
 }
 
 </script>
