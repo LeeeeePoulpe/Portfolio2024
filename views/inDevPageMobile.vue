@@ -1,9 +1,12 @@
 <template>
-  <div class="h-screen flex flex-col flex-wrap justify-center px-3 items-center home-bg">
-    <div class="flex justify-center flex-wrap gap-20">
-      <div class="home-logo w-80">
+  <div class="sm:h-auto md:h-screen flex flex-wrap justify-center px-3 pt-5 pb-10 items-center home-bg">
+    <div class="flex flex-col items-center w-10/12">
+      <div class="home-logo w-32">
         <img src="../assets/img/home/Logo.svg" alt="Logo de Hugo Follmi">
       </div>
+      <div class="divider w-11/12 mx-auto"></div>
+    </div>
+    <div class="flex flex-col gap-5">
       <div>
         <div class="chat chat-start">
           <div class="chat-bubble">Hello je m’appelle Hugo Föllmi</div>
@@ -22,30 +25,30 @@
             passionne
           </div>
         </div>
-      </div>
-    </div>
-    <div class="divider"></div>
-    <div>
-      <div class="chat chat-end">
-        <div class="chat-bubble">Mais votre portoflio est vide ?</div>
-      </div>
-      <div class="chat chat-start">
-        <div class="chat-bubble">Oui effectivement le site est en cours de développement, en attendant je vous mets à
-          disposition de quoi me contacter sociaux et mon CV
+        <div class="chat chat-end">
+          <div class="chat-bubble">Mais votre portoflio est vide ?</div>
+        </div>
+        <div class="chat chat-start">
+          <div class="chat-bubble">Oui effectivement le site est en cours de développement, en attendant je vous mets à
+            disposition de quoi me contacter sociaux et mon CV
+          </div>
         </div>
       </div>
     </div>
-    <div class="flex gap-5 mt-5">
+    <div class="flex flex-col gap-5 my-5">
+      <div class="flex flex-row gap-5">
+        <a href="https://github.com/LeeeeePoulpe" role="button" class="btn btn-outline">Git Hub</a>
+        <a href="https://www.linkedin.com/in/hugo-follmi-71a971214/" role="button" class="btn btn-outline btn-info">Mon linkedin</a>
+      </div>
       <a href="https://drive.usercontent.google.com/u/2/uc?id=1Z7df9xxQpw_vk-2CUFr4-G29iR-CoLna&export=download" role="button" class="btn btn-outline btn-success">Mon CV au besoin</a>
-      <a href="https://github.com/LeeeeePoulpe" role="button" class="btn btn-outline">Git Hub</a>
-      <a href="https://www.linkedin.com/in/hugo-follmi-71a971214/" role="button" class="btn btn-outline btn-info">Mon linkedin</a>
+      <a href="mailto:hugofollmi@gmail.com" role="button" class="btn btn-outline btn-warning">mon mail</a>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "InDevPage"
+  name: "InDevPageMobile"
 }
 </script>
 
