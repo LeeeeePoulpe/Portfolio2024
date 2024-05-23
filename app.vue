@@ -4,18 +4,14 @@
   <inDevPageMobile v-else/>
 </template>
 
-<script>
+<script setup>
 import {SpeedInsights} from '@vercel/speed-insights/vue';
 import inDevPageMobile from "~/views/inDevPageMobile.vue";
 import inDevPageDesktop from "~/views/inDevPageDesktop.vue";
 
+</script>
+<script>
 export default {
-  components: {
-    SpeedInsights,
-    inDevPageMobile,
-    inDevPageDesktop,
-  },
-
   data() {
     return {
       windowWidth: window.innerWidth,
