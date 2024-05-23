@@ -1,6 +1,6 @@
 <template>
   <SpeedInsights/>
-  <inDevPageDesktop v-if="this.isDesktop"/>
+  <inDevPageDesktop v-if="isDesktop()"/>
   <inDevPageMobile v-else/>
 </template>
 
@@ -18,12 +18,6 @@ export default {
     };
   },
 
-  computed: {
-    isDesktop() {
-      return this.windowWidth > 1110;
-    },
-  },
-
   mounted() {
     this.$nextTick(function () {
       console.log('mounted');
@@ -35,9 +29,9 @@ export default {
     updateWindowWidth() {
       this.windowWidth = window.innerWidth;
     },
-  },
-  beforeDestroy() {
-    window.removeEventListener('resize', this.updateWindowWidth);
+    isDesktop() {
+      return this.windowWidth > 1110;
+    },
   },
 }
 
