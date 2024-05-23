@@ -1,7 +1,6 @@
 <template>
   <SpeedInsights/>
-  <inDevPageDesktop v-if="isDesktop()"/>
-  <inDevPageMobile v-else/>
+  <inDevPageDesktop/>
 </template>
 
 <script setup>
