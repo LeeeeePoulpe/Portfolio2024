@@ -18,7 +18,7 @@ export default {
 
   data() {
     return {
-      windowWidth: 0,
+      windowWidth: window.innerWidth
     };
   },
   computed: {
