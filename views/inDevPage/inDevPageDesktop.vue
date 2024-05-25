@@ -21,7 +21,7 @@
         </div>
       </div>
       <div class="home-logo w-80">
-        <img src="../assets/img/home/Logo.svg" alt="Logo de Hugo Follmi">
+        <img src="../../assets/img/home/Logo.svg" alt="Logo de Hugo Follmi">
       </div>
     </div>
     <div class="divider w-11/12 mx-auto"></div>

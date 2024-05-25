@@ -2,7 +2,7 @@
   <div class="sm:h-auto md:h-screen flex flex-wrap justify-center px-3 pt-5 pb-10 items-center home-bg">
     <div class="flex flex-col items-center w-10/12">
       <div class="home-logo w-32">
-        <img src="../assets/img/home/Logo.svg" alt="Logo de Hugo Follmi">
+        <img src="../../assets/img/home/Logo.svg" alt="Logo de Hugo Follmi">
       </div>
       <div class="divider w-11/12 mx-auto"></div>
     </div>
