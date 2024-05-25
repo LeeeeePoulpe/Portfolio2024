@@ -1,8 +1,8 @@
 <template>
-  <div class="sm:h-auto md:h-screen flex flex-wrap justify-center px-3 pt-5 pb-10 items-center home-bg">
+  <div class="sm:h-auto md:h-screen flex flex-wrap justify-center px-3 pt-5 pb-10 items-center hero-background">
     <div class="flex flex-col items-center w-10/12">
-      <div class="home-logo w-32">
-        <img src="../../assets/img/home/Logo.svg" alt="Logo de Hugo Follmi">
+      <div class="hero-logo w-32">
+        <img src="../../assets/img/heroSection/Logo.svg" alt="Logo de Hugo Follmi">
       </div>
       <div class="divider w-11/12 mx-auto"></div>
     </div>
@@ -54,11 +54,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.home-bg {
+.hero-background {
   background: radial-gradient(150.39% 106.02% at 30.73% 2.6%, #18121E 0%, #27143A 50%, #261338 100%);
 }
 
-.home-logo {
+.hero-logo {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 

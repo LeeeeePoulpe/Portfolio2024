@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen flex flex-col justify-center p-3 items-center home-bg">
+  <div class="h-screen flex flex-col justify-center p-3 items-center hero-background">
     <div class="flex justify-center flex-wrap gap-20">
       <div>
         <div class="chat chat-start">
@@ -20,8 +20,8 @@
           </div>
         </div>
       </div>
-      <div class="home-logo w-80">
-        <img src="../../assets/img/home/Logo.svg" alt="Logo de Hugo Follmi">
+      <div class="hero-logo w-80">
+        <img src="../../assets/img/heroSection/Logo.svg" alt="Logo de Hugo Follmi">
       </div>
     </div>
     <div class="divider w-11/12 mx-auto"></div>
@@ -55,11 +55,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.home-bg {
+.hero-background {
   background: radial-gradient(150.39% 106.02% at 30.73% 2.6%, #18121E 0%, #27143A 50%, #261338 100%);
 }
 
-.home-logo {
+.hero-logo {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
