@@ -4,5 +4,5 @@
 
 
 <script setup>
-import HeroSection from './sections/HeroSection.vue';
+import HeroSection from './sections/heroSection/HeroSection.vue';
 </script>
