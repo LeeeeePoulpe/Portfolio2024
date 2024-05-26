@@ -11,7 +11,8 @@
         </div>
       </client-only>
     </div>
-    <img src="../../../assets/img/heroSection/arrow.png" class="w-7 animate-bounce absolute bottom-10" alt="next section">
+    <img src="../../../assets/img/heroSection/arrow.png" class="w-7 animate-bounce absolute bottom-10"
+         alt="next section">
   </div>
 </template>
 
@@ -25,7 +26,7 @@ export default {
 
   data() {
     return {
-      windowWidth: window.innerWidth,
+      windowWidth: typeof window !== 'undefined' ? window.innerWidth : 0,
     };
   },
 
@@ -53,7 +54,9 @@ export default {
 
   methods: {
     updateWindowWidth() {
-      this.windowWidth = window.innerWidth;
+      if (typeof window !== 'undefined') {
+        this.windowWidth = window.innerWidth;
+      }
     },
   },
   beforeDestroy() {
@@ -73,7 +76,7 @@ export default {
 }
 
 .hero-dynamic-text {
-  font-family: 'SF Pro Text',-apple-system,BlinkMacSystemFont,Roboto,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+  font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   color: white !important;
 }
 </style>
