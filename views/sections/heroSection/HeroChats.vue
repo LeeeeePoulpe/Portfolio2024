@@ -23,18 +23,13 @@
     </div>
   </div>
 </template>
+
 <script>
 export default {
   name: 'HeroChats'
 }
 </script>
-<style lang="scss" scoped>
 
-.chat-bubble {
-  max-width: 70%;
-  text-wrap: auto;
-  background-color: white;
-  color: black;
-}
+<style lang="scss" scoped>
 
 </style>
