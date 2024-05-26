@@ -2,7 +2,7 @@
   <div class="h-screen flex flex-col justify-center p-3 items-center hero-background">
     <div class="flex items-center gap-40">
       <div class="flex flex-col gap-12 md:gap-20">
-        <div id="type" ref="homeDynamicText" class="md:text-6xl text-4xl hero-dynamic-text"></div>
+        <HeroDynamicText/>
         <HeroChats/>
       </div>
       <client-only>
@@ -11,18 +11,20 @@
         </div>
       </client-only>
     </div>
-    <img src="../../../assets/img/heroSection/arrow.png" class="w-7 animate-bounce absolute bottom-10"
-         alt="next section">
+    <img src="../../../assets/img/heroSection/arrow.png" class="w-7 animate-bounce absolute bottom-10" alt="next section">
   </div>
 </template>
 
 <script>
-import Typewriter from 'typewriter-effect/dist/core';
 import HeroChats from "~/views/sections/heroSection/HeroChats.vue";
+import HeroDynamicText from "~/views/sections/heroSection/HeroDynamicText.vue";
 
 export default {
   name: "heroSection",
-  components: {HeroChats},
+  components: {
+    HeroDynamicText,
+    HeroChats
+  },
 
   data() {
     return {
@@ -31,16 +33,6 @@ export default {
   },
 
   mounted() {
-    const target = this.$refs.homeDynamicText;
-
-    const typewriter = new Typewriter(target, {
-      loop: true,
-      autoStart: true,
-      delay: 75,
-      strings: ['Bonjour', 'Hello', 'Bonsoir', 'Salut', 'Good evening', 'Good morning', 'Good afternoon', 'Konnichiwa', 'Namaste', 'Guten Tag', 'Olá', 'Ciao-ciao', 'Hallo-hallo', 'Vanakkam', 'Yia sou', 'Kamusta'],
-      cursor: '_',
-    });
-
     this.$nextTick(function () {
       window.addEventListener('resize', this.updateWindowWidth);
     });
@@ -75,8 +67,4 @@ export default {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.hero-dynamic-text {
-  font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-  color: white !important;
-}
 </style>
