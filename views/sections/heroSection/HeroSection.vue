@@ -1,8 +1,8 @@
 <template>
   <div class="h-screen flex flex-col justify-center p-3 items-center hero-background">
     <div class="flex items-center gap-40">
-      <div class="flex flex-col gap-20">
-        <div id="type" ref="homeDynamicText" class="text-6xl hero-dynamic-text"></div>
+      <div class="flex flex-col gap-12 md:gap-20">
+        <div id="type" ref="homeDynamicText" class="md:text-6xl text-4xl hero-dynamic-text"></div>
         <HeroChats/>
       </div>
       <client-only>
