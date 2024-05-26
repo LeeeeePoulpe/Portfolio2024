@@ -1,13 +1,15 @@
 <template>
   <div class="h-screen flex flex-col justify-center p-3 items-center hero-background">
-    <div class="flex items-center flex-wrap gap-40">
+    <div class="flex items-center gap-40">
       <div class="flex flex-col gap-20">
         <div id="type" ref="homeDynamicText" class="text-6xl hero-dynamic-text"></div>
         <HeroChats/>
       </div>
-      <div class="hero-logo w-80 xl:w-max">
-        <img src="../../../assets/img/heroSection/Logo.png" alt="Logo de Hugo Follmi">
-      </div>
+      <client-only>
+        <div v-if="isDesktop" class="hero-logo w-80 xl:w-max">
+          <img src="../../../assets/img/heroSection/Logo.png" alt="Logo de Hugo Follmi">
+        </div>
+      </client-only>
     </div>
     <img src="../../../assets/img/heroSection/arrow.png" class="w-7 animate-bounce absolute bottom-10" alt="next section">
   </div>
@@ -21,6 +23,12 @@ export default {
   name: "heroSection",
   components: {HeroChats},
 
+  data() {
+    return {
+      windowWidth: window.innerWidth,
+    };
+  },
+
   mounted() {
     const target = this.$refs.homeDynamicText;
 
@@ -31,6 +39,25 @@ export default {
       strings: ['Bonjour', 'Hello', 'Bonsoir', 'Salut', 'Good evening', 'Good morning', 'Good afternoon', 'Konnichiwa', 'Namaste', 'Guten Tag', 'Olá', 'Ciao-ciao', 'Hallo-hallo', 'Vanakkam', 'Yia sou', 'Kamusta'],
       cursor: '_',
     });
+
+    this.$nextTick(function () {
+      window.addEventListener('resize', this.updateWindowWidth);
+    });
+  },
+
+  computed: {
+    isDesktop() {
+      return this.windowWidth > 1100;
+    },
+  },
+
+  methods: {
+    updateWindowWidth() {
+      this.windowWidth = window.innerWidth;
+    },
+  },
+  beforeDestroy() {
+    window.removeEventListener('resize', this.updateWindowWidth);
   },
 }
 </script>
