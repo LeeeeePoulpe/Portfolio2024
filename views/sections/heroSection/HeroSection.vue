@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen flex flex-col justify-center p-3 items-center hero-background">
+  <div class="h-screen flex flex-col justify-start sm:justify-center items-center hero-background p-3">
     <div class="flex items-center gap-40">
       <div class="flex flex-col gap-12 md:gap-20">
         <HeroDynamicText/>
