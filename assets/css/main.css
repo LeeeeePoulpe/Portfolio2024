@@ -5,3 +5,16 @@
 body {
     font-family: 'SF Compact Rounded',-apple-system,BlinkMacSystemFont,Roboto,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
 }
+
+.chat-bubble {
+    max-width: 70%;
+    text-wrap: auto;
+    background-color: white;
+    color: black;
+}
+
+.chat-bubble--full {
+    max-width: 100%;
+    text-wrap: auto;
+    margin-bottom: 48px;
+}
