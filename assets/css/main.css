@@ -16,5 +16,9 @@ body {
 .chat-bubble--full {
     max-width: 100%;
     text-wrap: auto;
+}
+
+.chat-bubble--intro {
     margin-bottom: 48px;
+    max-width: 40%;
 }
