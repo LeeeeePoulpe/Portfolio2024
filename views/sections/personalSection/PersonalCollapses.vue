@@ -1,20 +1,20 @@
 <template>
   <div class="flex flex-col gap-5 w-full">
-    <div class="collapse collapse-arrow bg-base-200">
+    <div class="collapse collapse-arrow bg-white	">
       <input type="checkbox"/>
-      <div class="collapse-title text-xl font-medium">
+      <div class="collapse-title text-xl text-black font-medium">
         Mes informations personnelles
       </div>
-      <div class="collapse-content">
+      <div class="collapse-content text-black">
         <p>Je m'appelle Hugo Föllmi, j’ai 19 ans et je suis né le 11 Novembre 2004 à Santiago du Chili</p>
       </div>
     </div>
-    <div class="collapse collapse-arrow bg-base-200">
+    <div class="collapse collapse-arrow bg-white	">
       <input type="checkbox"/>
-      <div class="collapse-title text-xl font-medium">
+      <div class="collapse-title text-xl text-black font-medium">
         Mes études
       </div>
-      <div class="collapse-content">
+      <div class="collapse-content text-black">
         <p>
           Pour les études on va commencer au lycée avant n'est pas très interessant. <br>
           J’ai décidé d’aller au lycée Vaucanson de Grenoble pour pouvoir m’orienter vers de l’informatique. En seconde
@@ -27,12 +27,12 @@
         </p>
       </div>
     </div>
-    <div class="collapse collapse-arrow bg-base-200">
+    <div class="collapse collapse-arrow bg-white	">
       <input type="checkbox"/>
-      <div class="collapse-title text-xl font-medium">
+      <div class="collapse-title text-xl text-black font-medium">
         Mes passions
       </div>
-      <div class="collapse-content">
+      <div class="collapse-content text-black">
         <p>
           Mes passions 😅 j'en ai plein mais faisons une liste:
         </p>
@@ -47,12 +47,12 @@
         </ul>
       </div>
     </div>
-    <div class="collapse collapse-arrow bg-base-200">
+    <div class="collapse collapse-arrow bg-white">
       <input type="checkbox"/>
-      <div class="collapse-title text-xl font-medium">
+      <div class="collapse-title text-xl text-black font-medium">
         Mes compétences
       </div>
-      <div class="collapse-content">
+      <div class="collapse-content text-black">
         <p>
           Parlons de mes compétences ! <br>
           Et bien à vrai dire je suis toujours en apprentissage, mais je partage avec vous la liste des compétences
