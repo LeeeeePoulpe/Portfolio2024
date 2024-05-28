@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen flex justify-start xl:justify-center bg-slate-50 p-8">
+  <div class="min-h-screen flex justify-start xl:justify-center bg-slate-50 p-8 drop-shadow-md">
     <div class="xl:w-10/12 flex flex-col justify-between">
       <div class="flex flex-col mb-12">
         <div class="chat chat-start drop-shadow-md self-start">
