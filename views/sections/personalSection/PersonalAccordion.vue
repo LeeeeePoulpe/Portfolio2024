@@ -1,15 +1,16 @@
 <template>
   <div class="flex flex-col gap-5 w-full">
-    <div tabindex="0" class="collapse collapse-open bg-white">
-      <div class="collapse-title text-xl text-black font-medium ">
+    <div class="collapse collapse-arrow bg-white drop-shadow-md	">
+      <input type="radio" name="my-accordion-1" checked="checked" />
+      <div class="collapse-title text-xl text-black font-medium">
         Mes informations personnelles
       </div>
       <div class="collapse-content text-black">
         <p>Je m'appelle Hugo Föllmi, j’ai 19 ans et je suis né le 11 Novembre 2004 à Santiago du Chili</p>
       </div>
     </div>
-    <div class="collapse collapse-arrow bg-white">
-      <input type="checkbox"/>
+    <div class="collapse collapse-arrow bg-white drop-shadow-md	">
+      <input type="radio" name="my-accordion-1" />
       <div class="collapse-title text-xl text-black font-medium">
         Mes études
       </div>
@@ -26,8 +27,8 @@
         </p>
       </div>
     </div>
-    <div class="collapse collapse-arrow bg-white	">
-      <input type="checkbox"/>
+    <div class="collapse collapse-arrow bg-white drop-shadow-md	">
+      <input type="radio" name="my-accordion-1" />
       <div class="collapse-title text-xl text-black font-medium">
         Mes passions
       </div>
@@ -46,8 +47,8 @@
         </ul>
       </div>
     </div>
-    <div class="collapse collapse-arrow bg-white">
-      <input type="checkbox"/>
+    <div class="collapse collapse-arrow bg-white drop-shadow-md	">
+      <input type="radio" name="my-accordion-1" />
       <div class="collapse-title text-xl text-black font-medium">
         Mes compétences
       </div>
@@ -64,6 +65,6 @@
 </template>
 <script>
 export default {
-  name: 'PersonalCollapses'
+  name: 'PersonalAccordion'
 }
 </script>
