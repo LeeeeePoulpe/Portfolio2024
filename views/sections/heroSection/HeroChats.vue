@@ -1,23 +1,23 @@
 <template>
   <div>
     <div class="chat chat-start">
-      <div class="chat-bubble">Je m’appelle Hugo Föllmi</div>
+      <div class="chat-bubble drop-shadow-md">Je m’appelle Hugo Föllmi</div>
     </div>
     <div class="chat chat-end">
-      <div class="chat-bubble">Et qui êtes vous ?</div>
+      <div class="chat-bubble drop-shadow-md">Et qui êtes vous ?</div>
     </div>
     <div class="chat chat-start">
-      <div class="chat-bubble">Qui je suis ? <br> Un étudiant et vous êtes sur mon portfolio.</div>
+      <div class="chat-bubble drop-shadow-md">Qui je suis ? <br> Un étudiant et vous êtes sur mon portfolio.</div>
     </div>
     <div class="chat chat-end">
-      <div class="chat-bubble">Votre Portfolio ?</div>
+      <div class="chat-bubble drop-shadow-md">Votre Portfolio ?</div>
     </div>
-    <div class="chat chat-start">
+    <div class="chat chat-start drop-shadow-md">
       <div class="chat-bubble">Oui ici vous pourrez apprendre à me connaitre, ce que j’ai réalisé et ce qui me
         passionne
       </div>
     </div>
-    <div class="chat chat-start">
+    <div class="chat chat-start drop-shadow-md">
       <div class="chat-bubble">Et même me contacter si besoin mais avant cela je vous laisse découvrir !
       </div>
     </div>
