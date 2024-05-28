@@ -21,4 +21,8 @@ body {
 .chat-bubble--intro {
     margin-bottom: 48px;
     max-width: 40%;
+
+    @screen sm {
+        max-width: 70%;
+    }
 }
