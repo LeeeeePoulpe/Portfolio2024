@@ -1,12 +1,12 @@
 <template>
   <div class="h-screen flex flex-col justify-start sm:justify-center items-center hero-background p-3">
-    <div class="flex items-center gap-40">
+    <div class="flex items-center justify-center gap-40">
       <div class="flex flex-col gap-12 md:gap-20">
         <HeroDynamicText/>
         <HeroChats/>
       </div>
       <client-only>
-        <div v-if="isDesktop" class="hero-logo w-80 xl:w-max">
+        <div v-if="isDesktop" class="w-80 xl:w-4/12">
           <img src="../../../assets/img/heroSection/Logo.png" alt="Logo de Hugo Follmi">
         </div>
       </client-only>
@@ -62,9 +62,4 @@ export default {
 .hero-background {
   background: radial-gradient(150.39% 106.02% at 30.73% 2.6%, #18121E 0%, #27143A 50%, #261338 100%);
 }
-
-.hero-logo {
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
-
 </style>
