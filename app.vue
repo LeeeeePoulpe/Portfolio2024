@@ -1,16 +1,9 @@
 <template>
   <SpeedInsights/>
-  <homePage/>
+  <HomePage/>
 </template>
 
-<script>
+<script setup>
 import {SpeedInsights} from '@vercel/speed-insights/vue';
-import homePage from './views/HomePage.vue';
-
-export default {
-  components: {
-    SpeedInsights,
-    homePage,
-  },
-}
+import HomePage from './views/HomePage.vue';
 </script>
