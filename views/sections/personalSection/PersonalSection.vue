@@ -17,19 +17,6 @@
   </div>
 </template>
 
-<script>
-import PersonalCollapses from "~/views/sections/personalSection/PersonalCollapses.vue";
+<script setup>
 import PersonalAccordion from "~/views/sections/personalSection/PersonalAccordion.vue";
-
-export default {
-  name: "PersonalSection",
-  components: {
-    PersonalAccordion,
-    PersonalCollapses
-  },
-}
 </script>
-
-<style lang="scss" scoped>
-
-</style>
