@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-    font-family: 'SF Compact Rounded',-apple-system,BlinkMacSystemFont,Roboto,'Segoe UI',Helvetica,Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+    font-family: 'SF Compact Rounded', -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 }
 
 .chat-bubble {
@@ -20,9 +20,12 @@ body {
 
 .chat-bubble--intro {
     margin-bottom: 48px;
-    max-width: 40%;
 
     @screen sm {
         max-width: 70%;
     }
+}
+
+.drop-shadow-md {
+    -webkit-box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
