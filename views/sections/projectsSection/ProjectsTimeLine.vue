@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center">
+  <div class="flex justify-center mb-8">
     <ul class="timeline">
       <li v-for="(date, index) in dates" :key="index">
         <hr class="bg-primary"/>
