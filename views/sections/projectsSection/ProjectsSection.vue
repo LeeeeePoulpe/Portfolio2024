@@ -49,7 +49,7 @@ const projects = [
     ],
   },
   {
-    image: require("./assets/img/projectsSection/ErgoGames.svg"),
+    image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg",
     title: "Carnet  de stage",
     description: "Correction d’une application de répertoire d’offres et candidatures.",
     badges: [
