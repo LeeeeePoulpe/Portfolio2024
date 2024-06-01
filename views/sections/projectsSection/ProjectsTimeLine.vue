@@ -1,9 +1,9 @@
 <template>
   <div class="flex justify-center">
-    <ul class="timeline drop-shadow-md">
+    <ul class="timeline">
       <li v-for="(date, index) in dates" :key="index">
         <hr class="bg-primary"/>
-        <div :class="index % 2 === 0 ? 'timeline-start timeline-box text-white border-slate-400' : 'timeline-end timeline-box text-white border-slate-400'">
+        <div :class="index % 2 === 0 ? 'timeline-start' : 'timeline-end'" class="timeline-box text-black bg-white border-slate-300 drop-shadow-sm">
           {{ date.event }}
         </div>
         <div class="timeline-middle">
@@ -11,10 +11,10 @@
             <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z" clip-rule="evenodd"/>
           </svg>
         </div>
-        <p :class="index % 2 === 0 ? 'timeline-end text-black' : 'timeline-start text-black'">
+        <p :class="index % 2 === 0 ? 'timeline-end' : 'timeline-start'" class="text-black">
           {{ date.year }}
         </p>
-        <hr :class="index !== dates.length - 1 ? 'bg-primary' : ''"/>
+        <hr :class="index !== dates.length - 1 ? 'bg-primary' : 'bg-slate-400'" class="drop-shadow-sm"/>
       </li>
     </ul>
   </div>
