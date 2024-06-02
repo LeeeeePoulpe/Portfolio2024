@@ -8,25 +8,150 @@
       </div>
       <ProjectsTimeLine v-if="isDesktop"/>
       <div class="flex flex-row flex-wrap justify-center gap-4">
-        <ProjectCard
-            v-for="project in projects"
-            :key="project.title"
-            class="self-center"
-        >
+        <ProjectCard class="self-center">
           <template #project-image>
-            <img :src="project.image" :alt="project.title"/>
+            <img src="@/assets/img/projectsSection/ErGoGames.svg" alt="ErgoGames" class="h-36 drop-shadow-sm"/>
           </template>
           <template #project-title>
-            {{ project.title }}
+            ErgoGames
           </template>
           <template #project-description>
-            {{ project.description }}
+            Développement du sixième jeu des ergogames pour Sogilis.
           </template>
-          <template v-if="project.title === 'ErgoGames'" #project-badge-new>
+          <template #project-badge-new>
             <span class="badge badge-success">Nouveau</span>
           </template>
           <template #project-badge>
-            <span v-for="badge in project.badges" class="badge badge-outline">{{ badge }}</span>
+            <span class="badge badge-outline">Vue.Js</span>
+            <span class="badge badge-outline">JavaScript</span>
+          </template>
+        </ProjectCard>
+
+        <ProjectCard class="self-center">
+          <template #project-image>
+            <img src="@/assets/img/projectsSection/CarnetDeStage.svg" alt="Carnet de stage" class="h-36 drop-shadow-sm"/>
+          </template>
+          <template #project-title>
+            Carnet de stage
+          </template>
+          <template #project-description>
+            Correction d’une application de répertoire d’offres et candidatures.
+          </template>
+          <template #project-badge>
+            <span class="badge badge-outline">Symfony</span>
+            <span class="badge badge-outline">Android</span>
+          </template>
+        </ProjectCard>
+
+        <ProjectCard class="self-center">
+          <template #project-image>
+            <img src="@/assets/img/projectsSection/LudoLabo.svg" alt="LudoLabo" class="h-36 drop-shadow-sm"/>
+          </template>
+          <template #project-title>
+            LudoLabo
+          </template>
+          <template #project-description>
+            Développement d’un jeu ludoEducatif en science physique.
+          </template>
+          <template #project-badge>
+            <span class="badge badge-outline">Unity</span>
+            <span class="badge badge-outline">Vue.Js</span>
+            <span class="badge badge-outline">Symfony</span>
+          </template>
+        </ProjectCard>
+
+        <ProjectCard class="self-center">
+          <template #project-image>
+            <img src="@/assets/img/projectsSection/Arcsecond.svg" alt="Arcsecond" class="h-36 drop-shadow-sm"/>
+          </template>
+          <template #project-title>
+            Arcsecond
+          </template>
+          <template #project-description>
+            Amélioration de la partie visuelle de la page d’accueil des portails.
+          </template>
+          <template #project-badge>
+            <span class="badge badge-outline">Vue.Js</span>
+            <span class="badge badge-outline">JavaScript</span>
+          </template>
+        </ProjectCard>
+
+        <ProjectCard class="self-center">
+          <template #project-image>
+            <img src="@/assets/img/projectsSection/Sciconf.svg" alt="Sciconf" class="h-36 drop-shadow-sm"/>
+          </template>
+          <template #project-title>
+            Sciconf
+          </template>
+          <template #project-description>
+            Développement d’une application de gestion de conférences.
+          </template>
+          <template #project-badge>
+            <span class="badge badge-outline">Java</span>
+            <span class="badge badge-outline">JavaFX</span>
+          </template>
+        </ProjectCard>
+
+        <ProjectCard class="self-center">
+          <template #project-image>
+            <img src="@/assets/img/projectsSection/GameJam.svg" alt="GameJam" class="h-36 drop-shadow-sm"/>
+          </template>
+          <template #project-title>
+            GameJam
+          </template>
+          <template #project-description>
+            Développement d’un jeu vidéo dans “le monde merveilleux de l’IUT2”.
+          </template>
+          <template #project-badge>
+            <span class="badge badge-outline">Python</span>
+            <span class="badge badge-outline">PyGame</span>
+          </template>
+        </ProjectCard>
+
+        <ProjectCard class="self-center">
+          <template #project-image>
+            <img src="@/assets/img/projectsSection/CGI.svg" alt="Réalisation d’un site Web" class="h-36 drop-shadow-sm"/>
+          </template>
+          <template #project-title>
+            Réalisation d’un site Web
+          </template>
+          <template #project-description>
+            Développement d’un site d’information simplifié sur une ESN.
+          </template>
+          <template #project-badge>
+            <span class="badge badge-outline">Gestion de Projet</span>
+            <span class="badge badge-outline">HTML / CSS</span>
+          </template>
+        </ProjectCard>
+
+        <ProjectCard class="self-center">
+          <template #project-image>
+            <img src="@/assets/img/projectsSection/Titanic.svg" alt="Réalisation d'une BD" class="h-36"/>
+          </template>
+          <template #project-title>
+            Réalisation d'une BD
+          </template>
+          <template #project-description>
+            Création d’une base de donnée sur le naufrage du Titanic
+          </template>
+          <template #project-badge>
+            <span class="badge badge-outline">Schéma relationel</span>
+            <span class="badge badge-outline">SQL</span>
+          </template>
+        </ProjectCard>
+
+        <ProjectCard class="self-center">
+          <template #project-image>
+            <img src="@/assets/img/projectsSection/IA.svg" alt="Création d’une IA de tri" class="h-36 "/>
+          </template>
+          <template #project-title>
+            Création d’une IA de tri
+          </template>
+          <template #project-description>
+            Développement d’une IA de tri de dépêches.
+          </template>
+          <template #project-badge>
+            <span class="badge badge-outline">Java</span>
           </template>
         </ProjectCard>
       </div>
@@ -37,90 +162,6 @@
 <script setup>
 import ProjectsTimeLine from "~/views/sections/projectsSection/ProjectsTimeLine.vue";
 import ProjectCard from "~/views/sections/projectsSection/ProjectCard.vue";
-
-const projects = [
-  {
-    image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg",
-    title: "ErgoGames",
-    description: "Développement du sixième jeu des ergogames pour Sogilis.",
-    badges: [
-      "Vue.Js",
-      "JavaScript",
-    ],
-  },
-  {
-    image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg",
-    title: "Carnet  de stage",
-    description: "Correction d’une application de répertoire d’offres et candidatures.",
-    badges: [
-      "Symfony",
-      "Android",
-    ],
-  },
-  {
-    image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg",
-    title: "LudoLabo",
-    description: "Développement d’un jeu ludoEducatif en science physique.",
-    badges: [
-      "Unity",
-      "Vue.Js",
-      "Symfony",
-    ],
-  },
-  {
-    image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg",
-    title: "Arcsecond",
-    description: "Amélioration de la partie visuelle de la page d’accueil des portails.",
-    badges: [
-      "Vue.Js",
-      "JavaScript",
-    ],
-  },
-  {
-    image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg",
-    title: "Sciconf",
-    description: "Développement d’une application de gestion de conférences.",
-    badges: [
-      "Java",
-      "JavaFX",
-    ],
-  },
-  {
-    image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg",
-    title: "GameJam",
-    description: "Développement d’un jeu vidéo dans “le monde merveilleux de l’IUT2”. ",
-    badges: [
-      "Python",
-      "PyGame",
-    ],
-  },
-  {
-    image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg",
-    title: "Réalisation d’un site Web",
-    description: "Développement d’un site d’information simplifié sur une ESN.",
-    badges: [
-      "Gestion de Projet",
-      "HTML / CSS",
-    ],
-  },
-  {
-    image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg",
-    title: "Réalisation d'une BD",
-    description: "Création d’une base de donnée sur le naufrage du Titanic",
-    badges: [
-      "Schéma relationel",
-      "SQL",
-    ],
-  },
-  {
-    image: "https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg",
-    title: "Création d’une IA de tri ",
-    description: "Développement d’une IA de tri de dépêches.",
-    badges: [
-      "Java",
-    ],
-  },
-];
 
 const windowWidth = ref(typeof window !== 'undefined' ? window.innerWidth : 0);
 
