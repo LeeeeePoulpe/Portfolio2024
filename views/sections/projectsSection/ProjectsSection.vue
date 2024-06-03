@@ -8,12 +8,12 @@
       </div>
       <ProjectsTimeLine v-if="isDesktop"/>
       <div class="flex flex-row flex-wrap justify-center gap-4">
-        <ProjectCard class="self-center">
+        <ProjectCard class="self-center" for="ErgoGamesModal">
           <template #project-image>
             <img src="@/assets/img/projectsSection/ErGoGames.svg" alt="ErgoGames" class="h-36 drop-shadow-sm"/>
           </template>
           <template #project-title>
-            ErgoGames
+            <button onclick="ErgoGamesModal.showModal()">ErgoGames</button>
           </template>
           <template #project-description>
             Développement du sixième jeu des ergogames pour Sogilis.
@@ -156,12 +156,24 @@
         </ProjectCard>
       </div>
     </div>
+
+    <dialog id="ErgoGamesModal" class="modal">
+      <div class="modal-box w-11/12 max-w-5xl">
+        <form method="dialog">
+          <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+        </form>
+        <h3 class="font-bold text-lg">ErgoGames</h3>
+        <ErgoGames/>
+      </div>
+    </dialog>
   </div>
 </template>
 
 <script setup>
 import ProjectsTimeLine from "~/views/sections/projectsSection/ProjectsTimeLine.vue";
 import ProjectCard from "~/views/sections/projectsSection/ProjectCard.vue";
+
+import ErgoGames from "~/views/sections/projectsSection/projects/ErgoGames.vue";
 
 const windowWidth = ref(typeof window !== 'undefined' ? window.innerWidth : 0);
 
