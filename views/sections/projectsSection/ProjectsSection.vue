@@ -10,7 +10,7 @@
       <div class="flex flex-row flex-wrap justify-center gap-4">
         <ProjectCard class="self-center" for="ErgoGamesModal">
           <template #project-image>
-            <img src="@/assets/img/projectsSection/ErGoGames.svg" alt="ErgoGames" class="h-36 drop-shadow-sm"/>
+            <img src="@/assets/img/projectsSection/ErgoGames.svg" alt="ErgoGames" class="h-36 drop-shadow-sm"/>
           </template>
           <template #project-title>
             <button onclick="ErgoGamesModal.showModal()">ErgoGames</button>
@@ -29,10 +29,11 @@
 
         <ProjectCard class="self-center">
           <template #project-image>
-            <img src="@/assets/img/projectsSection/CarnetDeStage.svg" alt="Carnet de stage" class="h-36 drop-shadow-sm"/>
+            <img src="@/assets/img/projectsSection/CarnetDeStage.svg" alt="Carnet de stage"
+                 class="h-36 drop-shadow-sm"/>
           </template>
           <template #project-title>
-            Carnet de stage
+            <button onclick="CarnetDeStageModal.showModal()">Carnet de stage</button>
           </template>
           <template #project-description>
             Correction d’une application de répertoire d’offres et candidatures.
@@ -110,7 +111,8 @@
 
         <ProjectCard class="self-center">
           <template #project-image>
-            <img src="@/assets/img/projectsSection/CGI.svg" alt="Réalisation d’un site Web" class="h-36 drop-shadow-sm"/>
+            <img src="@/assets/img/projectsSection/CGI.svg" alt="Réalisation d’un site Web"
+                 class="h-36 drop-shadow-sm"/>
           </template>
           <template #project-title>
             Réalisation d’un site Web
@@ -158,14 +160,45 @@
     </div>
 
     <dialog id="ErgoGamesModal" class="modal">
-      <div class="modal-box w-11/12 max-w-5xl">
-        <form method="dialog">
+      <div class="modal-box">
+        <form method="dialog" class="">
+          <button class="btn btn-sm btn-circle btn-ghost absolute right-3 top-3">✕</button>
+        </form>
+        <div class="flex flex-col gap-5 mb-5">
+          <h3 class="font-bold text-2xl">ErgoGames</h3>
+          <ErgoGames/>
+        </div>
+        <form method="dialog" class="">
+          <button class="btn btn-warning">Retourner aux projets</button>
+        </form>
+      </div>
+      <form method="dialog" class="modal-backdrop">
+        <button>close</button>
+      </form>
+    </dialog>
+
+    <dialog id="" class="modal">
+      <div class="modal-box">
+        <form method="dialog" class="">
           <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
         </form>
-        <h3 class="font-bold text-lg">ErgoGames</h3>
+        <h3 class="font-bold text-2xl">ErgoGames</h3>
         <ErgoGames/>
       </div>
     </dialog>
+    <dialog id="CarnetDeStageModal" class="modal">
+      <div class="modal-box">
+        <form method="dialog" class="">
+          <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+        </form>
+        <h3 class="font-bold text-lg">ErgoGames</h3>
+        a faire
+        <form method="dialog" class="">
+          <button class="btn">close</button>
+        </form>
+      </div>
+    </dialog>
+
   </div>
 </template>
 
