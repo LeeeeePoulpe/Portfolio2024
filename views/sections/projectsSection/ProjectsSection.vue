@@ -166,7 +166,7 @@
         </form>
         <div class="flex flex-col gap-5 mb-5">
           <h3 class="font-bold text-4xl">ErgoGames</h3>
-          <div class="divider m-0"></div>
+          <div class="divider m-0 divider-neutral"></div>
           <ErgoGames/>
         </div>
         <form method="dialog" class="flex justify-center">
