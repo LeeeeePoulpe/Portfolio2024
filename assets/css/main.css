@@ -33,3 +33,9 @@ body {
 .card-body {
     padding: 1rem;
 }
+
+.modal-box {
+    background-color: white;
+    color: black;
+    padding-top: 0.75rem;
+}
