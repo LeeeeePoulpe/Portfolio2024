@@ -160,9 +160,9 @@
     </div>
 
     <dialog id="ErgoGamesModal" class="modal">
-      <div class="modal-box">
+      <div class="modal-box w-11/12 max-w-5xl">
         <form method="dialog" class="">
-          <button class="btn btn-sm btn-circle btn-ghost absolute right-3 top-3">✕</button>
+          <button class="btn btn-sm btn-circle btn-ghost absolute right-4 top-5">✕</button>
         </form>
         <div class="flex flex-col gap-5 mb-5">
           <h3 class="font-bold text-2xl">ErgoGames</h3>
