@@ -165,10 +165,11 @@
           <button class="btn btn-sm btn-circle btn-ghost absolute right-4 top-5">✕</button>
         </form>
         <div class="flex flex-col gap-5 mb-5">
-          <h3 class="font-bold text-2xl">ErgoGames</h3>
+          <h3 class="font-bold text-4xl">ErgoGames</h3>
+          <div class="divider m-0"></div>
           <ErgoGames/>
         </div>
-        <form method="dialog" class="">
+        <form method="dialog" class="flex justify-center">
           <button class="btn btn-warning">Retourner aux projets</button>
         </form>
       </div>
@@ -176,24 +177,14 @@
         <button>close</button>
       </form>
     </dialog>
-
-    <dialog id="" class="modal">
-      <div class="modal-box">
-        <form method="dialog" class="">
-          <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
-        </form>
-        <h3 class="font-bold text-2xl">ErgoGames</h3>
-        <ErgoGames/>
-      </div>
-    </dialog>
     <dialog id="CarnetDeStageModal" class="modal">
-      <div class="modal-box">
+      <div class="modal-box flex">
         <form method="dialog" class="">
           <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
         </form>
         <h3 class="font-bold text-lg">ErgoGames</h3>
         a faire
-        <form method="dialog" class="">
+        <form method="dialog" class="self-center">
           <button class="btn">close</button>
         </form>
       </div>
