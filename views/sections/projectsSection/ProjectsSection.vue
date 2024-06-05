@@ -134,21 +134,25 @@
           </template>
         </ProjectCard>
 
-        <ProjectCard class="self-center">
-          <template #project-image>
-            <img src="@/assets/img/projectsSection/Titanic.svg" alt="Réalisation d'une BD" class="h-36"/>
-          </template>
-          <template #project-title>
-            Réalisation d'une BD
-          </template>
-          <template #project-description>
-            Création d’une base de donnée sur le naufrage du Titanic
-          </template>
-          <template #project-badge>
-            <span class="badge badge-outline">Schéma relationel</span>
-            <span class="badge badge-outline">SQL</span>
-          </template>
-        </ProjectCard>
+        <button onclick="TitanicModal.showModal()">
+          <ProjectCard class="self-center">
+            <template #project-image>
+              <img src="@/assets/img/projectsSection/Titanic.svg" alt="Réalisation d'une BD" class="h-36"/>
+            </template>
+            <template #project-title>
+              Réalisation d'une BD
+            </template>
+            <template #project-description>
+              <p class="text-start">
+                Création d’une base de donnée sur le naufrage du Titanic
+              </p>
+            </template>
+            <template #project-badge>
+              <span class="badge badge-outline">Schéma relationel</span>
+              <span class="badge badge-outline">SQL</span>
+            </template>
+          </ProjectCard>
+        </button>
 
         <button onclick="IAModal.showModal()">
           <ProjectCard class="self-center">
@@ -206,6 +210,25 @@
       </form>
     </dialog>
 
+    <dialog id="TitanicModal" class="modal">
+      <div class="modal-box w-11/12 max-w-5xl">
+        <form method="dialog" class="">
+          <button class="btn btn-sm btn-circle btn-ghost absolute right-4 top-5">✕</button>
+        </form>
+        <div class="flex flex-col gap-5 mb-5">
+          <h3 class="font-bold text-4xl">Réalisation d'une base de donnée sur le naufrage du Titanic</h3>
+          <div class="divider m-0 divider-neutral"></div>
+          <Titanic/>
+        </div>
+        <form method="dialog" class="flex justify-center">
+          <button class="btn btn-outline text-black">Retourner aux projets</button>
+        </form>
+      </div>
+      <form method="dialog" class="modal-backdrop">
+        <button>close</button>
+      </form>
+    </dialog>
+
     <dialog id="IAModal" class="modal">
       <div class="modal-box w-11/12 max-w-5xl">
         <form method="dialog" class="">
@@ -217,14 +240,13 @@
           <IA/>
         </div>
         <form method="dialog" class="flex justify-center">
-          <button class="btn btn-warning">Retourner aux projets</button>
+          <button class="btn btn-outline text-black">Retourner aux projets</button>
         </form>
       </div>
       <form method="dialog" class="modal-backdrop">
         <button>close</button>
       </form>
     </dialog>
-
   </div>
 </template>
 
@@ -234,6 +256,7 @@ import ProjectCard from "~/views/sections/projectsSection/ProjectCard.vue";
 
 import ErgoGames from "~/views/sections/projectsSection/projects/ErgoGames.vue";
 import IA from "~/views/sections/projectsSection/projects/IA.vue";
+import Titanic from "~/views/sections/projectsSection/projects/Titanic.vue";
 
 const windowWidth = ref(typeof window !== 'undefined' ? window.innerWidth : 0);
 
