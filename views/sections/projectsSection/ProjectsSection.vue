@@ -31,22 +31,26 @@
           </ProjectCard>
         </button>
 
-        <ProjectCard class="self-center">
-          <template #project-image>
-            <img src="@/assets/img/projectsSection/CarnetDeStage.svg" alt="Carnet de stage"
-                 class="h-36 drop-shadow-sm"/>
-          </template>
-          <template #project-title>
-            <button onclick="CarnetDeStageModal.showModal()">Carnet de stage</button>
-          </template>
-          <template #project-description>
-            Correction d’une application de répertoire d’offres et candidatures.
-          </template>
-          <template #project-badge>
-            <span class="badge badge-outline">Symfony</span>
-            <span class="badge badge-outline">Android</span>
-          </template>
-        </ProjectCard>
+        <button onclick="CarnetDeStageModal.showModal()">
+          <ProjectCard class="self-center">
+            <template #project-image>
+              <img src="@/assets/img/projectsSection/CarnetDeStage.svg" alt="Carnet de stage"
+                   class="h-36 drop-shadow-sm"/>
+            </template>
+            <template #project-title>
+              Carnet de stage
+            </template>
+            <template #project-description>
+              <p class="text-start">
+                Correction d’une application de répertoire d’offres et candidatures.
+              </p>
+            </template>
+            <template #project-badge>
+              <span class="badge badge-outline">Symfony</span>
+              <span class="badge badge-outline">Android</span>
+            </template>
+          </ProjectCard>
+        </button>
 
         <ProjectCard class="self-center">
           <template #project-image>
@@ -146,20 +150,24 @@
           </template>
         </ProjectCard>
 
-        <ProjectCard class="self-center">
-          <template #project-image>
-            <img src="@/assets/img/projectsSection/IA.svg" alt="Création d’une IA de tri" class="h-36 "/>
-          </template>
-          <template #project-title>
-            Création d’une IA de tri
-          </template>
-          <template #project-description>
-            Développement d’une IA de tri de dépêches.
-          </template>
-          <template #project-badge>
-            <span class="badge badge-outline">Java</span>
-          </template>
-        </ProjectCard>
+        <button onclick="IAModal.showModal()">
+          <ProjectCard class="self-center">
+            <template #project-image>
+              <img src="@/assets/img/projectsSection/IA.svg" alt="Création d’une IA de tri" class="h-36"/>
+            </template>
+            <template #project-title>
+              Création d’une IA de tri
+            </template>
+            <template #project-description>
+              <p class="text-start">
+                Développement d’une IA de tri de dépêches.
+              </p>
+            </template>
+            <template #project-badge>
+              <span class="badge badge-outline">Java</span>
+            </template>
+          </ProjectCard>
+        </button>
       </div>
     </div>
 
@@ -182,16 +190,39 @@
       </form>
     </dialog>
     <dialog id="CarnetDeStageModal" class="modal">
-      <div class="modal-box flex">
+      <div class="modal-box w-11/12 max-w-5xl">
         <form method="dialog" class="">
-          <button class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
+          <button class="btn btn-sm btn-circle btn-ghost absolute right-4 top-5">✕</button>
         </form>
-        <h3 class="font-bold text-lg">ErgoGames</h3>
-        a faire
-        <form method="dialog" class="self-center">
-          <button class="btn">close</button>
+        <div class="flex flex-col gap-5 mb-5">
+          <h3 class="font-bold text-4xl">Carnet de stage</h3>
+        </div>
+        <form method="dialog" class="flex justify-center">
+          <button class="btn btn-warning">Retourner aux projets</button>
         </form>
       </div>
+      <form method="dialog" class="modal-backdrop">
+        <button>close</button>
+      </form>
+    </dialog>
+
+    <dialog id="IAModal" class="modal">
+      <div class="modal-box w-11/12 max-w-5xl">
+        <form method="dialog" class="">
+          <button class="btn btn-sm btn-circle btn-ghost absolute right-4 top-5">✕</button>
+        </form>
+        <div class="flex flex-col gap-5 mb-5">
+          <h3 class="font-bold text-4xl">Création d’une IA de tri de dépèches</h3>
+          <div class="divider m-0 divider-neutral"></div>
+          <IA/>
+        </div>
+        <form method="dialog" class="flex justify-center">
+          <button class="btn btn-warning">Retourner aux projets</button>
+        </form>
+      </div>
+      <form method="dialog" class="modal-backdrop">
+        <button>close</button>
+      </form>
     </dialog>
 
   </div>
@@ -202,6 +233,7 @@ import ProjectsTimeLine from "~/views/sections/projectsSection/ProjectsTimeLine.
 import ProjectCard from "~/views/sections/projectsSection/ProjectCard.vue";
 
 import ErgoGames from "~/views/sections/projectsSection/projects/ErgoGames.vue";
+import IA from "~/views/sections/projectsSection/projects/IA.vue";
 
 const windowWidth = ref(typeof window !== 'undefined' ? window.innerWidth : 0);
 
