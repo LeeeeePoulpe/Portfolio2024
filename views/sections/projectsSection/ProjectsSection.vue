@@ -8,24 +8,28 @@
       </div>
       <ProjectsTimeLine v-if="isDesktop"/>
       <div class="flex flex-row flex-wrap justify-center gap-4">
-        <ProjectCard class="self-center" for="ErgoGamesModal">
-          <template #project-image>
-            <img src="@/assets/img/projectsSection/ErgoGames.svg" alt="ErgoGames" class="h-36 drop-shadow-sm"/>
-          </template>
-          <template #project-title>
-            <button onclick="ErgoGamesModal.showModal()">ErgoGames</button>
-          </template>
-          <template #project-description>
-            Développement du sixième jeu des ergogames pour Sogilis.
-          </template>
-          <template #project-badge-new>
-            <span class="badge badge-success">Nouveau</span>
-          </template>
-          <template #project-badge>
-            <span class="badge badge-outline">Vue.Js</span>
-            <span class="badge badge-outline">JavaScript</span>
-          </template>
-        </ProjectCard>
+        <button onclick="ErgoGamesModal.showModal()">
+          <ProjectCard>
+            <template #project-image>
+              <img src="@/assets/img/projectsSection/ErgoGames.svg" alt="ErgoGames" class="h-36 drop-shadow-sm"/>
+            </template>
+            <template #project-title>
+              ErgoGames
+            </template>
+            <template #project-description>
+              <p class="text-start">
+                Développement du sixième jeu des ergogames pour Sogilis.
+              </p>
+            </template>
+            <template #project-badge-new>
+              <span class="badge badge-success">Nouveau</span>
+            </template>
+            <template #project-badge>
+              <span class="badge badge-outline">Vue.Js</span>
+              <span class="badge badge-outline">JavaScript</span>
+            </template>
+          </ProjectCard>
+        </button>
 
         <ProjectCard class="self-center">
           <template #project-image>
