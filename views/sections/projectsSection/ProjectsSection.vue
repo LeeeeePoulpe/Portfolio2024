@@ -117,22 +117,26 @@
           </template>
         </ProjectCard>
 
-        <ProjectCard class="self-center">
-          <template #project-image>
-            <img src="@/assets/img/projectsSection/CGI.svg" alt="Réalisation d’un site Web"
-                 class="h-36 drop-shadow-sm"/>
-          </template>
-          <template #project-title>
-            Réalisation d’un site Web
-          </template>
-          <template #project-description>
-            Développement d’un site d’information simplifié sur une ESN.
-          </template>
-          <template #project-badge>
-            <span class="badge badge-outline">Gestion de Projet</span>
-            <span class="badge badge-outline">HTML / CSS</span>
-          </template>
-        </ProjectCard>
+        <button onclick="CGIModal.showModal()">
+          <ProjectCard class="self-center">
+            <template #project-image>
+              <img src="@/assets/img/projectsSection/CGI.svg" alt="Réalisation d’un site Web"
+                   class="h-36 drop-shadow-sm"/>
+            </template>
+            <template #project-title>
+              Réalisation d’un site Web
+            </template>
+            <template #project-description>
+              <p class="text-start">
+                Développement d’un site d’information simplifié sur une ESN.
+              </p>
+            </template>
+            <template #project-badge>
+              <span class="badge badge-outline">Gestion de Projet</span>
+              <span class="badge badge-outline">HTML / CSS</span>
+            </template>
+          </ProjectCard>
+        </button>
 
         <button onclick="TitanicModal.showModal()">
           <ProjectCard class="self-center">
@@ -210,6 +214,24 @@
       </form>
     </dialog>
 
+    <dialog id="CGIModal" class="modal">
+      <div class="modal-box w-11/12 max-w-5xl">
+        <form method="dialog" class="">
+          <button class="btn btn-sm btn-circle btn-ghost absolute right-4 top-5">✕</button>
+        </form>
+        <div class="flex flex-col gap-5 mb-5">
+          <h3 class="font-bold text-4xl">Réalisation d’un site Web</h3>
+          <div class="divider m-0 divider-neutral"></div>
+          <CGI/>
+        </div>
+        <form method="dialog" class="flex justify-center">
+          <button class="btn btn-outline text-black">Retourner aux projets</button>
+        </form>
+      </div>
+      <form method="dialog" class="modal-backdrop">
+        <button>close</button>
+      </form>
+    </dialog>
     <dialog id="TitanicModal" class="modal">
       <div class="modal-box w-11/12 max-w-5xl">
         <form method="dialog" class="">
@@ -228,7 +250,6 @@
         <button>close</button>
       </form>
     </dialog>
-
     <dialog id="IAModal" class="modal">
       <div class="modal-box w-11/12 max-w-5xl">
         <form method="dialog" class="">
@@ -257,6 +278,7 @@ import ProjectCard from "~/views/sections/projectsSection/ProjectCard.vue";
 import ErgoGames from "~/views/sections/projectsSection/projects/ErgoGames.vue";
 import IA from "~/views/sections/projectsSection/projects/IA.vue";
 import Titanic from "~/views/sections/projectsSection/projects/Titanic.vue";
+import CGI from "~/views/sections/projectsSection/projects/CGI.vue";
 
 const windowWidth = ref(typeof window !== 'undefined' ? window.innerWidth : 0);
 
