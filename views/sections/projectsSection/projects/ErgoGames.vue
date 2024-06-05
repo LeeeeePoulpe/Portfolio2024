@@ -118,14 +118,19 @@
           prochaines étapes.
         </p>
       </div>
-      <div class="flex flex-row items-center gap-5">
-        <p>
-          Le projet a été organisé en utilisant des méthodes agiles, fonctionnant par cycles de deux semaines (sprints).
-          Chaque sprint comprenait une réunion quotidienne (Daily) pour le suivi des tâches, ainsi qu'une réunion de fin
-          de sprint qui combinait trois étapes essentielles : la Sprint Review pour examiner les travaux réalisés, la
-          Sprint Retrospective pour identifier des pistes d'amélioration, et la Sprint Planning pour planifier les
-          prochaines étapes.
-        </p>
+      <div class="flex flex-row justify-between items-center gap-5">
+        <div>
+          <p>
+            Durant ce projet j’ai été accompagné d’une équipe :
+          </p>
+          <ul class="list-disc pl-5 mb-3">
+            <li>Benoît : Maître de stage, a fourni encadrement et directives.</li>
+            <li>Margaux : Product owner, a validé les réalisations et ajusté les tâches.</li>
+            <li>Antoine : Développeur, a aidé sur des aspects techniques spécifiques.</li>
+            <li>Benjamin : Designer, a créé les maquettes et scénarios.</li>
+            <li>Luc et Cécile : Support administratif.</li>
+          </ul>
+        </div>
         <img src="@/assets/img/projectsSection/ErgoGames/People.svg" alt="" class="w-44 h-44">
       </div>
     </div>
@@ -135,11 +140,10 @@
       <div class="flex flex-row items-center gap-5">
         <img src="@/assets/img/projectsSection/ErgoGames/CheckList.svg" alt="" class="w-24 h-24">
         <p>
-          Le projet a été organisé en utilisant des méthodes agiles, fonctionnant par cycles de deux semaines (sprints).
-          Chaque sprint comprenait une réunion quotidienne (Daily) pour le suivi des tâches, ainsi qu'une réunion de fin
-          de sprint qui combinait trois étapes essentielles : la Sprint Review pour examiner les travaux réalisés, la
-          Sprint Retrospective pour identifier des pistes d'amélioration, et la Sprint Planning pour planifier les
-          prochaines étapes.
+          En résumé, ce projet m'a permis de développer un jeu illustrant un principe ergonomique numérique, en
+          utilisant des méthodes agiles et en collaborant avec une équipe de professionnels expérimentés. Cette
+          expérience m'a aidé à renforcer mes compétences en développement logiciel et en gestion de projet, tout en
+          apprenant à travailler de manière autonome dans un cadre structuré.
         </p>
       </div>
     </div>
