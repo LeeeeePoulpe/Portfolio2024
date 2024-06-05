@@ -9,77 +9,77 @@
           en duo.
         </p>
         <p>
-          Ce projet a été réalisé lors d'une semaine spéciale bloqué pour cela. Nous avons eu une semaine pour réaliser
-          la recherche sur le Maine Learning et le développement de l'IA.
-        </p>
-        <p>
-          Cette semaine a été coupée en deux parties, la première sur les recherches d'une machine Learning, ou l'avis
-          de l'autre a été très important pour avoir une vision globale des recherches.
-          La deuxième partie était donc le développement et pour cela nous nous sommes répartis les tâches pour plus
-          d'efficacité.
-          Chaque membre du groupe avait pour responsabilité le développement d'une fonction complexe.
+          Ce projet a été découpé en trois phases distinctes. La première consistait en la réalisation d'un schéma
+          entité association (SEA) Qui avait pour objectif de représenter des toutes les entités et les relations de la
+          base de données.
+          Par la suite, nous devions donc réaliser la base de données en se basant sur le schéma que nous avions
+          réalisé. Puis nous avons peuplé la base de données à l'aide d'un fichier qui nous a été fourni par l'IUT.
+          La dernière partie était la réponse aux questions où nous devions donc trouver les bonnes requêtes SQL pour
+          pouvoir trouver les réponses aux questions qui nous était demandé.
         </p>
       </div>
       <div class="flex justify-center w-72">
-        <img src="@/assets/img/projectsSection/IA/DevIA.svg" alt="Développement d'IA" class="w-68 self-center">
+        <img src="@/assets/img/projectsSection/Titanic/Schema.svg" alt="Développement d'IA"
+             class="w-68 self-center drop-shadow-sm rounded-xl">
       </div>
     </div>
     <div class="flex flex-col gap-4 mb-10">
       <h1 class="font-bold text-2xl">Objectifs</h1>
+      <p>
+        L'objectif de notre projet était de développer une base de données détaillant les victimes du naufrage du
+        Titanic, afin d'analyser les conditions de survie des passagers. Pour ce faire, nous devions d'abord proposer
+        un schéma entité-association (SEA) prenant en compte les différents critères liés à cette situation tragique.
+        Ce schéma avait pour but de représenter de manière claire et précise les entités, telles que les passagers et
+        les membres de l'équipage, ainsi que les relations entre elles, comme les classes de voyage, les cabines et
+        les liens familiaux.
+      </p>
       <div class="flex flex-row gap-5 items-center">
-        <img src="@/assets/img/projectsSection/IA/96.svg" alt="96%" class="w-24">
         <p>
-          L'objectif de notre projet était de développer un programme capable de trier automatiquement des dépêches de
-          journaux en fonction du vocabulaire utilisé dans chaque article. Ce programme devait s'appuyer sur une base de
-          données d'articles déjà triés pour valider son efficacité et sa précision. En utilisant cet ensemble de
-          données préclassées, le programme devait être capable d'apprendre et d'ajuster ses critères de tri, afin
-          d'atteindre une précision de 96% dans la classification des nouveaux articles.
-          Le développement de ce programme devais être réalisé en Java.
+          Une fois le SEA établi, nous devions créer la base de données et la peupler avec un fichier de données fourni.
+          Cette étape nous a permis de structurer les informations de manière cohérente et d'assurer l'intégrité des
+          données. Ensuite, nous avons effectué les requêtes SQL nécessaires pour répondre aux diverses problématiques
+          posées, telles que l'analyse des taux de survie en fonction de la classe de voyage, du sexe et de l'âge des
+          passagers.
         </p>
+        <img src="@/assets/img/projectsSection/Titanic/CreationBD.svg" alt="96%" class="w-56 drop-shadow-sm rounded-xl">
       </div>
       <p>
-        Un autre objectif important était l'optimisation de la performance du programme. Cette optimisation visait à
-        améliorer la rapidité d'exécution et à réduire le nombre de comparaisons nécessaires pour classer chaque
-        article. Pour cela, nous devions explorer différentes techniques d'optimisation algorithmique et de gestion de
-        données, telles que l'utilisation de structures de données plus efficaces et l'application de méthodes
-        d'apprentissage automatique avancées.
+        Enfin, nous devions réaliser un rapport détaillant notre démarche et les requêtes SQL effectuées. Ce rapport
+        incluait des explications sur notre méthodologie, les défis rencontrés et les solutions apportées. Il était
+        également illustré par des graphiques explicatifs permettant de visualiser les résultats de nos analyses.
       </p>
       <p>
-        En résumé, notre projet avait pour objectifs principaux de développer un programme de tri des dépêches de
-        journaux à haute précision et de l'optimiser pour qu'il soit rapide et efficace, répondant ainsi aux besoins
-        pratiques du journalisme et de la gestion de l'information.
+        En résumé, ce projet avait pour objectif de développer une base de données complète et précise sur les victimes
+        du Titanic, d'analyser les conditions de survie des passagers à travers des requêtes SQL, et de présenter nos
+        résultats dans un rapport détaillé et illustré.
       </p>
     </div>
     <div class="flex flex-col gap-4 mb-10">
       <h1 class="font-bold text-2xl">Résultats</h1>
-      <p>
-        Notre projet avait pour objectif le développement d'un programme performant capable de trier des centaines
-        d'articles
-        de journaux en environ 1 seconde, avec une précision de 96%. Nous avons réussi à atteindre cet objectif en
-        créant un programme efficace et rapide, capable de traiter un grand volume d'articles avec une haute précision.
-      </p>
-      <p>
-        En plus de cela, nous avons produit la documentation requise en anglais et présenté oralement les résultats de
-        notre travail. Ce projet m'a particulièrement intéressé car il m'a permis de découvrir le machine learning et le
-        tri de texte. Je suis convaincu que nous avons bien réussi, en grande partie grâce à une répartition efficace
-        des tâches et à une communication fluide au sein de notre duo.
-      </p>
+      <div class="flex flex-row gap-5 items-center">
+        <img src="@/assets/img/projectsSection/Titanic/Resultats.svg" alt="96%" class="w-56 drop-shadow-sm rounded-xl">
+        <p>
+          Les résultats de notre projet ont été satisfaisants. Notre schéma entité-association (SEA) nous a
+          permis d'aborder efficacement les requêtes posées, bien que quelques erreurs mineures aient été remarquées.
+          Malheureusement, en raison de la lenteur du serveur, toutes les réponses aux requêtes n'ont pas pu être
+          obtenues. Cependant, nous avons réussi à répondre à la problématique principale, notamment en analysant les
+          données selon différents critères tels que la classe de voyage, le sexe et l'âge des passagers. Malgré
+          quelques imprévus, ce projet nous a offert une expérience enrichissante et a renforcé notre compréhension
+          des bases de données et de leur manipulation.
+        </p>
+      </div>
     </div>
     <div class="divider m-0 divider-neutral"></div>
     <div>
-      <h1 class="font-bold text-2xl">Conclusion</h1>
+      <h1 class="font-bold text-2xl mb-2">Conclusion</h1>
       <div class="flex flex-row items-center gap-5">
-        <img src="@/assets/img/projectsSection/ErgoGames/CheckList.svg" alt="" class="w-24 h-24">
+        <img src="@/assets/img/projectsSection/Titanic/Conclusion.svg" alt="" class="w-24 h-24 drop-shadow-sm">
         <div>
-          <p class="mb-3">
-            L'objectif de cette semaine était de nous familiariser avec le travail en duo, notre premier projet de
-            l'année. Bien que j'étais déjà habitué au travail en équipe, ce projet m'a permis de m'améliorer davantage.
-
-            Nous avons aussi appris à utiliser le machine learning, ce qui était très intéressant, et j'ai pu appliquer
-            les méthodes de travail vues en cours.
-          </p>
           <p>
-            Cette semaine a été enrichissante et nous a permis d'acquérir de nouvelles compétences pratiques.
+            En résumé, ce projet sur la base de données du Titanic a été une expérience formatrice malgré les défis
+            rencontrés. La coopération en binôme a été cruciale pour produire des résultats significatifs. Nous avons
+            consolidé nos compétences en SQL et en modélisation de bases de données, tout en renforçant notre aptitude à
+            travailler en équipe.
           </p>
         </div>
       </div>
@@ -93,4 +93,4 @@
 
 <style scoped lang="scss">
 
-</style>
+</style>bu
