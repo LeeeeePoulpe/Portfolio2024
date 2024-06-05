@@ -10,7 +10,7 @@
         </p>
         <p>
           Ce projet a été réalisé lors d'une semaine spéciale bloqué pour cela. Nous avons eu une semaine pour réaliser
-          la recherche sur le Maine Learning et le développement de l'IA.
+          la recherche sur le Machine Learning et le développement de l'IA.
         </p>
         <p>
           Cette semaine a été coupée en deux parties, la première sur les recherches d'une machine Learning, ou l'avis
