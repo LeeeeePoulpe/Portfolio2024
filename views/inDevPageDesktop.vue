@@ -15,7 +15,7 @@
           <div class="chat-bubble">Votre Portfolio ?</div>
         </div>
         <div class="chat chat-start">
-          <div class="chat-bubble">Oui ici vous pourrez apprendre à me connaitre, ce que j’ai réalisé et découvrir ce
+          <div class="chat-bubble">Oui ici vous pourrez apprendre à me connaitre, découvrir ce que j’ai réalisé et ce
             qui me passionne.
           </div>
         </div>
