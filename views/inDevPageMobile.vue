@@ -38,7 +38,7 @@
     </div>
     <div class="flex flex-col gap-5 my-5">
       <div class="flex flex-row gap-5">
-        <a href="https://github.com/LeeeeePoulpe" role="button" class="btn btn-outline">Git Hub</a>
+        <a href="https://github.com/LeeeeePoulpe" role="button" class="btn btn-outline btn-error">Git Hub</a>
         <a href="https://www.linkedin.com/in/hugo-follmi-71a971214/" role="button" class="btn btn-outline btn-info">Mon linkedin</a>
       </div>
       <a href="https://drive.google.com/file/d/1Z7df9xxQpw_vk-2CUFr4-G29iR-CoLna/view" role="button" class="btn btn-outline btn-success">Mon CV au besoin</a>

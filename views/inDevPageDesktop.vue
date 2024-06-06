@@ -38,9 +38,8 @@
         </div>
       </div>
       <div class="flex gap-5 mt-5">
-        <a href="https://drive.google.com/file/d/1Z7df9xxQpw_vk-2CUFr4-G29iR-CoLna/view" role="button"
-           class="btn btn-outline btn-success">Mon CV au besoin</a>
-        <a href="https://github.com/LeeeeePoulpe" role="button" class="btn btn-outline">Git Hub</a>
+        <a href="https://drive.google.com/file/d/1Z7df9xxQpw_vk-2CUFr4-G29iR-CoLna/view" role="button" class="btn btn-outline btn-success">Mon CV au besoin</a>
+        <a href="https://github.com/LeeeeePoulpe" role="button" class="btn btn-outline btn-error">Git Hub</a>
         <a href="https://www.linkedin.com/in/hugo-follmi-71a971214/" role="button" class="btn btn-outline btn-info">Mon
           linkedin</a>
         <a href="mailto:hugofollmi@gmail.com" role="button" class="btn btn-outline btn-warning">Mon mail</a>
