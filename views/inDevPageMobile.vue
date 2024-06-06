@@ -9,28 +9,29 @@
     <div class="flex flex-col gap-5">
       <div>
         <div class="chat chat-start">
-          <div class="chat-bubble">Hello je m’appelle Hugo Föllmi</div>
+          <div class="chat-bubble">Hello, je m’appelle Hugo Föllmi.</div>
         </div>
         <div class="chat chat-end">
           <div class="chat-bubble">Et qui êtes vous ?</div>
         </div>
         <div class="chat chat-start">
-          <div class="chat-bubble">Qui je suis ? <br> Un étudiant et vous êtes sur mon portfolio.</div>
+          <div class="chat-bubble">Qui je suis ? <br> Un étudiant en informatique et vous êtes sur mon portfolio.</div>
         </div>
         <div class="chat chat-end">
           <div class="chat-bubble">Votre Portfolio ?</div>
         </div>
         <div class="chat chat-start">
-          <div class="chat-bubble">Oui ici vous pourrez apprendre à me connaitre, ce que j’ai réalisé et ce qui me
-            passionne
+          <div class="chat-bubble">Oui ici vous pourrez apprendre à me connaitre, ce que j’ai réalisé et découvrir ce qui me
+            passionne.
           </div>
         </div>
         <div class="chat chat-end">
           <div class="chat-bubble">Mais votre portoflio est vide ?</div>
         </div>
         <div class="chat chat-start">
-          <div class="chat-bubble">Oui effectivement le site est en cours de développement, en attendant je vous mets à
-            disposition de quoi me contacter sociaux et mon CV
+          <div class="chat-bubble">
+            Oui effectivement le site est en cours de développement. Vous pouvez accéder à mon profil Linkedn,
+            mon CV ainsi que mes contacts.
           </div>
         </div>
       </div>
@@ -41,7 +42,7 @@
         <a href="https://www.linkedin.com/in/hugo-follmi-71a971214/" role="button" class="btn btn-outline btn-info">Mon linkedin</a>
       </div>
       <a href="https://drive.google.com/file/d/1Z7df9xxQpw_vk-2CUFr4-G29iR-CoLna/view" role="button" class="btn btn-outline btn-success">Mon CV au besoin</a>
-      <a href="mailto:hugofollmi@gmail.com" role="button" class="btn btn-outline btn-warning">mon mail</a>
+      <a href="mailto:hugofollmi@gmail.com" role="button" class="btn btn-outline btn-warning">Mon mail</a>
     </div>
   </div>
 </template>
