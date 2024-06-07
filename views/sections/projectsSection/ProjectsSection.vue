@@ -31,28 +31,26 @@
           </ProjectCard>
         </button>
 
-        <button onclick="CarnetDeStageModal.showModal()">
-          <ProjectCard class="self-center">
-            <template #project-image>
-              <img src="@/assets/img/projectsSection/CarnetDeStage.svg" alt="Carnet de stage"
-                   class="h-36 drop-shadow-sm"/>
-            </template>
-            <template #project-title>
-              Carnet de stage
-            </template>
-            <template #project-description>
-              <p class="text-start">
-                Correction d’une application de répertoire d’offres et candidatures.
-              </p>
-            </template>
-            <template #project-badge>
-              <span class="badge badge-outline">Symfony</span>
-              <span class="badge badge-outline">Android</span>
-            </template>
-          </ProjectCard>
-        </button>
+        <ProjectCard class="opacity-25 self-center">
+          <template #project-image>
+            <img src="@/assets/img/projectsSection/CarnetDeStage.svg" alt="Carnet de stage"
+                 class="h-36 drop-shadow-sm"/>
+          </template>
+          <template #project-title>
+            Carnet de stage
+          </template>
+          <template #project-description>
+            <p class="text-start">
+              Correction d’une application de répertoire d’offres et candidatures.
+            </p>
+          </template>
+          <template #project-badge>
+            <span class="badge badge-outline">Symfony</span>
+            <span class="badge badge-outline">Android</span>
+          </template>
+        </ProjectCard>
 
-        <ProjectCard class="self-center">
+        <ProjectCard class="opacity-25 self-center">
           <template #project-image>
             <img src="@/assets/img/projectsSection/LudoLabo.svg" alt="LudoLabo" class="h-36 drop-shadow-sm"/>
           </template>
@@ -69,7 +67,7 @@
           </template>
         </ProjectCard>
 
-        <ProjectCard class="self-center">
+        <ProjectCard class="opacity-25 self-center">
           <template #project-image>
             <img src="@/assets/img/projectsSection/Arcsecond.svg" alt="Arcsecond" class="h-36 drop-shadow-sm"/>
           </template>
@@ -85,7 +83,7 @@
           </template>
         </ProjectCard>
 
-        <ProjectCard class="self-center">
+        <ProjectCard class="opacity-25 self-center">
           <template #project-image>
             <img src="@/assets/img/projectsSection/Sciconf.svg" alt="Sciconf" class="h-36 drop-shadow-sm"/>
           </template>
@@ -101,7 +99,7 @@
           </template>
         </ProjectCard>
 
-        <ProjectCard class="self-center">
+        <ProjectCard class="opacity-25 self-center">
           <template #project-image>
             <img src="@/assets/img/projectsSection/GameJam.svg" alt="GameJam" class="h-36 drop-shadow-sm"/>
           </template>
@@ -188,22 +186,6 @@
           <h3 class="font-bold text-4xl">ErgoGames</h3>
           <div class="divider m-0 divider-neutral"></div>
           <ErgoGames/>
-        </div>
-        <form method="dialog" class="flex justify-center">
-          <button class="btn btn-warning">Retourner aux projets</button>
-        </form>
-      </div>
-      <form method="dialog" class="modal-backdrop">
-        <button>close</button>
-      </form>
-    </dialog>
-    <dialog id="CarnetDeStageModal" class="modal">
-      <div class="modal-box w-11/12 max-w-5xl">
-        <form method="dialog" class="">
-          <button class="btn btn-sm btn-circle btn-ghost absolute right-4 top-5">✕</button>
-        </form>
-        <div class="flex flex-col gap-5 mb-5">
-          <h3 class="font-bold text-4xl">Carnet de stage</h3>
         </div>
         <form method="dialog" class="flex justify-center">
           <button class="btn btn-warning">Retourner aux projets</button>
