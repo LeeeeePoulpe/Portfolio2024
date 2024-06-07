@@ -1,15 +1,13 @@
 <template>
   <SpeedInsights/>
   <HomePage/>
-  <InDevPageDesktop v-if="isDesktop"/>
-  <InDevPageMobile v-else/>
+  <InProgressPage/>
 </template>
 
 <script setup>
 import {SpeedInsights} from '@vercel/speed-insights/vue';
 import HomePage from './views/HomePage.vue';
-import InDevPageDesktop from "~/views/inDevPage/InDevPageDesktop.vue";
-import InDevPageMobile from "~/views/inDevPage/InDevPageMobile.vue";
+import InProgressPage from "~/views/inDevPage/InProgressPage.vue";
 
 const windowWidth = ref(typeof window !== 'undefined' ? window.innerWidth : 0);
 
