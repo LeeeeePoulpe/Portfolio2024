@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col justify-center p-3 items-center hero-background">
-    <div>
+    <div class="flex flex-col">
       <div class="chat chat-end">
         <div class="chat-bubble">Mais votre portoflio est incomplet ?</div>
       </div>
