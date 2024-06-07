@@ -1,17 +1,17 @@
 <template>
-  <div class="h-96 flex flex-col justify-center p-3 items-center hero-background">
-    <div class="flex justify-center items-center flex-col md:w-3/4">
-      <div>
-        <div class="chat chat-end">
-          <div class="chat-bubble">Mais votre portoflio est incomplet ?</div>
-        </div>
-        <div class="chat chat-start">
-          <div class="chat-bubble">
-            Oui effectivement le site est toujours en cours de développement. Vous pouvez accéder à mon profil Linkedn,
-            mon CV ainsi que mes contacts.
-          </div>
+  <div class="flex flex-col justify-center p-3 items-center hero-background">
+    <div>
+      <div class="chat chat-end">
+        <div class="chat-bubble">Mais votre portoflio est incomplet ?</div>
+      </div>
+      <div class="chat chat-start">
+        <div class="chat-bubble">
+          Oui effectivement le site est toujours en cours de développement. Vous pouvez accéder à mon profil Linkedn,
+          mon CV ainsi que mes contacts.
         </div>
       </div>
+    </div>
+    <div class="flex justify-center items-center flex-col md:w-3/4">
       <div class="flex gap-5 mt-5">
         <a href="https://drive.google.com/file/d/1Z7df9xxQpw_vk-2CUFr4-G29iR-CoLna/view" role="button" class="btn btn-outline btn-success">Mon CV au besoin</a>
         <a href="https://github.com/LeeeeePoulpe" role="button" class="btn btn-outline btn-error">Git Hub</a>
