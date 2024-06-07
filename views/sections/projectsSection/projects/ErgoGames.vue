@@ -73,7 +73,7 @@
           <div class="diff-resizer"></div>
         </div>
         <p>
-          Première partie : <br> Affiché de manière organisés.
+          Deuxième partie : <br> Affiché de manière organisés.
         </p>
       </div>
       <div class="flex items-center justify-between">
