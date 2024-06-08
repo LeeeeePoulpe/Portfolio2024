@@ -204,9 +204,11 @@
         </form>
         <div class="flex flex-col gap-5 mb-5">
           <h3 class="font-bold text-4xl">Carnet de stage</h3>
+          <div class="divider m-0 divider-neutral"></div>
+          <CarnetDeStage/>
         </div>
         <form method="dialog" class="flex justify-center">
-          <button class="btn btn-warning">Retourner aux projets</button>
+          <button class="btn btn-outline text-black">Retourner aux projets</button>
         </form>
       </div>
       <form method="dialog" class="modal-backdrop">
@@ -276,6 +278,7 @@ import ProjectsTimeLine from "~/views/sections/projectsSection/ProjectsTimeLine.
 import ProjectCard from "~/views/sections/projectsSection/ProjectCard.vue";
 
 import ErgoGames from "~/views/sections/projectsSection/projects/ErgoGames.vue";
+import CarnetDeStage from "~/views/sections/projectsSection/projects/CarnetDeStage.vue";
 import IA from "~/views/sections/projectsSection/projects/IA.vue";
 import Titanic from "~/views/sections/projectsSection/projects/Titanic.vue";
 import CGI from "~/views/sections/projectsSection/projects/CGI.vue";

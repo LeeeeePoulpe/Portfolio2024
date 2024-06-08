@@ -5,7 +5,7 @@
         <h1 class="font-bold text-2xl">Contexte</h1>
         <p>
           Ce projet est un projet de l'IUT2 de Grenoble réalisé dans le cadre de la formation BUT Informatique.
-          J'ai réalisé ce projet lors du premier semestre de la première année de la formation. Il s'agit d'un projet
+          J'ai réalisé ce projet lors du deuxième semestre de la première année de la formation. Il s'agit d'un projet
           en trio.
         </p>
         <p>
