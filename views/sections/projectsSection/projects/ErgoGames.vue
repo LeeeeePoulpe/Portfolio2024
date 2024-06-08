@@ -4,9 +4,12 @@
       <div class="max-w-[700px] flex flex-col gap-4 pr-5">
         <h1 class="font-bold text-2xl">Contexte</h1>
         <p>
-          Le site des ErgoGames est un site Web conçu pour présenter de manière ludique les principes ergonomiques du
-          numérique, tel que : les actions minimal ou encore la gestion des erreurs. Il propose des jeux et des quiz
-          pour faciliter l'apprentissage de ces principes et vérifier la compréhension des utilisateurs.
+          Le site des
+          <a href="https://www.ergogames.fr/" class="link no-underline text-[#0a5e5c]"><b>ErgoGames</b></a>.
+          est un site Web conçu pour présenter de manière ludique les principes ergonomiques du
+          numérique, tel que : les actions minimal ou encore la gestion des erreurs. Il propose des jeux et un quiz
+          (toujours en développement) pour faciliter l'apprentissage de ces principes et vérifier la compréhension
+          des utilisateurs.
         </p>
         <p>
           Ce développement a été réalisé dans le cadre d'un stage chez Sogilis.
@@ -15,16 +18,23 @@
           engagement envers la qualité, l'innovation et l'expérience utilisateur.
         </p>
         <p>
-          Mon sujet de stage portait sur le développement du sixième jeu des Ergo Games.
+          Mon sujet de stage portait sur le développement du sixième jeu des ErgoGames.
           Ce jeu a pour objectif de présenter le principe ergonomique du groupement / proximité de manière simple et
           ludique, avec une représentation visuelle interactive.
         </p>
       </div>
       <div class="flex flex-col justify-center gap-5 w-72">
-        <img src="@/assets/img/projectsSection/ErgoGames/LogoSogilis.svg" alt="ErgoGames"
-             class="w-44 drop-shadow-sm self-center">
-        <div class="flex flex-wrap justify-between">
-          <img src="@/assets/img/projectsSection/ErgoGames/LogoErgoGames.svg" alt="ErgoGames" class="w-44">
+        <a href="https://sogilis.com/"
+           class="self-center hover:scale-105 hover:drop-shadow-xl transition-all w-44 h-fit">
+          <img src="@/assets/img/projectsSection/ErgoGames/LogoSogilis.svg" alt="ErgoGames" class="">
+        </a>
+        <div class="flex flex-wrap items-center justify-between">
+          <a href="https://www.ergogames.fr/" class="hover:scale-105 hover:drop-shadow-xl transition-all w-44 h-fit">
+            <div class="flex flex-col items-center font-bold">
+              <div class="logo_first_line text-sm md:text-base -mb-2 :md-mb-2.5">Les</div>
+              <div class="logo_second_line text-base md:text-2xl">ERGOGAMES&nbsp;!</div>
+            </div>
+          </a>
           <img src="@/assets/img/projectsSection/ErgoGames/Renard.svg" alt="ErgoGames" class="w-24 drop-shadow-sm"/>
         </div>
       </div>
@@ -32,7 +42,7 @@
     <div class="flex flex-col gap-4 mb-10">
       <h1 class="font-bold text-2xl">Objectifs</h1>
       <p>
-        Développer un jeu interactif pour les Ergo Games afin d'enseigner le principe ergonomique du
+        Développer un jeu interactif pour les ErgoGames afin d'enseigner le principe ergonomique du
         groupement/proximité. Ce principe stipule que les éléments proches les uns des autres sont perçus comme un
         groupe et doivent être organisés de manière à faciliter l'utilisation et l'accès.
       </p>
@@ -42,7 +52,9 @@
         captivant tout en transmettant clairement le principe ergonomique.
       </p>
       <p>
-        Développer une page dédiée à l'explication du principe ergonomique. Cette page explicative fournira une
+        Développer une page dédiée à
+        <a href="https://www.ergogames.fr/principles" class="link link-primary"><b> l'explication du principe ergonomique</b></a>.
+        Cette page explicative fournira une
         analyse détaillée du concept de groupement/proximité, accompagnée d'exemples concrets et d'illustrations
         visuelles.
       </p>
@@ -80,15 +92,25 @@
         <div>
           Technologies utilisées :
           <ul class="list-disc pl-5">
-            <li>Framework et Langages : Vue.js 3 et JavaScript pour le développement front-end.</li>
-            <li>Librairies : Vuetify pour les composants UI.</li>
-            <li>Gestion de Versions : GitLab pour le contrôle de version et la collaboration.</li>
-            <li>Design : Figma pour la création des maquettes.</li>
+            <li>Framework et Langages :
+              <a href="https://vuejs.org/" class="link link-primary"><b>Vue.js 3</b></a>.
+              et
+              <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript" class="link link-primary"><b>JavaScript</b></a>.
+              pour le développement front-end.</li>
+            <li>Librairies :
+              <a href="https://vuetifyjs.com/en/" class="link link-primary"><b>Vuetify</b></a>.
+              pour les composants UI.</li>
+            <li>Gestion de Versions :
+              <a href="https://about.gitlab.com/" class="link link-primary"><b>GitLab</b></a>.
+              pour le contrôle de version et la collaboration.</li>
+            <li>Design :
+              <a href="https://www.figma.com/fr-fr/" class="link link-primary"><b>Figma</b></a>.
+              pour la création des maquettes.</li>
             <li>Outils de Développement : IntelliJ IDEA pour l'édition de code.</li>
           </ul>
         </div>
         <div>
-          <img src="@/assets/img/projectsSection/ErgoGames/Technologies.svg" alt="" class="w-60 h-60">
+          <img src="@/assets/img/projectsSection/ErgoGames/Technologies.svg" alt="" class="w-60">
         </div>
       </div>
       <div>
@@ -124,11 +146,23 @@
             Durant ce projet j’ai été accompagné d’une équipe :
           </p>
           <ul class="list-disc pl-5 mb-3">
-            <li>Benoît : Maître de stage, a fourni encadrement et directives.</li>
-            <li>Margaux : Product owner, a validé les réalisations et ajusté les tâches.</li>
-            <li>Antoine : Développeur, a aidé sur des aspects techniques spécifiques.</li>
-            <li>Benjamin : Designer, a créé les maquettes et scénarios.</li>
-            <li>Luc et Cécile : Support administratif.</li>
+            <li>
+              <a href="https://www.linkedin.com/in/benoit-dumas/" class="link link-primary"><b>Benoît Dumas</b></a>.
+              : Maître de stage, a fourni encadrement et directives.</li>
+            <li>
+              <a href="https://www.linkedin.com/in/margaux-lergo/" class="link link-primary"><b>Margaux Perrin</b></a>.
+              : Product owner, a validé les réalisations et ajusté les tâches.</li>
+            <li>
+              <a href="https://www.linkedin.com/in/antoine-du-bois-60b429196/" class="link link-primary"><b>Antoine Dubois</b></a>.
+              : Développeur, a aidé sur des aspects techniques spécifiques.</li>
+            <li>
+              <a href="https://www.linkedin.com/in/benjaminbiguet/" class="link link-primary"><b>Benjamin Biguet</b></a>.
+              : Designer, a créé les maquettes et scénarios.</li>
+            <li>
+              <a href="https://www.linkedin.com/in/lucjeanniard/" class="link link-primary"><b>Luc Jeanniard</b></a>.
+              et
+              <a href="https://www.linkedin.com/in/c%C3%A9cile-gesbert-b4571653/" class="link link-primary"><b>Cécile Gesbert</b></a>.
+              : Support administratif.</li>
           </ul>
         </div>
         <img src="@/assets/img/projectsSection/ErgoGames/People.svg" alt="" class="w-44 h-44">
@@ -150,10 +184,10 @@
   </div>
 </template>
 
-<script setup>
-
-</script>
-
 <style scoped lang="scss">
-
+.logo_first_line, .logo_second_line {
+  background: linear-gradient(90deg, #0a5e5c 1%, #00dbcb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 </style>
