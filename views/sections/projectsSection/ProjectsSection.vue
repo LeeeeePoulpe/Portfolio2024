@@ -52,22 +52,26 @@
           </ProjectCard>
         </button>
 
-        <ProjectCard class="self-center">
-          <template #project-image>
-            <img src="@/assets/img/projectsSection/LudoLabo.svg" alt="LudoLabo" class="h-36 drop-shadow-sm"/>
-          </template>
-          <template #project-title>
-            LudoLabo
-          </template>
-          <template #project-description>
-            Développement d’un jeu ludoEducatif en science physique.
-          </template>
-          <template #project-badge>
-            <span class="badge badge-outline">Unity</span>
-            <span class="badge badge-outline">Vue.Js</span>
-            <span class="badge badge-outline">Symfony</span>
-          </template>
-        </ProjectCard>
+        <button onclick="LudoLaboModal.showModal()">
+          <ProjectCard class="self-center">
+            <template #project-image>
+              <img src="@/assets/img/projectsSection/LudoLabo.svg" alt="LudoLabo" class="h-36 drop-shadow-sm"/>
+            </template>
+            <template #project-title>
+              LudoLabo
+            </template>
+            <template #project-description>
+              <p class="text-start">
+                Développement d’un jeu ludoEducatif en science physique.
+              </p>
+            </template>
+            <template #project-badge>
+              <span class="badge badge-outline">Unity</span>
+              <span class="badge badge-outline">Vue.Js</span>
+              <span class="badge badge-outline">Symfony</span>
+            </template>
+          </ProjectCard>
+        </button>
 
         <ProjectCard class="self-center">
           <template #project-image>
@@ -215,6 +219,24 @@
         <button>close</button>
       </form>
     </dialog>
+    <dialog id="LudoLaboModal" class="modal">
+      <div class="modal-box w-11/12 max-w-5xl">
+        <form method="dialog" class="">
+          <button class="btn btn-sm btn-circle btn-ghost absolute right-4 top-5">✕</button>
+        </form>
+        <div class="flex flex-col gap-5 mb-5">
+          <h3 class="font-bold text-4xl">Développement d’un jeu ludoEducatif en science physique</h3>
+          <div class="divider m-0 divider-neutral"></div>
+          <LudoLabo/>
+        </div>
+        <form method="dialog" class="flex justify-center">
+          <button class="btn btn-outline text-black">Retourner aux projets</button>
+        </form>
+      </div>
+      <form method="dialog" class="modal-backdrop">
+        <button>close</button>
+      </form>
+    </dialog>
 
     <dialog id="CGIModal" class="modal">
       <div class="modal-box w-11/12 max-w-5xl">
@@ -279,6 +301,7 @@ import ProjectCard from "~/views/sections/projectsSection/ProjectCard.vue";
 
 import ErgoGames from "~/views/sections/projectsSection/projects/ErgoGames.vue";
 import CarnetDeStage from "~/views/sections/projectsSection/projects/CarnetDeStage.vue";
+import LudoLabo from "~/views/sections/projectsSection/projects/LudoLabo.vue";
 import IA from "~/views/sections/projectsSection/projects/IA.vue";
 import Titanic from "~/views/sections/projectsSection/projects/Titanic.vue";
 import CGI from "~/views/sections/projectsSection/projects/CGI.vue";
