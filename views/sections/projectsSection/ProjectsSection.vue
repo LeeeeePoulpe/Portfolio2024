@@ -31,26 +31,28 @@
           </ProjectCard>
         </button>
 
-        <ProjectCard class="opacity-25 self-center">
-          <template #project-image>
-            <img src="@/assets/img/projectsSection/CarnetDeStage.svg" alt="Carnet de stage"
-                 class="h-36 drop-shadow-sm"/>
-          </template>
-          <template #project-title>
-            Carnet de stage
-          </template>
-          <template #project-description>
-            <p class="text-start">
-              Correction d’une application de répertoire d’offres et candidatures.
-            </p>
-          </template>
-          <template #project-badge>
-            <span class="badge badge-outline">Symfony</span>
-            <span class="badge badge-outline">Android</span>
-          </template>
-        </ProjectCard>
+        <button onclick="CarnetDeStageModal.showModal()">
+          <ProjectCard class="self-center">
+            <template #project-image>
+              <img src="@/assets/img/projectsSection/CarnetDeStage.svg" alt="Carnet de stage"
+                   class="h-36 drop-shadow-sm"/>
+            </template>
+            <template #project-title>
+              Carnet de stage
+            </template>
+            <template #project-description>
+              <p class="text-start">
+                Correction d’une application de répertoire d’offres et candidatures.
+              </p>
+            </template>
+            <template #project-badge>
+              <span class="badge badge-outline">Symfony</span>
+              <span class="badge badge-outline">Android</span>
+            </template>
+          </ProjectCard>
+        </button>
 
-        <ProjectCard class="opacity-25 self-center">
+        <ProjectCard class="self-center">
           <template #project-image>
             <img src="@/assets/img/projectsSection/LudoLabo.svg" alt="LudoLabo" class="h-36 drop-shadow-sm"/>
           </template>
@@ -67,7 +69,7 @@
           </template>
         </ProjectCard>
 
-        <ProjectCard class="opacity-25 self-center">
+        <ProjectCard class="self-center">
           <template #project-image>
             <img src="@/assets/img/projectsSection/Arcsecond.svg" alt="Arcsecond" class="h-36 drop-shadow-sm"/>
           </template>
@@ -195,6 +197,24 @@
         <button>close</button>
       </form>
     </dialog>
+    <dialog id="CarnetDeStageModal" class="modal">
+      <div class="modal-box w-11/12 max-w-5xl">
+        <form method="dialog" class="">
+          <button class="btn btn-sm btn-circle btn-ghost absolute right-4 top-5">✕</button>
+        </form>
+        <div class="flex flex-col gap-5 mb-5">
+          <h3 class="font-bold text-4xl">Carnet de stage</h3>
+          <div class="divider m-0 divider-neutral"></div>
+          <CarnetDeStage/>
+        </div>
+        <form method="dialog" class="flex justify-center">
+          <button class="btn btn-outline text-black">Retourner aux projets</button>
+        </form>
+      </div>
+      <form method="dialog" class="modal-backdrop">
+        <button>close</button>
+      </form>
+    </dialog>
 
     <dialog id="CGIModal" class="modal">
       <div class="modal-box w-11/12 max-w-5xl">
@@ -258,6 +278,7 @@ import ProjectsTimeLine from "~/views/sections/projectsSection/ProjectsTimeLine.
 import ProjectCard from "~/views/sections/projectsSection/ProjectCard.vue";
 
 import ErgoGames from "~/views/sections/projectsSection/projects/ErgoGames.vue";
+import CarnetDeStage from "~/views/sections/projectsSection/projects/CarnetDeStage.vue";
 import IA from "~/views/sections/projectsSection/projects/IA.vue";
 import Titanic from "~/views/sections/projectsSection/projects/Titanic.vue";
 import CGI from "~/views/sections/projectsSection/projects/CGI.vue";
