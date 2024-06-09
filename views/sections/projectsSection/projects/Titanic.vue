@@ -4,18 +4,17 @@
       <div class="max-w-[700px] flex flex-col gap-4 pr-5">
         <h1 class="font-bold text-2xl">Contexte</h1>
         <p>
-          Ce projet est un projet de l'IUT2 de Grenoble réalisé dans le cadre de la formation BUT Informatique.
-          J'ai réalisé ce projet lors du premier semestre de la première année de la formation. Il s'agit d'un projet
-          en duo.
+          Ce projet, réalisé dans le cadre de la formation BUT Informatique à l'IUT2 de Grenoble
+          lors du premier semestre, s'est déroulé en binôme.
         </p>
         <p>
           Ce projet a été découpé en trois phases distinctes. La première consistait en la réalisation d'un schéma
-          entité association (SEA) Qui avait pour objectif de représenter des toutes les entités et les relations de la
+          entité association (SEA) qui avait pour objectif de représenter toutes les entités et les relations dans la
           base de données.
-          Par la suite, nous devions donc réaliser la base de données en se basant sur le schéma que nous avions
-          réalisé. Puis nous avons peuplé la base de données à l'aide d'un fichier qui nous a été fourni par l'IUT.
-          La dernière partie était la réponse aux questions où nous devions donc trouver les bonnes requêtes SQL pour
-          pouvoir trouver les réponses aux questions qui nous était demandé.
+          Par la suite, nous devions créer la base de données à partir du schéma défini. Puis nous avons
+          peuplé la base de données à l'aide d'un fichier fourni par l'IUT.
+          La dernière partie consistait en l'interogation de la base de données à l'aide de requêtes SQL pour répondre
+          à la liste de questions imposées par l'IUT.
         </p>
       </div>
       <div class="flex justify-center w-72">
@@ -47,11 +46,6 @@
         Enfin, nous devions réaliser un rapport détaillant notre démarche et les requêtes SQL effectuées. Ce rapport
         incluait des explications sur notre méthodologie, les défis rencontrés et les solutions apportées. Il était
         également illustré par des graphiques explicatifs permettant de visualiser les résultats de nos analyses.
-      </p>
-      <p>
-        En résumé, ce projet avait pour objectif de développer une base de données complète et précise sur les victimes
-        du Titanic, d'analyser les conditions de survie des passagers à travers des requêtes SQL, et de présenter nos
-        résultats dans un rapport détaillé et illustré.
       </p>
     </div>
     <div class="flex flex-col gap-4 mb-10">

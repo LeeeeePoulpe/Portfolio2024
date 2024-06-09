@@ -7,18 +7,18 @@
           Le site des
           <a href="https://www.ergogames.fr/" class="link no-underline text-[#0a5e5c]"><b>ErgoGames</b></a>.
           est un site Web conçu pour présenter de manière ludique les principes ergonomiques du
-          numérique, tel que : les actions minimal ou encore la gestion des erreurs. Il propose des jeux et un quiz
+          numérique, tel que : les actions minimales ou encore la gestion des erreurs. Il propose des jeux et un quiz
           (toujours en développement) pour faciliter l'apprentissage de ces principes et vérifier la compréhension
           des utilisateurs.
         </p>
         <p>
-          Ce développement a été réalisé dans le cadre d'un stage chez Sogilis.
-          Sogilis est une entreprise de génie logiciel basée à Grenoble, spécialisée dans la création de solutions sur
+          Ce développement a été réalisé dans le cadre d'un stage chez Sogilis,
+          une entreprise de génie logiciel basée à Grenoble, spécialisée dans la création de solutions sur
           mesure de haute qualité pour divers secteurs industriels. Elle se distingue par ses valeurs fortes et son
           engagement envers la qualité, l'innovation et l'expérience utilisateur.
         </p>
         <p>
-          Mon sujet de stage portait sur le développement du sixième jeu des ErgoGames.
+          Mon sujet de stage portait sur le développement du sixième jeu des ErgoGames "Au pas de course !".
           Ce jeu a pour objectif de présenter le principe ergonomique du groupement / proximité de manière simple et
           ludique, avec une représentation visuelle interactive.
         </p>
@@ -66,14 +66,14 @@
       </div>
     </div>
     <div class="flex flex-col gap-4 mb-10">
-      <h1 class="font-bold text-2xl">Projet</h1>
+      <h1 class="font-bold text-2xl">Réalisations</h1>
       <p>
-        Le projet consiste en le développement du sixième jeu des Ergo Games, où les joueurs doivent réaliser des
-        courses dans des rayons de supermarché. Le jeu est divisé en deux parties :
+        Le projet consistait à développer le sixième jeu des Ergo Games "Au pas de course !", au cours duquel les
+        joueurs doivent réaliser des courses dans des rayons de supermarchés. Le jeu est divisé en deux parties :
       </p>
       <div class="flex flex-row justify-center items-center gap-10 mb-4">
         <p>
-          Première partie : <br> Affiché de manière aléatoire.
+          Première partie : <br> Affichage aléatoire.
         </p>
         <div class="diff aspect-[16/9] w-72 h-72">
           <div class="diff-item-1">
@@ -85,7 +85,7 @@
           <div class="diff-resizer"></div>
         </div>
         <p>
-          Deuxième partie : <br> Affiché de manière organisés.
+          Deuxième partie : <br> Affichage organisé.
         </p>
       </div>
       <div class="flex items-center justify-between">
@@ -93,18 +93,18 @@
           Technologies utilisées :
           <ul class="list-disc pl-5">
             <li>Framework et Langages :
-              <a href="https://vuejs.org/" class="link link-primary"><b>Vue.js 3</b></a>.
+              <a href="https://vuejs.org/" class="link link-primary"><b>Vue.js 3</b></a>
               et
-              <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript" class="link link-primary"><b>JavaScript</b></a>.
+              <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript" class="link link-primary"><b>JavaScript</b></a>
               pour le développement front-end.</li>
             <li>Librairies :
-              <a href="https://vuetifyjs.com/en/" class="link link-primary"><b>Vuetify</b></a>.
+              <a href="https://vuetifyjs.com/en/" class="link link-primary"><b>Vuetify</b></a>
               pour les composants UI.</li>
             <li>Gestion de Versions :
-              <a href="https://about.gitlab.com/" class="link link-primary"><b>GitLab</b></a>.
+              <a href="https://about.gitlab.com/" class="link link-primary"><b>GitLab</b></a>
               pour le contrôle de version et la collaboration.</li>
             <li>Design :
-              <a href="https://www.figma.com/fr-fr/" class="link link-primary"><b>Figma</b></a>.
+              <a href="https://www.figma.com/fr-fr/" class="link link-primary"><b>Figma</b></a>
               pour la création des maquettes.</li>
             <li>Outils de Développement : IntelliJ IDEA pour l'édition de code.</li>
           </ul>
@@ -133,7 +133,7 @@
       <div class="flex flex-row items-center">
         <img src="@/assets/img/projectsSection/ErgoGames/Planning.svg" alt="" class="w-48 h-48">
         <p>
-          Le projet a été organisé en utilisant des méthodes agiles, fonctionnant par cycles de deux semaines (sprints).
+          Le projet a été organisé en utilisant la méthode SCRUM, fonctionnant par cycles de deux semaines (sprints).
           Chaque sprint comprenait une réunion quotidienne (Daily) pour le suivi des tâches, ainsi qu'une réunion de fin
           de sprint qui combinait trois étapes essentielles : la Sprint Review pour examiner les travaux réalisés, la
           Sprint Retrospective pour identifier des pistes d'amélioration, et la Sprint Planning pour planifier les

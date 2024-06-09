@@ -4,21 +4,19 @@
       <div class="max-w-[730px] flex flex-col gap-4 pr-5">
         <h1 class="font-bold text-2xl">Contexte</h1>
         <p>
-          Ce projet est un projet de l'IUT2 de Grenoble réalisé dans le cadre de la formation BUT Informatique.
-          J'ai réalisé ce projet lors du troisième semestre de la formation. Il s'agit d'un projet
-          en groupe de 8.
+          Ce projet à été réalisé dans le cadre de la formation BUT Informatique de l'IUT2 de Grenoble lors du troisième
+          semestre de la formation. Il s'agit d'un projet en groupe de 8.
         </p>
         <p>
-          Nous devions réalisé une interface ludique pour aider les élèves de terminale à réviser leur enseignement de
-          spécialité en physique-chimie. L'application devait permettre aux élèves de terminal de réviser de manière
-          ludique et de permettre aux professeurs de suivre les progrès de leurs élèves. Nous l'avons nommé
+          Nous devions réalisé une interface et un jeu ludiques afin d'aider les élèves de terminale à réviser leur enseignement de
+          spécialité en physique-chimie et de permettre aux professeurs de suivre les progrès.
+          Nous l'avons nommé
           <a href="https://github.com/LudoLaboApp" class="link link-info no-underline transition-colors"><b>LudoLabo</b></a>.
         </p>
         <p>
-          Une fois l'interface réalisée, nous devions developper un jeu integret à l'interface. Le jeu permet
-          aux élèves de réviser leur cours de manière ludique. Le jeu devait être basé sur des questions et des enigmes
-          de physique-chimie et devait permettre aux élèves de gagner des points en répondant correctement aux questions
-          et au temps de réalisation de l'exercice.
+          Le jeu devait être basé sur des questions et des enigmes des différents chapitres de physique-chimie vu en
+          terminal. Chaque bonne réponse permettait aux élèves de gagner des points et de réasliser un classement entre
+          les élèves d'une même classe.
         </p>
       </div>
       <div class="flex flex-col gap-5 justify-center w-56">
@@ -60,7 +58,7 @@
           <p>
             Nous avons réalisé une
             <a href="https://github.com/LudoLaboApp/ludolabo-client" class="link link-info no-underline transition-colors"><b>platforme web</b></a>
-            permettant au professeur de suivre les progrès de ses élèves à l'aide
+            permettant aux professeurs de suivre les progrès de leurs élèves à l'aide
             d'un système de classe que les élèves rejoignaient avec un code. Les élèves pouvaient rejoindre une classe
             et participer à des jeux de révision. Les jeux étaient basés sur des questions de physique-chimie et
             permettaient aux élèves de gagner des points en répondant correctement aux questions et en terminant le jeu
@@ -68,34 +66,30 @@
           </p>
           <p>
             Les professeurs pouvaient aussi gérer les classes, ajouter des élèves et changer l'ordre des chapitres,
-            qui sont des monde dans le jeu. Chaques chapitres contient des questions de physique-chimie sur un thème
+            représentés par des mondes dans
+            <a href="https://github.com/LudoLaboApp/ludolabo-game" class="link link-info no-underline transition-colors"><b>le jeu</b></a>.
+            Chaque chapitre contient des questions de physique-chimie sur un thème
             particulier, permettant aux élèves de réviser chapitre par chapitre.
+            Par expemples l'un des mondes, "Les lacs chimiques", contient des questions
+            sur les réactions chimiques et les molécules ou encore "les terres cinétiques" contient des questions
+            sur les forces et les mouvements.
           </p>
           <p>
             Au sein d'une classe, les élèves pouvaient voir leur progression par rapport aux autres élèves de la classe.
             Les professeurs pouvaient voir la progression de chaque élève et leur score. Ils pouvaient également voir
-            les questions auxquelles les élèves avaient répondu et les réponses données par les élèves.
-            Les professeurs avaient également accès à un diagramme de progression de la classe et de chaque élèves,
+            les questions auxquelles les élèves avaient répondu et les réponses données.
+            Les professeurs avaient également accès à un diagramme de progression de la classe et de chaque élève,
             leur permettant de voir les points forts et les points faibles de chaque élève.
           </p>
           <p>
-            Dans cette interface, nous avons intégré
-            <a href="https://github.com/LudoLaboApp/ludolabo-game" class="link link-info no-underline transition-colors"><b>un jeu</b></a>
-            de révision basé sur des questions de physique-chimie.
-            Le jeu contient des monde qui représentent un chapitre. Chaque monde contient des enigmes et des questions
-            de physique-chimie. Par expemple l'un des monde s'appelle "Les lacs chimiques" et contient des questions
-            sur les réactions chimiques et les molecules ou encore "les terres cinetiques" qui contient des questions
-            sur les forces et les mouvements.
-          </p>
-          <p>
-            Ce projet à été réalisé au cours de 3 semaines consécutives. Nous avons réalisé une application web en
+            Ce projet à été développé au cours de 3 semaines consécutives. Nous avons réalisé une application web en
             <a href="https://vuejs.org/" class="link link-primary"><b>Vue.Js</b></a>
             complétée par
             <a href="https://tailwindcss.com/" class="link link-primary"><b>TailWind CSS</b></a>
             et
             <a href="https://preline.co/" class="link link-primary"><b>PrelineUI</b></a>
             comme librairie de composants.
-            Pour le jeu, nous étions parti sur Fase.Js, mais nous avons finalement décidé de réaliser le jeu en Unity
+            Pour le jeu, nous étions parti sur Faser.Js, mais nous avons finalement décidé de réaliser le jeu en Unity
             pour des raisons de performance et de facilité de développement.
           </p>
         </div>
@@ -108,17 +102,18 @@
         <img src="@/assets/img/projectsSection/LudoLabo/LudoConclu.svg" alt="" class="w-44 rounded-xl">
         <p>
           Ce projet a été une expérience très enrichissante pour moi, car j'ai eu l'occasion de m'intégrer dans une
-          grosse équipe par rapport Au projet précédent. J'ai eu l'occasion de travailler sur l'application Web avec
-          des technologies tel que
+          équipe plus conséquente par rapport aux projets précédents. J'ai participé à la réalisation de l'interface
+          web en utilisant
           <a href="https://vuejs.org/" class="link link-primary"><b>Vue.Js</b></a>
-          que je vais déjà eu l'occasion d'essayer, mais sur lesquels Nous avons rajouté des
-          technologies telles que
-          <a href="https://tailwindcss.com/" class="link link-primary"><b>TailWind CSS</b></a>.
-          Ce projet a aussi été un énorme défi de réaliser une application et
-          un jeu vidéo en trois semaines, tout en respectant les critères que nous avions donné dans le cahier
-          d'échange.
+          une technologie déjà utilisée et complétée avec des technologies telles que
+          <a href="https://tailwindcss.com/" class="link link-primary"><b>TailWind CSS</b></a> et
+          <a href="https://preline.co/" class="link link-primary"><b>PrelineUI</b></a>.
+          Ce projet a aussi été un énorme défi car nous avons réalisé l'application et
+          le jeu en respectant les critères du cahier des charges en seulement trois semaines.
         </p>
       </div>
     </div>
   </div>
 </template>
+<script setup lang="ts">
+</script>
