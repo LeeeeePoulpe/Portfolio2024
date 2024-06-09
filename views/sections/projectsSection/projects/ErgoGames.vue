@@ -53,7 +53,8 @@
       </p>
       <p>
         Développer une page dédiée à
-        <a href="https://www.ergogames.fr/principles" class="link link-primary"><b> l'explication du principe ergonomique</b></a>.
+        <a href="https://www.ergogames.fr/principles" class="link link-primary"><b> l'explication du principe
+          ergonomique</b></a>.
         Cette page explicative fournira une
         analyse détaillée du concept de groupement/proximité, accompagnée d'exemples concrets et d'illustrations
         visuelles.
@@ -88,31 +89,6 @@
           Deuxième partie : <br> Affichage organisé.
         </p>
       </div>
-      <div class="flex items-center justify-between">
-        <div>
-          Technologies utilisées :
-          <ul class="list-disc pl-5">
-            <li>Framework et Langages :
-              <a href="https://vuejs.org/" class="link link-primary"><b>Vue.js 3</b></a>
-              et
-              <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript" class="link link-primary"><b>JavaScript</b></a>
-              pour le développement front-end.</li>
-            <li>Librairies :
-              <a href="https://vuetifyjs.com/en/" class="link link-primary"><b>Vuetify</b></a>
-              pour les composants UI.</li>
-            <li>Gestion de Versions :
-              <a href="https://about.gitlab.com/" class="link link-primary"><b>GitLab</b></a>
-              pour le contrôle de version et la collaboration.</li>
-            <li>Design :
-              <a href="https://www.figma.com/fr-fr/" class="link link-primary"><b>Figma</b></a>
-              pour la création des maquettes.</li>
-            <li>Outils de Développement : IntelliJ IDEA pour l'édition de code.</li>
-          </ul>
-        </div>
-        <div>
-          <img src="@/assets/img/projectsSection/ErgoGames/Technologies.svg" alt="" class="w-60">
-        </div>
-      </div>
       <div>
         <p>Livrables professionnels : </p>
         <ul class="list-disc pl-5 mb-3">
@@ -125,7 +101,37 @@
         <ul class="list-disc pl-5">
           <li>Documentation et rapports de suivi : Journal de bord hebdomadaire et documentation technique.</li>
         </ul>
-
+      </div>
+    </div>
+    <div class="flex flex-col gap-4 mb-10">
+      <h1 class="font-bold text-2xl">Technologies utilisées</h1>
+      <div class="flex flex-row justify-between items-center">
+        <div>
+          <ul class="list-disc pl-5">
+            <li>Framework et Langages :
+              <a href="https://vuejs.org/" class="link link-primary"><b>Vue.js 3</b></a>
+              et
+              <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript" class="link link-primary"><b>JavaScript</b></a>
+              pour le développement front-end.
+            </li>
+            <li>Librairies :
+              <a href="https://vuetifyjs.com/en/" class="link link-primary"><b>Vuetify</b></a>
+              pour les composants UI.
+            </li>
+            <li>Gestion de Versions :
+              <a href="https://about.gitlab.com/" class="link link-primary"><b>GitLab</b></a>
+              pour le contrôle de version et la collaboration.
+            </li>
+            <li>Design :
+              <a href="https://www.figma.com/fr-fr/" class="link link-primary"><b>Figma</b></a>
+              pour la création des maquettes.
+            </li>
+            <li>Outils de Développement : IntelliJ IDEA pour l'édition de code.</li>
+          </ul>
+        </div>
+        <div>
+          <img src="@/assets/img/projectsSection/ErgoGames/Technologies.svg" alt="" class="w-52">
+        </div>
       </div>
     </div>
     <div>
@@ -148,21 +154,28 @@
           <ul class="list-disc pl-5 mb-3">
             <li>
               <a href="https://www.linkedin.com/in/benoit-dumas/" class="link link-primary"><b>Benoît Dumas</b></a>.
-              : Maître de stage, a fourni encadrement et directives.</li>
+              : Maître de stage, a fourni encadrement et directives.
+            </li>
             <li>
               <a href="https://www.linkedin.com/in/margaux-lergo/" class="link link-primary"><b>Margaux Perrin</b></a>.
-              : Product owner, a validé les réalisations et ajusté les tâches.</li>
+              : Product owner, a validé les réalisations et ajusté les tâches.
+            </li>
             <li>
-              <a href="https://www.linkedin.com/in/antoine-du-bois-60b429196/" class="link link-primary"><b>Antoine Dubois</b></a>.
-              : Développeur, a aidé sur des aspects techniques spécifiques.</li>
+              <a href="https://www.linkedin.com/in/antoine-du-bois-60b429196/" class="link link-primary"><b>Antoine
+                Dubois</b></a>.
+              : Développeur, a aidé sur des aspects techniques spécifiques.
+            </li>
             <li>
               <a href="https://www.linkedin.com/in/benjaminbiguet/" class="link link-primary"><b>Benjamin Biguet</b></a>.
-              : Designer, a créé les maquettes et scénarios.</li>
+              : Designer, a créé les maquettes et scénarios.
+            </li>
             <li>
               <a href="https://www.linkedin.com/in/lucjeanniard/" class="link link-primary"><b>Luc Jeanniard</b></a>.
               et
-              <a href="https://www.linkedin.com/in/c%C3%A9cile-gesbert-b4571653/" class="link link-primary"><b>Cécile Gesbert</b></a>.
-              : Support administratif.</li>
+              <a href="https://www.linkedin.com/in/c%C3%A9cile-gesbert-b4571653/" class="link link-primary"><b>Cécile
+                Gesbert</b></a>.
+              : Support administratif.
+            </li>
           </ul>
         </div>
         <img src="@/assets/img/projectsSection/ErgoGames/People.svg" alt="" class="w-44 h-44">
@@ -191,3 +204,5 @@
   -webkit-text-fill-color: transparent;
 }
 </style>
+<script setup lang="ts">
+</script>
