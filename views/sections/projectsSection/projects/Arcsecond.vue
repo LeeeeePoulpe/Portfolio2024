@@ -12,19 +12,18 @@
           astronomes et les observatoires professionnels.
         </p>
         <p>
-          Mon objectif était de réaliser une amélioration de l'interface utilisateur de l'application web d'Arcsecond.
-          La partie que j'ai améliorée est la page d'accueil des portails d'observatoires. Cette page est la première
-          page que les utilisateurs voient lorsqu'ils se connectent à leur portails. Elle doit être claire, intuitive et
-          permettre aux utilisateurs de si retrouver facilement.
+          Mon objectif était de réaliser une amélioration de l'interface utilisateur de l'application web d'Arcsecond :
+          j'ai améliorée la page d'accueil des portails d'observatoires. Cette page est la première
+          page que les utilisateurs voient lorsqu'ils se connectent à leurs portails. Elle doit être claire, intuitive et
+          permettre aux utilisateurs de se retrouver facilement.
         </p>
         <p>
-          Ce projet était un défi pour moi, car je n'avais jamais travaillé sur une application web de cette envergure
-          et
-          avec ces technologies. J'ai dû apprendre à travailler avec des technologies telles que
+          Ce projet était un défi pour moi, car je n'avais jamais travaillé sur une application de cette envergure
+          et avec les technologies utilisées :
           <a href="https://vuejs.org/" class="link link-primary"><b>Vue.Js</b></a>,
           <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript" class="link link-primary"><b>JavaScript</b></a>,
           <a href="https://primeflex.org/" class="link link-primary"><b>PrimeFlex</b></a>
-          avec la librairie de composants
+          et avec la librairie de composants
           <a href="https://primevue.org/" class="link link-primary"><b>PrimeVue</b></a>.
         </p>
       </div>
@@ -38,30 +37,25 @@
     <div class="flex flex-col gap-4 mb-10">
       <h1 class="font-bold text-2xl">Objectifs et déroulé</h1>
       <p>
-        Mon objectif était de réaliser une amélioration de l'interface utilisateur de l'application web d'Arcsecond.
-        Je me suis occupé de redesigner les notifications de la page d'accueil des portails d'observatoires. Les
-        notifications étaient similaires les unes aux autres et il était complexe de distinguer les différentes types
-        de notifications. Il était donc nécessaire de les différencier et de les rendre plus claires pour les
-        utilisateurs.
+        L'objectif était d'améliorer l'interface utilisateur de l'application.
+        Pour cela je me suis occupé dans un premier temps de redesigner l'affichage des évenements de la page d'accueil
+        des portails d'observatoires. Ceux-ci étaient similaires les unes aux autres et il était complexe
+        de distinguer les différents types d'évenements.
       </p>
       <div class="flex flex-row gap-5 items-center">
         <div class="flex flex-col gap-5">
           <p>
-            J'ai commencé par réaliser une analyse des notifications existantes. J'ai ensuite réalisé des maquettes
-            des nouvelles notifications en m'inspirant des notifications déjà présente afin de garder l'identité visuel
-            des notifications mais en ajoutant des éléments de différenciation. J'ai ensuite réalisé des maquettes avec
-            2 propositions de design différentes.
+            J'ai commencé par réaliser une analyse de l'affichage existant. J'ai ensuite proposé 2 maquettes différentes,
+            en m'inspirant des évenements existants afin de garder l'identité visuelle.
           </p>
           <p>
-            Une fois les maquettes validées, j'ai commencé à implémenter les nouvelles notifications. J'ai commencé par
-            m'impreigner du code existant et de la structure de l'application. J'ai ensuite commencé à essayer
-            d'implémenter les nouvelles notifications en gardant la structure existante. J'ai rencontré quelques
-            difficultés lors du développement car c'est un projet d'une grande envergure et d'une grande complexité pour
-            rentre dans le code existant.
+            Une fois les maquettes validées, j'ai commencé à implémenter les nouveaux évenements en tenant compte
+            de la structure du code déjà existant. J'ai rencontré quelques difficultés lors du développement car c'est un
+            projet d'une grande envergure et d'une grande complexité.
           </p>
           <p>
-            J'ai donc dû faire preuve de patience et de persévérance pour réussir à implémenter les nouvelles
-            notifications. La curiosité à été la clé pour trouver des solutions aux problèmes rencontrés.
+            J'ai donc dû faire preuve de patience et de persévérance pour réussir à implémenter les nouveaux évenements.
+            La curiosité a été la clé pour solutionner les problèmes rencontrés.
           </p>
         </div>
         <img src="@/assets/img/projectsSection/LudoLabo/MaquetteAccueil.svg" alt="96%"

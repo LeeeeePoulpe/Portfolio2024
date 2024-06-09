@@ -2,8 +2,8 @@
   <div class="min-h-screen flex flex-col justify-between bg-slate-100 p-6">
     <div class="mb-12 items-center">
       <div class="chat chat-start">
-        <div class="chat-bubble chat-bubble--intro drop-shadow-md">Voila la liste des projet auxquels j’ai participé
-          ainsi que la frise chronologique des projets pour pouvoir les situer
+        <div class="chat-bubble chat-bubble--intro drop-shadow-md">
+          Java, Python, Symfony ... N'hésitez pas à lire le descriptif de mes projets pour en savoir plus sur mes réalisations.
         </div>
       </div>
       <ProjectsTimeLine v-if="isDesktop"/>
