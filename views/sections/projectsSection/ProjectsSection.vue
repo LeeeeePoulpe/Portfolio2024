@@ -73,7 +73,8 @@
           </ProjectCard>
         </button>
 
-        <button onclick="ArcsecondModal.showModal()">
+<!--
+        <button onclick="ArcsecondModal.showModal()" class="opacity-25">
           <ProjectCard class="self-center">
             <template #project-image>
               <img src="@/assets/img/projectsSection/Arcsecond.svg" alt="Arcsecond" class="h-36 drop-shadow-sm"/>
@@ -92,8 +93,26 @@
             </template>
           </ProjectCard>
         </button>
+-->
+        <ProjectCard class="opacity-25 self-center">
+          <template #project-image>
+            <img src="@/assets/img/projectsSection/Arcsecond.svg" alt="Arcsecond" class="h-36 drop-shadow-sm"/>
+          </template>
+          <template #project-title>
+            Arcsecond
+          </template>
+          <template #project-description>
+            <p class="text-start">
+              Amélioration de la partie visuelle de la page d’accueil des portails.
+            </p>
+          </template>
+          <template #project-badge>
+            <span class="badge badge-outline">Vue.Js</span>
+            <span class="badge badge-outline">JavaScript</span>
+          </template>
+        </ProjectCard>
 
-        <ProjectCard class="self-center">
+        <ProjectCard class="opacity-25 self-center">
           <template #project-image>
             <img src="@/assets/img/projectsSection/Sciconf.svg" alt="Sciconf" class="h-36 drop-shadow-sm"/>
           </template>
@@ -109,7 +128,7 @@
           </template>
         </ProjectCard>
 
-        <ProjectCard class="self-center">
+        <ProjectCard class="opacity-25 self-center">
           <template #project-image>
             <img src="@/assets/img/projectsSection/GameJam.svg" alt="GameJam" class="h-36 drop-shadow-sm"/>
           </template>
