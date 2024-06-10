@@ -267,7 +267,7 @@
           <button class="btn btn-sm btn-circle btn-ghost absolute right-4 top-5">✕</button>
         </form>
         <div class="flex flex-col gap-5 mb-5">
-          <h3 class="font-bold text-4xl">Développement d’une application de gestion de conférences</h3>
+          <h3 class="font-bold text-4xl">Développement d’une application de gestion d'évenements</h3>
           <div class="divider m-0 divider-neutral"></div>
           <Sciconf/>
         </div>

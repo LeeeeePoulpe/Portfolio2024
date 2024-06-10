@@ -1,33 +1,33 @@
 <template>
+  <img src="@/assets/img/projectsSection/Sciconf/Background.svg" alt="" class="absolute top-0 right-0 opacity-40 blur-sm -z-10 w-68 self-center">
   <div class="text-justify">
     <div class="flex mb-10">
-      <div class="max-w-[700px] flex flex-col gap-4 pr-5">
+      <div class="max-w-[700px] flex flex-col gap-4">
         <h1 class="font-bold text-2xl">Contexte</h1>
         <p>
           Ce projet, réalisé dans le cadre de la formation BUT Informatique à l'IUT2 de Grenoble
-          lors du deuxième semestre, s'est déroulé a cinq.
+          lors du deuxième semestre, s'est déroulé à cinq.
         </p>
         <p>
-          Nous avons débuté par le recueil des besoins, puis la réalisation des maquettes,
-          pour finir par le développement du site.
+          L'objectif était de créer une application de gestion d'évènements. Nous avions le choix sur le type
+          d'évènement. Nous avons donc choisi pour notre groupe les conférences scientifiques. L'application devait
+          permettre de gérer les conférences, les intervenants, les participants et les salles.
         </p>
         <p>
-          La méthodologie de travail choisie par l'IUT a consisté en trois étapes distinctes. Chaque étape a été
-          validée par un rendu intermédiaire avant de passer à la suivante. De plus la répartition des tâches au sein
-          du trinôme était une contrainte imposée par l'IUT. Ceci afin d'apprender la gestion de projet au sein d'une
-          équipe.
+          Nous avions pour contrainte de réaliser une application avec la technologie Java pour le back-end et
+          JavaFX pour le front-end. Nous avons également utilisé une base de données MySQL pour stocker les données.
         </p>
       </div>
       <div class="flex justify-center w-72">
-        <img src="@/assets/img/projectsSection/CGI/DevWeb.svg" alt="Développement d'IA" class="w-68 self-center">
+        <a href="" class="hover:scale-105 transition-all self-center">
+          <img src="@/assets/img/projectsSection/Sciconf/Logo.svg" alt="Logo Sciconf" class="w-52 rounded-xl self-center">
+        </a>
       </div>
     </div>
     <div class="flex flex-col gap-4 mb-10">
       <h1 class="font-bold text-2xl">Objectifs</h1>
       <p>
-        L'objectif était de créer un site web simplifié présentant CGI France à des élèves de troisième recherchant un
-        stage, en respectant son identité visuelle et en fournissant des informations pertinentes. Le projet était
-        divisé en trois parties : recueil des besoins, création de la maquette, et développement du site.
+
       </p>
       <div class="flex flex-row gap-5 items-center">
         <img src="@/assets/img/projectsSection/CGI/Maquette.svg" alt="96%" class="w-44 rounded-xl drop-shadow-sm">
@@ -72,3 +72,5 @@
     </div>
   </div>
 </template>
+<script setup lang="ts">
+</script>
