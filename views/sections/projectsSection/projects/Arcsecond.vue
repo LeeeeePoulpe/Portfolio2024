@@ -14,7 +14,8 @@
         <p>
           Mon objectif était de réaliser une amélioration de l'interface utilisateur de l'application web d'Arcsecond :
           j'ai améliorée la page d'accueil des portails d'observatoires. Cette page est la première
-          page que les utilisateurs voient lorsqu'ils se connectent à leurs portails. Elle doit être claire, intuitive et
+          page que les utilisateurs voient lorsqu'ils se connectent à leurs portails. Elle doit être claire, intuitive
+          et
           permettre aux utilisateurs de se retrouver facilement.
         </p>
         <p>
@@ -45,12 +46,14 @@
       <div class="flex flex-row gap-5 items-center">
         <div class="flex flex-col gap-5">
           <p>
-            J'ai commencé par réaliser une analyse de l'affichage existant. J'ai ensuite proposé 2 maquettes différentes,
+            J'ai commencé par réaliser une analyse de l'affichage existant. J'ai ensuite proposé 2 maquettes
+            différentes,
             en m'inspirant des évenements existants afin de garder l'identité visuelle.
           </p>
           <p>
             Une fois les maquettes validées, j'ai commencé à implémenter les nouveaux évenements en tenant compte
-            de la structure du code déjà existant. J'ai rencontré quelques difficultés lors du développement car c'est un
+            de la structure du code déjà existant. J'ai rencontré quelques difficultés lors du développement car c'est
+            un
             projet d'une grande envergure et d'une grande complexité.
           </p>
           <p>
@@ -69,47 +72,20 @@
              class="w-96 rounded-xl ">
         <div class="flex flex-col gap-5 ml-5">
           <p>
-            Nous avons réalisé une
-            <a href="https://github.com/LudoLaboApp/ludolabo-client"
-               class="link link-info no-underline transition-colors"><b>platforme web</b></a>
-            permettant au professeur de suivre les progrès de ses élèves à l'aide
-            d'un système de classe que les élèves rejoignaient avec un code. Les élèves pouvaient rejoindre une classe
-            et participer à des jeux de révision. Les jeux étaient basés sur des questions de physique-chimie et
-            permettaient aux élèves de gagner des points en répondant correctement aux questions et en terminant le jeu
-            rapidement.
+            J'ai réussi à implémenter les nouveaux événements et à améliorer l'interface utilisateur de l'application.
+            Les nouveaux événements sont plus clairs et plus intuitifs. Les utilisateurs peuvent désormais distinguer
+            facilement les différents types d'événements. Cela inclut une meilleure catégorisation des évenements.
           </p>
           <p>
-            Les professeurs pouvaient aussi gérer les classes, ajouter des élèves et changer l'ordre des chapitres,
-            qui sont des monde dans le jeu. Chaques chapitres contient des questions de physique-chimie sur un thème
-            particulier, permettant aux élèves de réviser chapitre par chapitre.
+            Les modifications apportées à l'interface utilisateur ont également été significatives. J'ai intégré des
+            éléments de design moderne qui rendent l'application non seulement plus agréable à utiliser, mais aussi plus
+            fonctionnelle. Par exemple, les couleurs et les icônes sont désormais utilisées de manière stratégique pour
+            attirer l'attention sur les informations les plus importantes et guider l'utilisateur à travers les
+            différentes sections de l'application sans confusion.
           </p>
           <p>
-            Au sein d'une classe, les élèves pouvaient voir leur progression par rapport aux autres élèves de la classe.
-            Les professeurs pouvaient voir la progression de chaque élève et leur score. Ils pouvaient également voir
-            les questions auxquelles les élèves avaient répondu et les réponses données par les élèves.
-            Les professeurs avaient également accès à un diagramme de progression de la classe et de chaque élèves,
-            leur permettant de voir les points forts et les points faibles de chaque élève.
-          </p>
-          <p>
-            Dans cette interface, nous avons intégré
-            <a href="https://github.com/LudoLaboApp/ludolabo-game"
-               class="link link-info no-underline transition-colors"><b>un jeu</b></a>
-            de révision basé sur des questions de physique-chimie.
-            Le jeu contient des monde qui représentent un chapitre. Chaque monde contient des enigmes et des questions
-            de physique-chimie. Par expemple l'un des monde s'appelle "Les lacs chimiques" et contient des questions
-            sur les réactions chimiques et les molecules ou encore "les terres cinetiques" qui contient des questions
-            sur les forces et les mouvements.
-          </p>
-          <p>
-            Ce projet à été réalisé au cours de 3 semaines consécutives. Nous avons réalisé une application web en
-            <a href="https://vuejs.org/" class="link link-primary"><b>Vue.Js</b></a>
-            complétée par
-            <a href="https://tailwindcss.com/" class="link link-primary"><b>TailWind CSS</b></a>
-            et
-            <a href="https://preline.co/" class="link link-primary"><b>PrelineUI</b></a>
-            comme librairie de composants.
-            Pour le jeu, nous étions parti sur Fase.Js, mais nous avons finalement décidé de réaliser le jeu en Unity
-            pour des raisons de performance et de facilité de développement.
+            Les retours des utilisateurs ont été très positifs. Ils ont apprécié les améliorations apportées à
+            l'interface utilisateur et ont trouvé l'application plus facile à utiliser.
           </p>
         </div>
       </div>
@@ -128,9 +104,3 @@
     </div>
   </div>
 </template>
-
-<style scoped lang="scss">
-
-</style>
-<script setup lang="ts">
-</script>
