@@ -61,15 +61,14 @@
             La curiosité a été la clé pour solutionner les problèmes rencontrés.
           </p>
         </div>
-        <img src="@/assets/img/projectsSection/LudoLabo/MaquetteAccueil.svg" alt="96%"
-             class="w-44 rounded-xl drop-shadow-sm">
+        <img src="@/assets/img/projectsSection/Arcsecond/Portal.png" alt="96%"
+             class="w-96 rounded-xl drop-shadow-sm">
       </div>
     </div>
     <div class="flex flex-col gap-4 mb-10">
       <h1 class="font-bold text-2xl">Résultats</h1>
       <div class="flex flex-row">
-        <img src="@/assets/img/projectsSection/LudoLabo/MaquetteClasse.svg" alt="Interface de l'application"
-             class="w-96 rounded-xl ">
+        <img src="@/assets/img/projectsSection/Arcsecond/Event.svg" alt="Interface de l'application" class="w-96 rounded-xl">
         <div class="flex flex-col gap-5 ml-5">
           <p>
             J'ai réussi à implémenter les nouveaux événements et à améliorer l'interface utilisateur de l'application.
@@ -94,7 +93,7 @@
     <div>
       <h1 class="font-bold text-2xl mb-2">Conclusion</h1>
       <div class="flex flex-row items-center gap-5">
-        <img src="@/assets/img/projectsSection/LudoLabo/LudoConclu.svg" alt="" class="w-32 rounded-xl">
+        <img src="@/assets/img/projectsSection/Arcsecond/Conclu.svg" alt="" class="w-28 rounded-xl">
         <p>
           Ce projet a été une expérience extrêmement enrichissante pour moi. J'ai eu l'occasion de travailler sur un
           projet de grande envergure et de grande complexité. J'ai pu apprendre à travailler avec des technologies
