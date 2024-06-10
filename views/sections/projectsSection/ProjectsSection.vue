@@ -93,21 +93,23 @@
           </ProjectCard>
         </button>
 
-        <ProjectCard class="opacity-25 self-center">
-          <template #project-image>
-            <img src="@/assets/img/projectsSection/Sciconf.svg" alt="Sciconf" class="h-36 drop-shadow-sm"/>
-          </template>
-          <template #project-title>
-            Sciconf
-          </template>
-          <template #project-description>
-            Développement d’une application de gestion de conférences.
-          </template>
-          <template #project-badge>
-            <span class="badge badge-outline">Java</span>
-            <span class="badge badge-outline">JavaFX</span>
-          </template>
-        </ProjectCard>
+        <button onclick="SciconfModal.showModal()">
+          <ProjectCard class="self-center">
+            <template #project-image>
+              <img src="@/assets/img/projectsSection/Sciconf.svg" alt="Sciconf" class="h-36 drop-shadow-sm"/>
+            </template>
+            <template #project-title>
+              Sciconf
+            </template>
+            <template #project-description>
+              Développement d’une application de gestion de conférences.
+            </template>
+            <template #project-badge>
+              <span class="badge badge-outline">Java</span>
+              <span class="badge badge-outline">JavaFX</span>
+            </template>
+          </ProjectCard>
+        </button>
 
         <ProjectCard class="opacity-25 self-center">
           <template #project-image>
@@ -259,6 +261,24 @@
         <button>close</button>
       </form>
     </dialog>
+    <dialog id="SciconfModal" class="modal">
+      <div class="modal-box w-11/12 max-w-5xl">
+        <form method="dialog" class="">
+          <button class="btn btn-sm btn-circle btn-ghost absolute right-4 top-5">✕</button>
+        </form>
+        <div class="flex flex-col gap-5 mb-5">
+          <h3 class="font-bold text-4xl">Développement d’une application de gestion de conférences</h3>
+          <div class="divider m-0 divider-neutral"></div>
+          <Sciconf/>
+        </div>
+        <form method="dialog" class="flex justify-center">
+          <button class="btn btn-outline text-black">Retourner aux projets</button>
+        </form>
+      </div>
+      <form method="dialog" class="modal-backdrop">
+        <button>close</button>
+      </form>
+    </dialog>
 
     <dialog id="CGIModal" class="modal">
       <div class="modal-box w-11/12 max-w-5xl">
@@ -325,6 +345,7 @@ import ErgoGames from "~/views/sections/projectsSection/projects/ErgoGames.vue";
 import CarnetDeStage from "~/views/sections/projectsSection/projects/CarnetDeStage.vue";
 import LudoLabo from "~/views/sections/projectsSection/projects/LudoLabo.vue";
 import Arcsecond from "~/views/sections/projectsSection/projects/Arcsecond.vue";
+import Sciconf from "~/views/sections/projectsSection/projects/Sciconf.vue";
 import IA from "~/views/sections/projectsSection/projects/IA.vue";
 import Titanic from "~/views/sections/projectsSection/projects/Titanic.vue";
 import CGI from "~/views/sections/projectsSection/projects/CGI.vue";
