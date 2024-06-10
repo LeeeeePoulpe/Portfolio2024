@@ -15,46 +15,27 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import HeroChats from "~/views/sections/heroSection/HeroChats.vue";
 import HeroDynamicText from "~/views/sections/heroSection/HeroDynamicText.vue";
 
-export default {
-  name: "heroSection",
-  components: {
-    HeroDynamicText,
-    HeroChats
-  },
+const windowWidth = ref(typeof window !== 'undefined' ? window.innerWidth : 0);
 
-  data() {
-    return {
-      windowWidth: typeof window !== 'undefined' ? window.innerWidth : 0,
-    };
-  },
+const updateWindowWidth = () => {
+  if (typeof window !== 'undefined') {
+    windowWidth.value = window.innerWidth;
+  }
+};
 
-  mounted() {
-    this.$nextTick(function () {
-      window.addEventListener('resize', this.updateWindowWidth);
-    });
-  },
+onMounted(() => {
+  window.addEventListener('resize', updateWindowWidth);
+});
 
-  computed: {
-    isDesktop() {
-      return this.windowWidth > 1100;
-    },
-  },
+onBeforeUnmount(() => {
+  window.removeEventListener('resize', updateWindowWidth);
+});
 
-  methods: {
-    updateWindowWidth() {
-      if (typeof window !== 'undefined') {
-        this.windowWidth = window.innerWidth;
-      }
-    },
-  },
-  beforeDestroy() {
-    window.removeEventListener('resize', this.updateWindowWidth);
-  },
-}
+const isDesktop = computed(() => windowWidth.value > 1100);
 </script>
 
 

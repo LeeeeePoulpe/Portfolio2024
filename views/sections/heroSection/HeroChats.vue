@@ -1,35 +1,20 @@
 <template>
   <div>
-    <div class="chat chat-start">
-      <div class="chat-bubble drop-shadow-md">Je m’appelle Hugo Föllmi</div>
-    </div>
-    <div class="chat chat-end">
-      <div class="chat-bubble drop-shadow-md">Et qui êtes vous ?</div>
-    </div>
-    <div class="chat chat-start">
-      <div class="chat-bubble drop-shadow-md">Qui je suis ? <br> Un étudiant et vous êtes sur mon portfolio.</div>
-    </div>
-    <div class="chat chat-end">
-      <div class="chat-bubble drop-shadow-md">Votre Portfolio ?</div>
-    </div>
-    <div class="chat chat-start drop-shadow-md">
-      <div class="chat-bubble">Oui ici vous pourrez apprendre à me connaitre, ce que j’ai réalisé et ce qui me
-        passionne
-      </div>
-    </div>
-    <div class="chat chat-start drop-shadow-md">
-      <div class="chat-bubble">Et même me contacter si besoin mais avant cela je vous laisse découvrir !
-      </div>
+    <div v-for="(message, index) in messages" :key="index" class="chat" :class="message.sender === 'me' ? 'chat-start' : 'chat-end'">
+      <div class="chat-bubble drop-shadow-md" v-html="message.message"></div>
     </div>
   </div>
 </template>
 
-<script>
-export default {
-  name: 'HeroChats'
-}
+<script setup>
+
+const messages = [
+  {message: 'Je m’appelle Hugo Föllmi', sender: 'me'},
+  {message: 'Et qui êtes vous ?', sender: 'you'},
+  {message: 'Qui je suis ? <br> Un étudiant et vous êtes sur mon portfolio.', sender: 'me'},
+  {message: 'Votre Portfolio ?', sender: 'you'},
+  {message: 'Oui ici vous pourrez apprendre à me connaitre, ce que j’ai réalisé et ce qui me passionne', sender: 'me'},
+  {message: 'Et même me contacter si besoin mais avant cela je vous laisse découvrir !', sender: 'me'},
+];
+
 </script>
-
-<style lang="scss" scoped>
-
-</style>
