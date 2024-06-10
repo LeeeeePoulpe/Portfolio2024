@@ -4,23 +4,18 @@
       <div class="max-w-[700px] flex flex-col gap-4 pr-5">
         <h1 class="font-bold text-2xl">Contexte</h1>
         <p>
-          Ce projet est un projet de l'IUT2 de Grenoble réalisé dans le cadre de la formation BUT Informatique.
-          J'ai réalisé ce projet lors du premier semestre de la première année de la formation. Il s'agit d'un projet
-          en trio.
+          Ce projet, réalisé dans le cadre de la formation BUT Informatique à l'IUT2 de Grenoble
+          lors du deuxième semestre, s'est déroulé en trinôme sur plusieurs mois au cours de différents séances dediées.
         </p>
         <p>
-          Ce projet a été réalisé sur plusieurs mois avec différentes séances. Nous avons commencer par le recueil des
-          besoins,
-          la réalisation des maquettes et par la suite le développement du site.
+          Nous avons débuté par le recueil des besoins, puis la réalisation des maquettes,
+          pour finir par le développement du site.
         </p>
         <p>
-          Ce projet a été vraiment investi sur le découpage des étapes Puis, sur la répartition des tâches lors de la
-          réalisation des maquettes et du développement.
-          Lors de la collecte d'information, chacun avait différents secteurs à regarder, puis nous avons fait un
-          regroupement pour voir ce qui était le plus important.
-          Ensuite, sur la réalisation des maquettes, chacun, chacun s'est occupé de faire une partie du site (une page).
-          Et enfin, pour le développement du site, nous nous sommes répartis les tâches en fonction des maquettes
-          réalisées par chacun des membres.
+          La méthodologie de travail choisie par l'IUT a consisté en trois étapes distinctes. Chaque étape a été
+          validée par un rendu intermédiaire avant de passer à la suivante. De plus la répartition des tâches au sein
+          du trinôme était une contrainte imposée par l'IUT. Ceci afin d'apprender la gestion de projet au sein d'une
+          équipe.
         </p>
       </div>
       <div class="flex justify-center w-72">
@@ -58,8 +53,7 @@
       <p>
         Dans l'ensemble, le projet s'est déroulé avec succès malgré quelques obstacles mineurs. La maquette a bien guidé
         la création du site, et malgré des ajustements nécessaires en cours de route, nous avons réussi à finaliser le
-        projet dans les délais impartis. Ce projet nous a permis de mettre en pratique nos compétences en matière de
-        conception de sites web et de renforcer notre capacité à travailler efficacement en équipe.
+        projet dans les délais impartis.
       </p>
     </div>
     <div class="divider m-0 divider-neutral"></div>
