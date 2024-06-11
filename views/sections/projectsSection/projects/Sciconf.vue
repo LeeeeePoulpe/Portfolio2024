@@ -1,5 +1,6 @@
 <template>
-  <img src="@/assets/img/projectsSection/Sciconf/Background.svg" alt="" class="absolute top-0 right-0 opacity-40 blur-sm -z-10 w-68 self-center">
+  <img src="@/assets/img/projectsSection/Sciconf/Background.svg" alt=""
+       class="absolute top-0 right-0 opacity-40 blur-sm -z-10 w-68 self-center">
   <div class="text-justify">
     <div class="flex mb-10">
       <div class="max-w-[700px] flex flex-col gap-4">
@@ -9,68 +10,71 @@
           lors du deuxième semestre, s'est déroulé à cinq.
         </p>
         <p>
-          L'objectif était de créer une application de gestion d'évènements. Nous avions le choix sur le type
+          Nous devions créer une application de gestion d'évènements. Nous avions le choix sur le type
           d'évènement. Nous avons donc choisi pour notre groupe les conférences scientifiques. L'application devait
           permettre de gérer les conférences, les intervenants, les participants et les salles.
         </p>
         <p>
-          Nous avions pour contrainte de réaliser une application avec la technologie Java pour le back-end et
-          JavaFX pour le front-end. Nous avons également utilisé une base de données MySQL pour stocker les données.
+          Nous avions pour contrainte de réaliser une application avec la technologie
+          <a href="https://developer.mozilla.org/fr/docs/Glossary/Java" target="_blank" class="link link-info no-underline transition-colors"><b>Java</b></a> pour le back-end et
+          <a href="https://openjfx.io/" target="_blank" class="link link-info no-underline transition-colors"><b>JavaFX</b></a> pour le front-end.
+          Nous avons également utilisé une base de données MySQL pour stocker les données.
         </p>
       </div>
       <div class="flex justify-center w-72">
         <a href="" class="hover:scale-105 transition-all self-center">
-          <img src="@/assets/img/projectsSection/Sciconf/Logo.svg" alt="Logo Sciconf" class="w-52 rounded-xl self-center">
+          <img src="@/assets/img/projectsSection/Sciconf/Logo.svg" alt="Logo Sciconf"
+               class="w-52 rounded-xl self-center">
         </a>
       </div>
     </div>
     <div class="flex flex-col gap-4 mb-10">
       <h1 class="font-bold text-2xl">Objectifs</h1>
-      <p>
-
-      </p>
-      <div class="flex flex-row gap-5 items-center">
-        <img src="@/assets/img/projectsSection/CGI/Maquette.svg" alt="96%" class="w-44 rounded-xl drop-shadow-sm">
-        <div class="flex flex-col gap-5">
-          <p>
-            Durant une période d'un mois, avec une semaine dédiée spécifiquement au développement du site, notre équipe
-            de trois personnes a collaboré pour mener à bien le projet. Nous avons initié le processus en collectant des
-            informations sur CGI France, ce qui nous a permis d'établir un cahier des charges détaillé servant de guide
-            pour la création du site. Nous avons utilisé des outils de conception de sites web tels que Whimsical et
-            comme langage de programmation le HTML/CSS.
-          </p>
-          <p>
-            Nous avons d'abord élaboré la maquette du site sur Whimsical pour affiner nos idées avant de passer à la
-            réalisation. Une fois la maquette validée, nous avons créé le site en nous basant sur ce modèle, en
-            identifiant et corrigeant les défauts de présentation au fur et à mesure. Ce projet nous a permis
-            d'acquérir des compétences précieuses en recherche d'informations, création de site web et travail d'équipe.
-          </p>
-        </div>
+      <div class="flex flex-col gap-5 items-center">
+        <p>
+          Notre objectif était de développer une application de gestion d'évènements dans les contraintes avec
+          <a href="https://developer.mozilla.org/fr/docs/Glossary/Java" target="_blank" class="link link-info no-underline transition-colors"><b>Java</b></a> et
+          <a href="https://openjfx.io/" target="_blank" class="link link-info no-underline transition-colors"><b>JavaFX</b></a>.
+          De plus, nous avions le choix du style d'évènement. Nous avons donc choisi les conférences
+          scientifiques. L'objectif du projet est de nous faire comprendre toutes les étapes d'un projet de la
+          réflexion à la conception à la réalisation. Nous devions également travailler en équipe pour réaliser ce
+          projet.
+        </p>
+        <img src="@/assets/img/projectsSection/Sciconf/Maquette.svg" alt="96%"
+             class="w-[600px] rounded-xl drop-shadow-sm">
+        <p>
+          Nous avons donc commencé par réfléchir à l'application que nous voulions réaliser. Nous avons ensuite
+          réalisé une maquette de l'application pour nous aider à la réaliser. Le développement a été l'étape suivante
+          et a été principalement guidé par les maquettes que nous avions réalisé au préalable. Enfin, nous avons
+          réalisé des tests pour vérifier le bon fonctionnement de l'application.
+        </p>
       </div>
     </div>
     <div class="flex flex-col gap-4 mb-10">
       <h1 class="font-bold text-2xl">Résultats</h1>
       <p>
-        Dans l'ensemble, le projet s'est déroulé avec succès malgré quelques obstacles mineurs. La maquette a bien guidé
-        la création du site, et malgré des ajustements nécessaires en cours de route, nous avons réussi à finaliser le
-        projet dans les délais impartis.
+        L'application finale est conforme aux maquettes et aux contraintes demandées par l'IUT. Nous avons réussi à
+        réaliser une application de gestion de conférences scientifiques. L'application permet de gérer les conférences,
+        les intervenants, les participants et les salles. Toutes ces choses, nous l'avions annoncé dès le début, nous
+        avons réussi à les développer. Nous avons réussi à développer cette application grâce à notre travail d'équipe
+        et à notre répartition équitable des tâches en fonction des compétences de chacun. Nous avons également réussi
+        à respecter les délais imposés par l'IUT.
       </p>
     </div>
     <div class="divider m-0 divider-neutral"></div>
     <div>
       <h1 class="font-bold text-2xl mb-2">Conclusion</h1>
       <div class="flex flex-row items-center gap-5">
-        <img src="@/assets/img/projectsSection/CGI/ConcluCGI.svg" alt="" class="w-32 rounded-xl drop-shadow-sm">
+        <img src="@/assets/img/projectsSection/Sciconf/Conclu.svg" alt="" class="w-24 drop-shadow-sm">
         <p>
-          En conclusion, ce projet sur CGI France a été une expérience enrichissante qui nous a permis de mettre en
-          pratique nos compétences en conception de sites web et en travail d'équipe. Malgré les défis rencontrés,
-          nous avons réussi à créer un site fidèle à l'identité de l'entreprise et répondant aux besoins de notre
-          public cible. Ce projet nous a également permis d'acquérir de nouvelles compétences et de renforcer notre
-          cohésion en tant qu'équipe.
+          En conclusion, ce projet nous a permis de comprendre toutes les étapes d'un projet de la réflexion à la
+          conception à la réalisation. Nous avons également appris à travailler en équipe pour réaliser un projet. Nous
+          avons également appris à respecter les délais imposés par l'IUT. Ce projet nous a permis de mettre en pratique
+          les connaissances acquises lors de notre formation. Nous avons également appris à travailler avec
+          <a href="https://developer.mozilla.org/fr/docs/Glossary/Java" target="_blank" class="link link-info no-underline transition-colors"><b>Java</b></a> et
+          <a href="https://openjfx.io/" target="_blank" class="link link-info no-underline transition-colors"><b>JavaFX</b></a>.
         </p>
       </div>
     </div>
   </div>
 </template>
-<script setup lang="ts">
-</script>
