@@ -1,28 +1,15 @@
 <template>
   <div class="carousel overflow-y-hidden carousel-center max-w-md p-4 space-x-4 bg-slate-600 shadow-xl shadow-gray-700/50 rounded-box">
-    <div v-for="ability in abilities" :key="ability.index" :id="ability.index" class="carousel-item relative h-96">
-      <img :src="ability.background" class="rounded-box"/>
-      <div class="absolute transition-opacity opacity-0 hover:opacity-100 bg-black/85 w-full h-full rounded-box p-5">
-        <div class="flex flex-col justify-center h-full gap-5">
-          <div>
-            <img :src="ability.logo" :alt="ability.name" class="w-16 h-16 opacity-100"/>
-            <h3 class="text-white text-2xl font-bold break-words">
-              {{ ability.name }}
-            </h3>
-          </div>
-          <div class="flex flex-row items-center gap-3 text-white">
-            <progress class="progress progress-success w-56" :value="ability.progress" max="100"></progress>
-            <p>{{ ability.progress }}%</p>
-          </div>
-          <p class="text-white text-lg break-words">
-            {{ ability.comment }}
-          </p>
-        </div>
-      </div>
-    </div>
+    <CarouselItem
+        v-for="ability in abilities"
+        :key="ability.index"
+        :item="ability"
+    />
   </div>
 </template>
 <script setup>
+import CarouselItem from "~/views/sections/abilitySection/CarouselItem.vue";
+
 import VueJs from "@/assets/img/abilitiesSection/techno/VueJs.svg";
 import VueJsLogo from "@/assets/img/abilitiesSection/techno/VueJsLogo.svg";
 
