@@ -154,28 +154,21 @@
           <ul class="list-disc pl-5 mb-3">
             <li>
               <a href="https://www.linkedin.com/in/benoit-dumas/" class="link link-primary"><b>Benoît Dumas</b></a>.
-              : Maître de stage, a fourni encadrement et directives.
-            </li>
+              : Maître de stage, a fourni encadrement et directives.</li>
             <li>
               <a href="https://www.linkedin.com/in/margaux-lergo/" class="link link-primary"><b>Margaux Perrin</b></a>.
-              : Product owner, a validé les réalisations et ajusté les tâches.
-            </li>
+              : Product owner, a validé les réalisations et ajusté les tâches.</li>
             <li>
-              <a href="https://www.linkedin.com/in/antoine-du-bois-60b429196/" class="link link-primary"><b>Antoine
-                Dubois</b></a>.
-              : Développeur, a aidé sur des aspects techniques spécifiques.
-            </li>
+              <a href="https://www.linkedin.com/in/antoine-du-bois-60b429196/" class="link link-primary"><b>Antoine Dubois</b></a>.
+              : Développeur, a aidé sur des aspects techniques spécifiques.</li>
             <li>
               <a href="https://www.linkedin.com/in/benjaminbiguet/" class="link link-primary"><b>Benjamin Biguet</b></a>.
-              : Designer, a créé les maquettes et scénarios.
-            </li>
+              : Designer, a créé les maquettes et scénarios.</li>
             <li>
               <a href="https://www.linkedin.com/in/lucjeanniard/" class="link link-primary"><b>Luc Jeanniard</b></a>.
               et
-              <a href="https://www.linkedin.com/in/c%C3%A9cile-gesbert-b4571653/" class="link link-primary"><b>Cécile
-                Gesbert</b></a>.
-              : Support administratif.
-            </li>
+              <a href="https://www.linkedin.com/in/c%C3%A9cile-gesbert-b4571653/" class="link link-primary"><b>Cécile Gesbert</b></a>.
+              : Support administratif.</li>
           </ul>
         </div>
         <img src="@/assets/img/projectsSection/ErgoGames/People.svg" alt="" class="w-44 h-44">
