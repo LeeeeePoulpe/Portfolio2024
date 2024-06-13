@@ -1,10 +1,13 @@
 <template>
-  <div class="carousel overflow-y-hidden carousel-center max-w-md p-4 space-x-4 bg-slate-600 shadow-xl shadow-gray-700/50 rounded-box">
-    <CarouselItem
-        v-for="ability in abilities"
-        :key="ability.index"
-        :item="ability"
-    />
+  <div class="flex flex-col gap-5">
+    <h1 class="text-3xl font-bold text-center text-black">Technologies</h1>
+    <div class="carousel overflow-y-hidden carousel-center max-w-md p-4 space-x-4 bg-slate-600 shadow-xl shadow-gray-700/50 rounded-box">
+      <CarouselItem
+          v-for="ability in abilities"
+          :key="ability.index"
+          :item="ability"
+      />
+    </div>
   </div>
 </template>
 <script setup>

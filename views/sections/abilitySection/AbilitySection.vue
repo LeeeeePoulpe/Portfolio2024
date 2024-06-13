@@ -6,11 +6,9 @@
       </div>
     </div>
 
-    <div>
+    <div class="flex flex-wrap justify-between items-center w-10/12 m-auto">
       <CarouselAbilities/>
-<!--      <div class="flex justify-center w-full py-2 gap-2">-->
-<!--        <a v-for="ability in abilities" :href="ability.index" class="btn btn-xs">{{ ability.index }}</a>-->
-<!--      </div>-->
+      <CarouselLanguage/>
     </div>
 
   </div>
@@ -18,5 +16,5 @@
 
 <script setup>
 import CarouselAbilities from "~/views/sections/abilitySection/CarouselAbilities.vue";
-
+import CarouselLanguage from "~/views/sections/abilitySection/CarouselLanguages.vue";
 </script>
