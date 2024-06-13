@@ -22,6 +22,12 @@ import HTMLCSSLogo from "@/assets/img/abilitiesSection/techno/HTMLCSSLogo.svg";
 import Git from "@/assets/img/abilitiesSection/techno/Git.svg";
 import GitLogo from "@/assets/img/abilitiesSection/techno/GitLogo.svg";
 
+import PHP from "@/assets/img/abilitiesSection/techno/PHP.svg";
+import PHPLogo from "@/assets/img/abilitiesSection/techno/PHPLogo.svg";
+
+import C from "@/assets/img/abilitiesSection/techno/C++.svg";
+import CLogo from "@/assets/img/abilitiesSection/techno/C++Logo.svg";
+
 import Java from "@/assets/img/abilitiesSection/techno/Java.svg";
 import JavaLogo from "@/assets/img/abilitiesSection/techno/JavaLogo.svg";
 
@@ -63,20 +69,36 @@ const abilities = [
   },
   {
     index: 5,
+    name: "PHP",
+    comment: "PHP est un langage de programmation que j'ai utilisé lors de mon apprentissage à l'IUT",
+    progress: 60,
+    logo: PHPLogo,
+    background: PHP,
+  },
+  {
+    index: 6,
+    name: "C/C++/C#",
+    comment: "C/C++/C# sont des langages de programmation que j'ai utilisé lors de mon apprentissage.",
+    progress: 40,
+    logo: CLogo,
+    background: C,
+  },
+  {
+    index: 7,
+    name: "SQL",
+    comment: "SQL je l'ai utilisé pour la gestion de bases de données lors de projets universitaires.",
+    progress: 60,
+    logo: SQLLogo,
+    background: SQL,
+  },
+  {
+    index: 8,
     name: "Java",
-    comment: "Java est un langage de programmation que j'ai utilisé durant des projets universitaire.",
+    comment: "Java est un langage de programmation que j'ai utilisé durant des projets universitaires.",
     progress: 70,
     logo: JavaLogo,
     background: Java,
   },
-  {
-    index: 6,
-    name: "SQL",
-    comment: "SQL je l'ai utilisé pour la gestion de bases de données lors de projets universitaire.",
-    progress: 60,
-    logo: SQLLogo,
-    background: SQL,
-  }
 ];
 
 </script>
