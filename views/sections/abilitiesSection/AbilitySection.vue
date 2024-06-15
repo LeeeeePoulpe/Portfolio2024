@@ -6,11 +6,10 @@
       </div>
     </div>
 
-    <div class="flex flex-col justify-center items-center w-10/12 m-auto gap-10">
+    <div class="flex flex-col justify-center items-center w-10/12 m-auto mb-10 gap-10">
       <CarouselTechnologies/>
       <CarouselLanguage/>
     </div>
-
   </div>
 </template>
 

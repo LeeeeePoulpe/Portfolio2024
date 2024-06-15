@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col gap-3">
-    <h1 class="text-5xl font-bold text-center techno-title">Technologies</h1>
+    <h1 class="text-5xl font-bold techno-title">Technologies</h1>
     <div class="carousel overflow-y-hidden carousel-center p-4 space-x-4 bg-slate-600 shadow-xl shadow-gray-700/50 rounded-box">
       <CarouselItem
           v-for="ability in abilities"
