@@ -1,7 +1,7 @@
 <template>
-  <div class="flex flex-col gap-5">
-    <h1 class="text-3xl font-bold text-center text-black">Langues</h1>
-    <div class="carousel overflow-y-hidden carousel-center max-w-md p-4 space-x-4 bg-slate-600 shadow-xl shadow-gray-700/50 rounded-box">
+  <div class="flex flex-col gap-3">
+    <h1 class="text-5xl line- font-bold text-center language-title">Langues</h1>
+    <div class="carousel overflow-y-hidden carousel-center p-4 space-x-4 bg-slate-600 shadow-xl shadow-gray-700/50 rounded-box">
       <CarouselItem
           v-for="language in languuages"
           :key="language.index"
@@ -11,7 +11,7 @@
   </div>
 </template>
 <script setup>
-import CarouselItem from "~/views/sections/abilitySection/CarouselItem.vue";
+import CarouselItem from "~/views/sections/abilitiesSection/CarouselItem.vue";
 
 import FR from "@/assets/img/abilitiesSection/languages/FR.svg";
 import FRLogo from "@/assets/img/abilitiesSection/languages/FRLogo.svg";
@@ -49,3 +49,13 @@ const languuages = [
   },
 ];
 </script>
+
+<style lang="scss" scoped>
+.language-title {
+  background: linear-gradient(180deg, #7F00FF 20%, #000 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 55px;
+}
+</style>

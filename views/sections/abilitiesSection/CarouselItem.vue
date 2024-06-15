@@ -1,5 +1,5 @@
 <template>
-  <div :id="item.index" class="carousel-item relative h-96">
+  <div :id="item.index" class="carousel-item relative h-96 ">
     <img :src="item.background" class="rounded-box"/>
     <ItemInforamtion
         :logo="item.logo"
@@ -11,7 +11,7 @@
 </template>
 <script setup>
 
-import ItemInforamtion from "~/views/sections/abilitySection/ItemInforamtion.vue";
+import ItemInforamtion from "~/views/sections/abilitiesSection/ItemInforamtion.vue";
 
 defineProps({
   item: Object,

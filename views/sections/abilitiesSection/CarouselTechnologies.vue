@@ -1,7 +1,7 @@
 <template>
-  <div class="flex flex-col gap-5">
-    <h1 class="text-3xl font-bold text-center text-black">Technologies</h1>
-    <div class="carousel overflow-y-hidden carousel-center max-w-md p-4 space-x-4 bg-slate-600 shadow-xl shadow-gray-700/50 rounded-box">
+  <div class="flex flex-col gap-3">
+    <h1 class="text-5xl font-bold text-center techno-title">Technologies</h1>
+    <div class="carousel overflow-y-hidden carousel-center p-4 space-x-4 bg-slate-600 shadow-xl shadow-gray-700/50 rounded-box">
       <CarouselItem
           v-for="ability in abilities"
           :key="ability.index"
@@ -11,7 +11,7 @@
   </div>
 </template>
 <script setup>
-import CarouselItem from "~/views/sections/abilitySection/CarouselItem.vue";
+import CarouselItem from "~/views/sections/abilitiesSection/CarouselItem.vue";
 
 import VueJs from "@/assets/img/abilitiesSection/techno/VueJs.svg";
 import VueJsLogo from "@/assets/img/abilitiesSection/techno/VueJsLogo.svg";
@@ -103,5 +103,14 @@ const abilities = [
     background: Java,
   },
 ];
-
 </script>
+
+<style lang="scss" scoped>
+.techno-title {
+  background: linear-gradient(180deg, #000 0%, #7F00FF 79.5%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 55px;
+}
+</style>
