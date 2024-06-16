@@ -22,6 +22,6 @@ onMounted(() => {
 
 .hero-dynamic-text {
   font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-  color: white !important;
+  color: black !important;
 }
 </style>
