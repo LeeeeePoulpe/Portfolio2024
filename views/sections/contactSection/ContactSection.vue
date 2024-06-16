@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-between" :class="isDesktop ? 'flex-row' : 'flex-col'">
+  <div class="flex justify-between flex-col md:flex-row">
     <div class="flex flex-col justify-between p-5 pb-10 gap-12 bg-slate-100" :class="{'rounded-r-xl max-w-[37.5rem]' : isDesktop}">
       <div class="chat chat-start">
         <div class="chat-bubble chat-bubble--full drop-shadow-md">

@@ -14,8 +14,11 @@ body {
 }
 
 .chat-bubble--full {
-    max-width: 100%;
     text-wrap: auto;
+
+    @screen md {
+        max-width: 100%;
+    }
 }
 
 .chat-bubble--intro {

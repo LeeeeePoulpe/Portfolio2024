@@ -1,7 +1,7 @@
 <template xmlns="http://www.w3.org/1999/html">
   <div class="h-screen w-screen flex flex-col">
     <div class="flex w-full h-full justify-between items-center">
-      <div class="mockup-phone" :class="isDesktop ? 'ml-10' : 'm-auto'">
+      <div class="mockup-phone m-auto lg:ml-10">
         <div class="camera"></div>
         <div class="display">
           <div class="flex flex-col justify-between h-full w-96 px-3 pt-8 gap-12 md:gap-20 bg-slate-50 rounded-r-xl">
