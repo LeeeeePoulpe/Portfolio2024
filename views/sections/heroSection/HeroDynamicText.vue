@@ -1,5 +1,5 @@
 <template>
-  <div id="type" class="md:text-6xl text-4xl hero-dynamic-text"></div>
+  <div id="type" class="flex items-center justify-center border-b-2 h-12 md:text-3xl text-2xl hero-dynamic-text"></div>
 </template>
 
 <script setup>
