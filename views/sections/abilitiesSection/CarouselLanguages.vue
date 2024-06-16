@@ -26,7 +26,7 @@ const languuages = [
   {
     index: 1,
     name: "Français",
-    comment: "J'ai utilisé Vue.Js pour la réalisation de mon site personnel mais aussi pour les ErgoGames ou encore LudoLabo.",
+    comment: "Ma langue maternelle, je l'utilise tous les jours pour communiquer avec mes proches et mes collègues.",
     progress: 100,
     logo: FRLogo,
     background: FR,
@@ -34,7 +34,7 @@ const languuages = [
   {
     index: 2,
     name: "Anglais",
-    comment: "Je l'utilise ici même pour la réalisation de ce site, mais aussi pour les ErgoGames par exemple.",
+    comment: "Je l'utilise pour communiquer avec des personnes du monde entier et pour lire des articles techniques.",
     progress: 80,
     logo: ENLogo,
     background: EN,
@@ -42,7 +42,7 @@ const languuages = [
   {
     index: 3,
     name: "Japonais",
-    comment: "HTML et CSS sont les bases de la programmation web, je les utilise pour tous mes projets.",
+    comment: "Je l'apprend depuis 3 ans, découvert avec les mangas et les animes, j'ai eu l'occasion de le pratiquer lors de mon voyage au Japon.",
     progress: 70,
     logo: JPLogo,
     background: JP,
