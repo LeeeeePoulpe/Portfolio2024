@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-between flex-col md:flex-row">
-    <div class="flex flex-col justify-between p-5 pb-10 gap-12 bg-slate-100" :class="{'rounded-r-xl max-w-[37.5rem]' : isDesktop}">
+    <div class="flex flex-col justify-between p-5 pb-10 gap-12 bg-slate-100 md:max-w-[37.5rem] md:rounded-r-xl">
       <div class="chat chat-start">
         <div class="chat-bubble chat-bubble--full drop-shadow-md">
           Vous voilà déjà arrivé dans la dernière partie de mon portfolio !
@@ -35,23 +35,3 @@
     </div>
   </div>
 </template>
-
-<script setup>
-const windowWidth = ref(typeof window !== 'undefined' ? window.innerWidth : 0);
-
-const updateWindowWidth = () => {
-  if (typeof window !== 'undefined') {
-    windowWidth.value = window.innerWidth;
-  }
-};
-
-onMounted(() => {
-  window.addEventListener('resize', updateWindowWidth);
-});
-
-onBeforeUnmount(() => {
-  window.removeEventListener('resize', updateWindowWidth);
-});
-
-const isDesktop = computed(() => windowWidth.value > 900);
-</script>
