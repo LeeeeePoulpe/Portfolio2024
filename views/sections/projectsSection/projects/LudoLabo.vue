@@ -1,7 +1,7 @@
 <template>
   <div class="text-justify">
     <div class="flex flex-col md:flex-row justify-between mb-10">
-      <div class="max-w-[730px] flex flex-col md:flex-row gap-4 md:pr-5">
+      <div class="max-w-[730px] flex flex-col gap-4 md:pr-5">
         <h1 class="font-bold text-2xl">Contexte</h1>
         <p>
           Ce projet à été réalisé dans le cadre de la formation BUT Informatique de l'IUT2 de Grenoble lors du troisième

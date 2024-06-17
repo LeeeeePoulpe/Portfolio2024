@@ -26,7 +26,7 @@
              class="w-68 rounded-xl self-center">
       </div>
     </div>
-    <div class="flex flex-col md:flex-row gap-4 mb-10">
+    <div class="flex flex-col gap-4 mb-10">
       <h1 class="font-bold text-2xl">Objectifs</h1>
       <p>
         Les objectifs de ce projet étaient de réparer l'application android et le site web du carnet de stage de
