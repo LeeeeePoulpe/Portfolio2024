@@ -1,6 +1,6 @@
 <template>
   <div class="text-justify">
-    <div class="flex mb-10">
+    <div class="flex flex-col md:flex-row mb-10">
       <div class="max-w-[700px] flex flex-col gap-4 pr-5">
         <h1 class="font-bold text-2xl">Contexte</h1>
         <p>
@@ -26,7 +26,7 @@
              class="w-68 rounded-xl self-center">
       </div>
     </div>
-    <div class="flex flex-col gap-4 mb-10">
+    <div class="flex flex-col md:flex-row gap-4 mb-10">
       <h1 class="font-bold text-2xl">Objectifs</h1>
       <p>
         Les objectifs de ce projet étaient de réparer l'application android et le site web du carnet de stage de
@@ -35,7 +35,7 @@
         réparer les bugs de l'application android et du site web. Enfin nous devions ajouter des fonctionnalités
         à l'application.
       </p>
-      <div class="flex flex-row gap-5 items-center">
+      <div class="flex flex-col md:flex-row gap-5 items-center">
         <div class="diff aspect-[8/16] w-[150] rounded-xl">
           <div class="diff-item-1">
             <img src="@/assets/img/projectsSection/CarnetDeStage/MaquettesApres.svg" alt=""/>
@@ -83,7 +83,7 @@
     <div class="divider m-0 divider-neutral"></div>
     <div>
       <h1 class="font-bold text-2xl mb-2">Conclusion</h1>
-      <div class="flex flex-row items-center gap-5">
+      <div class="flex flex-col md:flex-row items-center gap-5">
         <img src="@/assets/img/projectsSection/CarnetDeStage/CarnetConclu.svg" alt=""
              class="w-44 rounded-xl drop-shadow-sm">
         <p>

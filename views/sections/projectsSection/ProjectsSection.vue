@@ -374,9 +374,9 @@ import LudoLabo from "~/views/sections/projectsSection/projects/LudoLabo.vue";
 import Arcsecond from "~/views/sections/projectsSection/projects/Arcsecond.vue";
 import Sciconf from "~/views/sections/projectsSection/projects/Sciconf.vue";
 import GameJam from "~/views/sections/projectsSection/projects/GameJam.vue";
-import IA from "~/views/sections/projectsSection/projects/IA.vue";
-import Titanic from "~/views/sections/projectsSection/projects/Titanic.vue";
 import CGI from "~/views/sections/projectsSection/projects/CGI.vue";
+import Titanic from "~/views/sections/projectsSection/projects/Titanic.vue";
+import IA from "~/views/sections/projectsSection/projects/IA.vue";
 
 const windowWidth = ref(typeof window !== 'undefined' ? window.innerWidth : 0);
 

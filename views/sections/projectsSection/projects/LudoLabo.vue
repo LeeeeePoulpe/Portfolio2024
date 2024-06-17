@@ -1,7 +1,7 @@
 <template>
   <div class="text-justify">
-    <div class="flex justify-between mb-10">
-      <div class="max-w-[730px] flex flex-col gap-4 pr-5">
+    <div class="flex flex-col md:flex-row justify-between mb-10">
+      <div class="max-w-[730px] flex flex-col md:flex-row gap-4 md:pr-5">
         <h1 class="font-bold text-2xl">Contexte</h1>
         <p>
           Ce projet à été réalisé dans le cadre de la formation BUT Informatique de l'IUT2 de Grenoble lors du troisième
@@ -19,7 +19,7 @@
           les élèves d'une même classe.
         </p>
       </div>
-      <div class="flex flex-col gap-5 justify-center w-56">
+      <div class="flex flex-col gap-5 self-center mt-5 w-56">
         <a href="https://github.com/LudoLaboApp" class="hover:scale-105 transition-all">
           <img src="@/assets/img/projectsSection/LudoLabo/LudoLogo.svg" alt="Développement d'IA" class="w-68 rounded-xl drop-shadow-xl self-center">
         </a>
@@ -32,7 +32,7 @@
         l'enseignement de spécialité en physique-chimie. L'application doit offrir aux professeurs la possibilité de
         suivre les progrès de leurs élèves dans leurs révisions.
       </p>
-      <div class="flex flex-row gap-5 items-center">
+      <div class="flex flex-col md:flex-row gap-5 items-center">
         <div class="flex flex-col gap-5">
           <p>
             En rendant le processus de révision ludique et en le reliant à des situations de la vie quotidienne, notre
@@ -52,7 +52,7 @@
     </div>
     <div class="flex flex-col gap-4 mb-10">
       <h1 class="font-bold text-2xl">Résultats</h1>
-      <div class="flex flex-row">
+      <div class="flex flex-col md:flex-row">
         <img src="@/assets/img/projectsSection/LudoLabo/MaquetteClasse.svg" alt="Interface de l'application" class="w-96 rounded-xl ">
         <div class="flex flex-col gap-5 ml-5">
           <p>
@@ -98,7 +98,7 @@
     <div class="divider m-0 divider-neutral"></div>
     <div>
       <h1 class="font-bold text-2xl mb-2">Conclusion</h1>
-      <div class="flex flex-row items-center gap-5">
+      <div class="flex flex-col md:flex-row items-center gap-5">
         <img src="@/assets/img/projectsSection/LudoLabo/LudoConclu.svg" alt="" class="w-44 rounded-xl">
         <p>
           Ce projet a été une expérience très enrichissante pour moi, car j'ai eu l'occasion de m'intégrer dans une

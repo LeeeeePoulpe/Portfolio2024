@@ -1,6 +1,6 @@
 <template>
   <div class="text-justify">
-    <div class="flex mb-10">
+    <div class="flex flex-col md:flex-row mb-10">
       <div class="max-w-[700px] flex flex-col gap-4 pr-5">
         <h1 class="font-bold text-2xl">Contexte</h1>
         <p>
@@ -17,7 +17,7 @@
           à la liste de questions imposées par l'IUT.
         </p>
       </div>
-      <div class="flex justify-center w-72">
+      <div class="flex justify-center self-center w-72">
         <img src="@/assets/img/projectsSection/Titanic/Schema.svg" alt="Développement d'IA"
              class="w-68 self-center drop-shadow-sm rounded-xl">
       </div>
@@ -32,7 +32,7 @@
         les membres de l'équipage, ainsi que les relations entre elles, comme les classes de voyage, les cabines et
         les liens familiaux.
       </p>
-      <div class="flex flex-row gap-5 items-center">
+      <div class="flex flex-col md:flex-row gap-5 items-center">
         <p>
           Une fois le SEA établi, nous devions créer la base de données et la peupler avec un fichier de données fourni.
           Cette étape nous a permis de structurer les informations de manière cohérente et d'assurer l'intégrité des
@@ -50,7 +50,7 @@
     </div>
     <div class="flex flex-col gap-4 mb-10">
       <h1 class="font-bold text-2xl">Résultats</h1>
-      <div class="flex flex-row gap-5 items-center">
+      <div class="flex flex-col md:flex-row gap-5 items-center">
         <img src="@/assets/img/projectsSection/Titanic/Resultats.svg" alt="96%" class="w-56 drop-shadow-sm rounded-xl">
         <p>
           Les résultats de notre projet ont été satisfaisants. Notre schéma entité-association (SEA) nous a
@@ -66,7 +66,7 @@
     <div class="divider m-0 divider-neutral"></div>
     <div>
       <h1 class="font-bold text-2xl mb-2">Conclusion</h1>
-      <div class="flex flex-row items-center gap-5">
+      <div class="flex flex-col md:flex-row items-center gap-5">
         <img src="@/assets/img/projectsSection/Titanic/Conclusion.svg" alt="" class="w-24 h-24 drop-shadow-sm">
         <div>
           <p>

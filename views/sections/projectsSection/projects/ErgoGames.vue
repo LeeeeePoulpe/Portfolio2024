@@ -72,7 +72,7 @@
         Le projet consistait à développer le sixième jeu des Ergo Games "Au pas de course !", au cours duquel les
         joueurs doivent réaliser des courses dans des rayons de supermarchés. Le jeu est divisé en deux parties :
       </p>
-      <div class="flex flex-row justify-center items-center gap-10 mb-4">
+      <div class="flex flex-col md:flex-row justify-center items-center gap-10 mb-4">
         <p>
           Première partie : <br> Affichage aléatoire.
         </p>
@@ -105,7 +105,7 @@
     </div>
     <div class="flex flex-col gap-4 mb-10">
       <h1 class="font-bold text-2xl">Technologies utilisées</h1>
-      <div class="flex flex-row justify-between items-center">
+      <div class="flex flex-col md:flex-row justify-between items-center">
         <div>
           <ul class="list-disc pl-5">
             <li>Framework et Langages :
@@ -136,7 +136,7 @@
     </div>
     <div>
       <h1 class="font-bold text-2xl">Méthodologie et équipe</h1>
-      <div class="flex flex-row items-center">
+      <div class="flex flex-col md:flex-row items-center">
         <img src="@/assets/img/projectsSection/ErgoGames/Planning.svg" alt="" class="w-48 h-48">
         <p>
           Le projet a été organisé en utilisant la méthode SCRUM, fonctionnant par cycles de deux semaines (sprints).
@@ -146,7 +146,7 @@
           prochaines étapes.
         </p>
       </div>
-      <div class="flex flex-row justify-between items-center gap-5">
+      <div class="flex flex-col md:flex-row justify-between items-center gap-5">
         <div>
           <p>
             Durant ce projet j’ai été accompagné d’une équipe :
@@ -177,7 +177,7 @@
     <hr class="my-5 border-2 border-yellow-400 rounded-md"/>
     <div>
       <h1 class="font-bold text-2xl">Conclusion</h1>
-      <div class="flex flex-row items-center gap-5">
+      <div class="flex flex-col md:flex-row items-center gap-5">
         <img src="@/assets/img/projectsSection/ErgoGames/CheckList.svg" alt="" class="w-24 h-24">
         <p>
           En résumé, ce projet m'a permis de développer un jeu illustrant un principe ergonomique numérique, en

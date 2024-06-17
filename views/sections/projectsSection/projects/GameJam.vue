@@ -1,6 +1,6 @@
 <template>
   <div class="text-justify">
-    <div class="flex mb-10">
+    <div class="flex flex-col md:flex-row mb-10">
       <div class="max-w-[700px] flex flex-col gap-4 pr-5">
         <h1 class="font-bold text-2xl">Contexte</h1>
         <p>
@@ -66,7 +66,7 @@
     <div class="divider m-0 divider-neutral"></div>
     <div>
       <h1 class="font-bold text-2xl mb-2">Conclusion</h1>
-      <div class="flex flex-row items-center gap-5">
+      <div class="flex flex-col md:flex-row items-center gap-5">
         <img src="@/assets/img/projectsSection/GameJam.svg" alt="" class="w-44 drop-shadow-sm">
         <p>
           En conclusion, cette GameJam a été une expérience enrichissante qui nous a permis d'apprendre une nouvelle
