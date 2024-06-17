@@ -200,7 +200,7 @@
     </div>
 
     <dialog id="ErgoGamesModal" class="modal">
-      <div class="modal-box w-11/12 max-w-5xl">
+      <div class="modal-box p-10 w-11/12 max-w-5xl">
         <form method="dialog" class="">
           <button class="btn btn-sm btn-circle btn-ghost absolute right-4 top-5">✕</button>
         </form>
@@ -218,7 +218,7 @@
       </form>
     </dialog>
     <dialog id="CarnetDeStageModal" class="modal">
-      <div class="modal-box w-11/12 max-w-5xl">
+      <div class="modal-box p-10 w-11/12 max-w-5xl">
         <form method="dialog" class="">
           <button class="btn btn-sm btn-circle btn-ghost absolute right-4 top-5">✕</button>
         </form>
@@ -236,7 +236,7 @@
       </form>
     </dialog>
     <dialog id="LudoLaboModal" class="modal">
-      <div class="modal-box w-11/12 max-w-5xl">
+      <div class="modal-box p-10 w-11/12 max-w-5xl">
         <form method="dialog" class="">
           <button class="btn btn-sm btn-circle btn-ghost absolute right-4 top-5">✕</button>
         </form>
@@ -254,7 +254,7 @@
       </form>
     </dialog>
     <dialog id="ArcsecondModal" class="modal">
-      <div class="modal-box w-11/12 max-w-5xl">
+      <div class="modal-box p-10 w-11/12 max-w-5xl">
         <form method="dialog" class="">
           <button class="btn btn-sm btn-circle btn-ghost absolute right-4 top-5">✕</button>
         </form>
@@ -272,7 +272,7 @@
       </form>
     </dialog>
     <dialog id="SciconfModal" class="modal">
-      <div class="modal-box w-11/12 max-w-5xl">
+      <div class="modal-box p-10 w-11/12 max-w-5xl">
         <form method="dialog" class="">
           <button class="btn btn-sm btn-circle btn-ghost absolute right-4 top-5">✕</button>
         </form>
@@ -290,7 +290,7 @@
       </form>
     </dialog>
     <dialog id="GameJamModal" class="modal">
-      <div class="modal-box w-11/12 max-w-5xl">
+      <div class="modal-box p-10 w-11/12 max-w-5xl">
         <form method="dialog" class="">
           <button class="btn btn-sm btn-circle btn-ghost absolute right-4 top-5">✕</button>
         </form>
@@ -308,7 +308,7 @@
       </form>
     </dialog>
     <dialog id="CGIModal" class="modal">
-      <div class="modal-box w-11/12 max-w-5xl">
+      <div class="modal-box p-10 w-11/12 max-w-5xl">
         <form method="dialog" class="">
           <button class="btn btn-sm btn-circle btn-ghost absolute right-4 top-5">✕</button>
         </form>
@@ -326,7 +326,7 @@
       </form>
     </dialog>
     <dialog id="TitanicModal" class="modal">
-      <div class="modal-box w-11/12 max-w-5xl">
+      <div class="modal-box p-10 w-11/12 max-w-5xl">
         <form method="dialog" class="">
           <button class="btn btn-sm btn-circle btn-ghost absolute right-4 top-5">✕</button>
         </form>
@@ -344,7 +344,7 @@
       </form>
     </dialog>
     <dialog id="IAModal" class="modal">
-      <div class="modal-box w-11/12 max-w-5xl">
+      <div class="modal-box p-10 w-11/12 max-w-5xl">
         <form method="dialog" class="">
           <button class="btn btn-sm btn-circle btn-ghost absolute right-4 top-5">✕</button>
         </form>
