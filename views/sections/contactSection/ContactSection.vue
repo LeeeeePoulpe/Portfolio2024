@@ -10,11 +10,11 @@
         <div class="chat chat-start">
           <div class="chat-bubble chat-bubble--full drop-shadow-md">
             Si vous avez des questions ou si vous voulez me contacter, n’hésitez pas à
-            <a href="mailto:hugofollmi@gmail.com" class="link link-warning no-underline">m’envoyer un mail</a>
+            <a href="mailto:hugofollmi@gmail.com" class="link link-warning font-bold">m’envoyer un mail</a>
             ou à me contacter sur
-            <a href="https://www.linkedin.com/in/hugo-follmi-71a971214/" class="link link-info no-underline">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/hugo-follmi-71a971214/" class="link link-info font-bold">LinkedIn</a>
             ou
-            <a href="https://github.com/LeeeeePoulpe" class="link link-error no-underline">GitHub</a>.
+            <a href="https://github.com/LeeeeePoulpe" class="link link-error font-bold">GitHub</a>.
           </div>
         </div>
         <div class="chat chat-start">
