@@ -2,7 +2,7 @@
   <img src="@/assets/img/projectsSection/Sciconf/Background.svg" alt=""
        class="absolute top-0 right-0 opacity-40 blur-sm -z-10 w-68 self-center">
   <div class="text-justify">
-    <div class="flex mb-10">
+    <div class="flex flex-col md:flex-row mb-10">
       <div class="max-w-[700px] flex flex-col gap-4">
         <h1 class="font-bold text-2xl">Contexte</h1>
         <p>
@@ -18,7 +18,7 @@
           Nous avons également utilisé une base de données MySQL pour stocker les données.
         </p>
       </div>
-      <div class="flex justify-center w-72">
+      <div class="flex justify-center self-center w-72">
         <a href="" class="hover:scale-105 transition-all self-center">
           <img src="@/assets/img/projectsSection/Sciconf/Logo.svg" alt="Logo Sciconf"
                class="w-52 rounded-xl self-center">
@@ -54,7 +54,7 @@
     <div class="divider m-0 divider-neutral"></div>
     <div>
       <h1 class="font-bold text-2xl mb-2">Conclusion</h1>
-      <div class="flex flex-row items-center gap-5">
+      <div class="flex flex-col md:flex-row items-center gap-5">
         <img src="@/assets/img/projectsSection/Sciconf/Conclu.svg" alt="" class="w-24 drop-shadow-sm">
         <p>
           En conclusion, ce projet nous a permis de comprendre toutes les étapes d'un projet. Nous avons également

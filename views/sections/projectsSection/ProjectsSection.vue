@@ -200,7 +200,7 @@
     </div>
 
     <dialog id="ErgoGamesModal" class="modal">
-      <div class="modal-box w-11/12 max-w-5xl">
+      <div class="modal-box p-10 w-11/12 max-w-6xl">
         <form method="dialog" class="">
           <button class="btn btn-sm btn-circle btn-ghost absolute right-4 top-5">✕</button>
         </form>
@@ -218,7 +218,7 @@
       </form>
     </dialog>
     <dialog id="CarnetDeStageModal" class="modal">
-      <div class="modal-box w-11/12 max-w-5xl">
+      <div class="modal-box p-10 w-11/12 max-w-6xl">
         <form method="dialog" class="">
           <button class="btn btn-sm btn-circle btn-ghost absolute right-4 top-5">✕</button>
         </form>
@@ -236,7 +236,7 @@
       </form>
     </dialog>
     <dialog id="LudoLaboModal" class="modal">
-      <div class="modal-box w-11/12 max-w-5xl">
+      <div class="modal-box p-10 w-11/12 max-w-6xl">
         <form method="dialog" class="">
           <button class="btn btn-sm btn-circle btn-ghost absolute right-4 top-5">✕</button>
         </form>
@@ -254,7 +254,7 @@
       </form>
     </dialog>
     <dialog id="ArcsecondModal" class="modal">
-      <div class="modal-box w-11/12 max-w-5xl">
+      <div class="modal-box p-10 w-11/12 max-w-6xl">
         <form method="dialog" class="">
           <button class="btn btn-sm btn-circle btn-ghost absolute right-4 top-5">✕</button>
         </form>
@@ -272,7 +272,7 @@
       </form>
     </dialog>
     <dialog id="SciconfModal" class="modal">
-      <div class="modal-box w-11/12 max-w-5xl">
+      <div class="modal-box p-10 w-11/12 max-w-6xl">
         <form method="dialog" class="">
           <button class="btn btn-sm btn-circle btn-ghost absolute right-4 top-5">✕</button>
         </form>
@@ -290,7 +290,7 @@
       </form>
     </dialog>
     <dialog id="GameJamModal" class="modal">
-      <div class="modal-box w-11/12 max-w-5xl">
+      <div class="modal-box p-10 w-11/12 max-w-6xl">
         <form method="dialog" class="">
           <button class="btn btn-sm btn-circle btn-ghost absolute right-4 top-5">✕</button>
         </form>
@@ -308,7 +308,7 @@
       </form>
     </dialog>
     <dialog id="CGIModal" class="modal">
-      <div class="modal-box w-11/12 max-w-5xl">
+      <div class="modal-box p-10 w-11/12 max-w-6xl">
         <form method="dialog" class="">
           <button class="btn btn-sm btn-circle btn-ghost absolute right-4 top-5">✕</button>
         </form>
@@ -326,7 +326,7 @@
       </form>
     </dialog>
     <dialog id="TitanicModal" class="modal">
-      <div class="modal-box w-11/12 max-w-5xl">
+      <div class="modal-box p-10 w-11/12 max-w-6xl">
         <form method="dialog" class="">
           <button class="btn btn-sm btn-circle btn-ghost absolute right-4 top-5">✕</button>
         </form>
@@ -344,7 +344,7 @@
       </form>
     </dialog>
     <dialog id="IAModal" class="modal">
-      <div class="modal-box w-11/12 max-w-5xl">
+      <div class="modal-box p-10 w-11/12 max-w-6xl">
         <form method="dialog" class="">
           <button class="btn btn-sm btn-circle btn-ghost absolute right-4 top-5">✕</button>
         </form>
@@ -374,9 +374,9 @@ import LudoLabo from "~/views/sections/projectsSection/projects/LudoLabo.vue";
 import Arcsecond from "~/views/sections/projectsSection/projects/Arcsecond.vue";
 import Sciconf from "~/views/sections/projectsSection/projects/Sciconf.vue";
 import GameJam from "~/views/sections/projectsSection/projects/GameJam.vue";
-import IA from "~/views/sections/projectsSection/projects/IA.vue";
-import Titanic from "~/views/sections/projectsSection/projects/Titanic.vue";
 import CGI from "~/views/sections/projectsSection/projects/CGI.vue";
+import Titanic from "~/views/sections/projectsSection/projects/Titanic.vue";
+import IA from "~/views/sections/projectsSection/projects/IA.vue";
 
 const windowWidth = ref(typeof window !== 'undefined' ? window.innerWidth : 0);
 

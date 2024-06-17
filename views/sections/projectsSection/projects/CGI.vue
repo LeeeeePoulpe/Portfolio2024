@@ -1,6 +1,6 @@
 <template>
   <div class="text-justify">
-    <div class="flex mb-10">
+    <div class="flex flex-col md:flex-row mb-10">
       <div class="max-w-[700px] flex flex-col gap-4 pr-5">
         <h1 class="font-bold text-2xl">Contexte</h1>
         <p>
@@ -29,7 +29,7 @@
         stage, en respectant son identité visuelle et en fournissant des informations pertinentes. Le projet était
         divisé en trois parties : recueil des besoins, création de la maquette, et développement du site.
       </p>
-      <div class="flex flex-row gap-5 items-center">
+      <div class="flex flex-col md:flex-row gap-5 items-center">
         <img src="@/assets/img/projectsSection/CGI/Maquette.svg" alt="96%" class="w-44 rounded-xl drop-shadow-sm">
         <div class="flex flex-col gap-5">
           <p>
@@ -59,7 +59,7 @@
     <div class="divider m-0 divider-neutral"></div>
     <div>
       <h1 class="font-bold text-2xl mb-2">Conclusion</h1>
-      <div class="flex flex-row items-center gap-5">
+      <div class="flex flex-col md:flex-row items-center gap-5">
         <img src="@/assets/img/projectsSection/CGI/ConcluCGI.svg" alt="" class="w-32 rounded-xl drop-shadow-sm">
         <p>
           En conclusion, ce projet sur CGI France a été une expérience enrichissante qui nous a permis de mettre en

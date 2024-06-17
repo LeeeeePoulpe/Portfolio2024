@@ -1,6 +1,6 @@
 <template>
   <div class="text-justify">
-    <div class="flex mb-10">
+    <div class="flex flex-col md:flex-row mb-10">
       <div class="max-w-[700px] flex flex-col gap-4 pr-5">
         <h1 class="font-bold text-2xl">Contexte</h1>
         <p>
@@ -25,7 +25,7 @@
     </div>
     <div class="flex flex-col gap-4 mb-10">
       <h1 class="font-bold text-2xl">Objectifs</h1>
-      <div class="flex flex-row gap-5 items-center">
+      <div class="flex flex-col md:flex-row gap-5 items-center">
         <img src="@/assets/img/projectsSection/IA/96.svg" alt="96%" class="w-24">
         <p>
           L'objectif principal de notre projet était de développer un programme capable de trier automatiquement des dépêches de
@@ -61,7 +61,7 @@
     <div class="divider m-0 divider-neutral"></div>
     <div>
       <h1 class="font-bold text-2xl">Conclusion</h1>
-      <div class="flex flex-row items-center gap-5">
+      <div class="flex flex-col md:flex-row items-center gap-5">
         <img src="@/assets/img/projectsSection/ErgoGames/CheckList.svg" alt="" class="w-24 h-24">
         <div>
           <p class="mb-3">

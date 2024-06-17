@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col gap-3">
     <h1 class="text-5xl line- font-bold language-title">Langues</h1>
-    <div class="carousel overflow-y-hidden carousel-center p-4 space-x-4 bg-slate-600 shadow-xl shadow-gray-700/50 rounded-box">
+    <div class="carousel overflow-y-scroll carousel-center p-4 space-x-4 bg-slate-600 shadow-xl shadow-gray-700/50 rounded-box">
       <CarouselItem
           v-for="language in languuages"
           :key="language.index"
