@@ -25,14 +25,13 @@
 <script setup>
 const dates = [
   {year: 2022, event: 'Entrée à l’IUT'},
-  {year: 2022, event: 'IA de tri'},
-  {year: 2022, event: 'Création BD'},
-  {year: 2022, event: 'Site CGI'},
-  {year: 2023, event: 'GameJam'},
+  {year: 2023, event: 'GameJam 2023'},
   {year: 2023, event: 'Sciconf'},
   {year: 2023, event: 'Arcsecond'},
   {year: 2024, event: 'LudoLabo'},
   {year: 2024, event: 'Carnet de stage'},
   {year: 2024, event: 'Stage ErgoGames'},
+  {year: 2024, event: 'GameJam 2024'},
+  {year: 2025, event: 'Alternance'},
 ];
 </script>

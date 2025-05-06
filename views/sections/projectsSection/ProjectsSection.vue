@@ -101,17 +101,32 @@ import ProjectsTimeLine from "~/views/sections/projectsSection/ProjectsTimeLine.
 import ProjectCard from "~/views/sections/projectsSection/ProjectCard.vue";
 
 // Importing project components
+import Alternance from "~/views/sections/projectsSection/projects/Alternance.vue";
+import GameJam2 from "./projects/GameJam2.vue";
 import ErgoGames from "~/views/sections/projectsSection/projects/ErgoGames.vue";
 import CarnetDeStage from "~/views/sections/projectsSection/projects/CarnetDeStage.vue";
 import LudoLabo from "~/views/sections/projectsSection/projects/LudoLabo.vue";
 import Arcsecond from "~/views/sections/projectsSection/projects/Arcsecond.vue";
 import Sciconf from "~/views/sections/projectsSection/projects/Sciconf.vue";
 import GameJam from "~/views/sections/projectsSection/projects/GameJam.vue";
-import CGI from "~/views/sections/projectsSection/projects/CGI.vue";
-import Titanic from "~/views/sections/projectsSection/projects/Titanic.vue";
-import IA from "~/views/sections/projectsSection/projects/IA.vue";
 
 const projectList = [
+  {
+    name: "Alternance",
+    component: Alternance,
+    image: "/Alternance.svg",
+    description:
+      "Alternance au sein de l'entreprise Enogrid (Mon Energie Collective).",
+    tags: ["React", "TypeScript", "Node.Js"],
+  },
+  {
+    name: "GameJam 2024",
+    component: GameJam2,
+    image: "/GameJam2.svg",
+    description:
+      "Développement d’un jeu vidéo dans “le monde merveilleux de l’IUT2”.",
+    tags: ["Python", "PyGame"],
+  },
   {
     name: "ErgoGames",
     component: ErgoGames,
@@ -150,33 +165,12 @@ const projectList = [
     tags: ["Java", "JavaFX"],
   },
   {
-    name: "GameJam",
+    name: "GameJam 2023",
     component: GameJam,
     image: "/GameJam.svg",
     description:
       "Développement d’un jeu vidéo dans “le monde merveilleux de l’IUT2”.",
     tags: ["Python", "PyGame"],
-  },
-  {
-    name: "CGI",
-    component: CGI,
-    image: "/CGI.svg",
-    description: "Réalisation d’un site Web",
-    tags: ["Gestion de Projet", "HTML / CSS"],
-  },
-  {
-    name: "Titanic",
-    component: Titanic,
-    image: "/Titanic.svg",
-    description: "Réalisation d'une BD",
-    tags: ["Schéma relationel", "SQL"],
-  },
-  {
-    name: "IA",
-    component: IA,
-    image: "/IA.svg",
-    description: "Création d’une IA de tri",
-    tags: ["Java"],
   },
 ];
 

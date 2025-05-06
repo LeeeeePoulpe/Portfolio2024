@@ -1,105 +1,405 @@
 <template>
-    <div class="text-justify">
-      <div class="flex flex-col md:flex-row justify-between mb-10">
-        <div class="max-w-[800px] flex flex-col gap-4 md:pr-5">
-          <h1 class="font-bold text-2xl">Contexte</h1>
+  <div class="text-justify">
+    <!-- Introduction (Optional) -->
+    <div class="mb-10 space-y-2">
+      <h1 class="font-bold text-3xl mb-4">Mon Alternance en Développement</h1>
+      <p>
+        Au cours de mon alternance chez Enogrid une entreprise spécialisée dans
+        la gestion de l'énergie et la transition énergétique, j'ai eu l'occasion
+        de travailler sur deux projets passionnants. Le premier projet, "Mon
+        Energie Collective", c'est un outil en ligne qui permet aux utilisateurs
+        de crée et de mettre en place des projet d'autoconsommation collective.
+      </p>
+      <p>
+        Le second projet, "EnoConso", est une application qui aide les
+        utilisateurs à suivre leur consommation d'énergie.
+      </p>
+      <p>
+        Au cours de ces projets, j'ai acquis des compétences précieuses en
+        développement front-end ainsi qu'une compréhension approfondie des
+        enjeux liés à la gestion de l'énergie.
+      </p>
+    </div>
+
+    <hr class="my-10 border-2 border-emerald-400 rounded-md" />
+
+    <!-- Projet 1: Mon Enegergie Collective -->
+    <div>
+      <h1 class="font-bold text-3xl mb-6">
+        Semestre 1: Mon Energie Collective
+      </h1>
+
+      <!-- Contexte -->
+      <div class="flex flex-col md:flex-row mb-10">
+        <div class="max-w-[700px] flex flex-col gap-4 pr-5">
+          <h2 class="font-bold text-2xl">Contexte</h2>
           <p>
-            Ce projet a été réalisé dans le cadre d'un emploi d'été chez
-            <a href="https://www.arcsecond.io/" class="link link-info no-underline transition-colors"><b>Arcsecond</b></a>
-            , une micro entreprise qui développe
-            une plateforme cloud complète pour les observations astronomiques, offrant des fonctionnalités avancées pour
-            les
-            astronomes et les observatoires professionnels.
+            Le site des
+            <a
+              href="https://www.ergogames.fr/"
+              class="link no-underline text-[#0a5e5c]"
+              ><b>ErgoGames</b></a
+            >. est un site Web conçu pour présenter de manière ludique les
+            principes ergonomiques du numérique, tel que : les actions minimales
+            ou encore la gestion des erreurs. Il propose des jeux et un quiz
+            (toujours en développement) pour faciliter l'apprentissage de ces
+            principes et vérifier la compréhension des utilisateurs.
           </p>
           <p>
-            Mon objectif était de réaliser une amélioration de l'interface utilisateur de l'application web d'Arcsecond :
-            j'ai améliorée la page d'accueil des portails d'observatoires. Cette page est la première
-            page que les utilisateurs voient lorsqu'ils se connectent à leurs portails. Elle doit être claire, intuitive
-            et
-            permettre aux utilisateurs de se retrouver facilement.
+            Ce développement a été réalisé dans le cadre d'un stage chez
+            Sogilis, une entreprise de génie logiciel basée à Grenoble,
+            spécialisée dans la création de solutions sur mesure de haute
+            qualité pour divers secteurs industriels. Elle se distingue par ses
+            valeurs fortes et son engagement envers la qualité, l'innovation et
+            l'expérience utilisateur.
           </p>
           <p>
-            Ce projet était un défi pour moi, car je n'avais jamais travaillé sur une application de cette envergure
-            et avec les technologies utilisées :
-            <a href="https://vuejs.org/" class="link link-primary"><b>Vue.Js</b></a>,
-            <a href="https://developer.mozilla.org/fr/docs/Web/JavaScript" class="link link-primary"><b>JavaScript</b></a>,
-            <a href="https://primeflex.org/" class="link link-primary"><b>PrimeFlex</b></a>
-            et avec la librairie de composants
-            <a href="https://primevue.org/" class="link link-primary"><b>PrimeVue</b></a>.
+            Mon sujet de stage portait sur le développement du sixième jeu des
+            ErgoGames "Au pas de course !". Ce jeu a pour objectif de présenter
+            le principe ergonomique du groupement / proximité de manière simple
+            et ludique, avec une représentation visuelle interactive.
           </p>
         </div>
-        <div class="flex flex-col gap-5 justify-center mt-5 self-center w-56">
-          <a href="https://github.com/LudoLaboApp" class="hover:scale-105 transition-all self-center">
-            <img src="@/assets/img/projectsSection/Arcsecond/ArcsecondLogo.svg" alt="Développement d'IA"
-                 class="w-68 rounded-xl self-center">
+        <div class="flex flex-col justify-center gap-5 w-72">
+          <a
+            href="https://sogilis.com/"
+            class="self-center hover:scale-105 hover:drop-shadow-xl transition-all w-44 h-fit"
+          >
+            <img
+              src="@/assets/img/projectsSection/ErgoGames/LogoSogilis.svg"
+              alt="ErgoGames"
+              class=""
+            />
           </a>
+          <div class="flex flex-wrap items-center justify-between">
+            <a
+              href="https://www.ergogames.fr/"
+              class="hover:scale-105 hover:drop-shadow-xl transition-all w-44 h-fit"
+            >
+              <div class="flex flex-col items-center font-bold">
+                <div
+                  class="logo_first_line text-sm md:text-base -mb-2 :md-mb-2.5"
+                >
+                  Les
+                </div>
+                <div class="logo_second_line text-base md:text-2xl">
+                  ERGOGAMES&nbsp;!
+                </div>
+              </div>
+            </a>
+            <img
+              src="@/assets/img/projectsSection/ErgoGames/Renard.svg"
+              alt="ErgoGames"
+              class="w-24 drop-shadow-sm"
+            />
+          </div>
         </div>
       </div>
+
+      <!-- Objectifs -->
       <div class="flex flex-col gap-4 mb-10">
-        <h1 class="font-bold text-2xl">Objectifs et déroulé</h1>
+        <h2 class="font-bold text-2xl">Objectifs</h2>
         <p>
-          L'objectif était d'améliorer l'interface utilisateur de l'application.
-          Pour cela je me suis occupé dans un premier temps de redesigner l'affichage des évenements de la page d'accueil
-          des portails d'observatoires. Ceux-ci étaient similaires les unes aux autres et il était complexe
-          de distinguer les différents types d'évenements.
+          Développer un jeu interactif pour les ErgoGames afin d'enseigner le
+          principe ergonomique du groupement/proximité. Ce principe stipule que
+          les éléments proches les uns des autres sont perçus comme un groupe et
+          doivent être organisés de manière à faciliter l'utilisation et
+          l'accès.
         </p>
-        <div class="flex flex-col md:flex-row gap-5 items-center">
-          <div class="flex flex-col gap-5">
-            <p>
-              J'ai commencé par réaliser une analyse de l'affichage existant. J'ai ensuite proposé 2 maquettes
-              différentes,
-              en m'inspirant des évenements existants afin de garder l'identité visuelle.
-            </p>
-            <p>
-              Une fois les maquettes validées, j'ai commencé à implémenter les nouveaux évenements en tenant compte
-              de la structure du code déjà existant. J'ai rencontré quelques difficultés lors du développement car c'est
-              un
-              projet d'une grande envergure et d'une grande complexité.
-            </p>
-            <p>
-              J'ai donc dû faire preuve de patience et de persévérance pour réussir à implémenter les nouveaux évenements.
-              La curiosité a été la clé pour solutionner les problèmes rencontrés.
-            </p>
-          </div>
-          <img src="@/assets/img/projectsSection/Arcsecond/Portal.png" alt="96%"
-               class="w-96 rounded-xl drop-shadow-sm">
+        <p>
+          Développer une interface utilisateur intuitive pour faciliter une
+          interaction fluide avec l’utilisateur. L'interface doit être
+          compréhensible et accessible pour les joueurs de tous niveaux. Le jeu
+          doit être captivant tout en transmettant clairement le principe
+          ergonomique.
+        </p>
+        <p>
+          Développer une page dédiée à
+          <a
+            href="https://www.ergogames.fr/principles"
+            class="link link-primary"
+            ><b> l'explication du principe ergonomique</b></a
+          >. Cette page explicative fournira une analyse détaillée du concept de
+          groupement/proximité, accompagnée d'exemples concrets et
+          d'illustrations visuelles.
+        </p>
+        <div class="flex flex-wrap md:flex-row justify-center gap-20">
+          <img
+            src="@/assets/img/projectsSection/ErgoGames/MaquetteRules.svg"
+            alt="Maquette des règles"
+            class="w-60 rounded-md drop-shadow-md"
+          />
+          <img
+            src="@/assets/img/projectsSection/ErgoGames/MaquettePrinciple.svg"
+            alt="Maquette du principe"
+            class="w-64 rounded-md drop-shadow-md"
+          />
         </div>
       </div>
+
+      <!-- Réalisations -->
       <div class="flex flex-col gap-4 mb-10">
-        <h1 class="font-bold text-2xl">Résultats</h1>
-        <div class="flex flex-col md:flex-row">
-          <img src="@/assets/img/projectsSection/Arcsecond/Event.svg" alt="Interface de l'application" class="w-96 mb-5 rounded-xl">
-          <div class="flex flex-col gap-5 ml-5">
-            <p>
-              J'ai réussi à implémenter les nouveaux événements et à améliorer l'interface utilisateur de l'application.
-              Les nouveaux événements sont plus clairs et plus intuitifs. Les utilisateurs peuvent désormais distinguer
-              facilement les différents types d'événements. Cela inclut une meilleure catégorisation des évenements.
-            </p>
-            <p>
-              Les modifications apportées à l'interface utilisateur ont également été significatives. J'ai intégré des
-              éléments de design moderne qui rendent l'application non seulement plus agréable à utiliser, mais aussi plus
-              fonctionnelle. Par exemple, les couleurs et les icônes sont désormais utilisées de manière stratégique pour
-              attirer l'attention sur les informations les plus importantes et guider l'utilisateur à travers les
-              différentes sections de l'application sans confusion.
-            </p>
-            <p>
-              Les retours des utilisateurs ont été très positifs. Ils ont apprécié les améliorations apportées à
-              l'interface utilisateur et ont trouvé l'application plus facile à utiliser.
-            </p>
+        <h2 class="font-bold text-2xl">Réalisations</h2>
+        <p>
+          Le projet consistait à développer le sixième jeu des Ergo Games "Au
+          pas de course !", au cours duquel les joueurs doivent réaliser des
+          courses dans des rayons de supermarchés. Le jeu est divisé en deux
+          parties :
+        </p>
+        <div
+          class="flex flex-col md:flex-row justify-center items-center gap-10 mb-4"
+        >
+          <p>
+            Première partie : <br />
+            Affichage aléatoire.
+          </p>
+          <div class="diff aspect-[16/9] w-72 h-72">
+            <div class="diff-item-1">
+              <img
+                src="@/assets/img/projectsSection/ErgoGames/MaquetteSecondRound.svg"
+                alt=""
+              />
+            </div>
+            <div class="diff-item-2">
+              <img
+                src="@/assets/img/projectsSection/ErgoGames/MaquetteFirstRound.svg"
+                alt=""
+              />
+            </div>
+            <div class="diff-resizer"></div>
+          </div>
+          <p>
+            Deuxième partie : <br />
+            Affichage organisé.
+          </p>
+        </div>
+        <div>
+          <p>Livrables professionnels :</p>
+          <ul class="list-disc pl-5 mb-3">
+            <li>
+              Jeu interactif : illustrant le principe de groupement/proximité.
+            </li>
+            <li>Page explicative : détail du principe ergonomique.</li>
+          </ul>
+          <p>Livrables personnels :</p>
+          <ul class="list-disc pl-5">
+            <li>
+              Documentation et rapports de suivi : Journal de bord hebdomadaire
+              et documentation technique.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Technologies utilisées pour Projet 1 -->
+      <div class="flex flex-col gap-4 mb-10">
+        <h2 class="font-bold text-2xl">Technologies utilisées</h2>
+        <div class="flex flex-col md:flex-row justify-between items-center">
+          <div>
+            <ul class="list-disc pl-5">
+              <li>
+                Framework et Langages :
+                <a href="https://vuejs.org/" class="link link-primary"
+                  ><b>Vue.js 3</b></a
+                >
+                et
+                <a
+                  href="https://developer.mozilla.org/fr/docs/Web/JavaScript"
+                  class="link link-primary"
+                  ><b>JavaScript</b></a
+                >
+                pour le développement front-end.
+              </li>
+              <li>
+                Librairies :
+                <a href="https://vuetifyjs.com/en/" class="link link-primary"
+                  ><b>Vuetify</b></a
+                >
+                pour les composants UI.
+              </li>
+              <li>
+                Gestion de Versions :
+                <a href="https://about.gitlab.com/" class="link link-primary"
+                  ><b>GitLab</b></a
+                >
+                pour le contrôle de version et la collaboration.
+              </li>
+              <li>
+                Design :
+                <a href="https://www.figma.com/fr-fr/" class="link link-primary"
+                  ><b>Figma</b></a
+                >
+                pour la création des maquettes.
+              </li>
+              <li>
+                Outils de Développement : IntelliJ IDEA pour l'édition de code.
+              </li>
+            </ul>
+          </div>
+          <div>
+            <img
+              src="@/assets/img/projectsSection/ErgoGames/Technologies.svg"
+              alt=""
+              class="w-52"
+            />
           </div>
         </div>
       </div>
-      <div class="divider m-0 divider-neutral"></div>
-      <div>
-        <h1 class="font-bold text-2xl mb-2">Conclusion</h1>
-        <div class="flex flex-col md:flex-row items-center gap-5">
-          <img src="@/assets/img/projectsSection/Arcsecond/Conclu.svg" alt="" class="w-28 rounded-xl">
+
+      <!-- Méthodologie et équipe pour Projet 1 -->
+      <div class="flex flex-col gap-4 mb-10">
+        <h2 class="font-bold text-2xl">Méthodologie et équipe</h2>
+        <div class="flex flex-col md:flex-row items-center">
+          <img
+            src="@/assets/img/projectsSection/ErgoGames/Planning.svg"
+            alt=""
+            class="w-48 h-48"
+          />
           <p>
-            Ce projet a été une expérience extrêmement enrichissante pour moi. J'ai eu l'occasion de travailler sur un
-            projet de grande envergure et de grande complexité. J'ai pu apprendre à travailler avec des technologies
-            que je ne connaissais pas et à m'adapter à un code existant.
+            Le projet a été organisé en utilisant la méthode SCRUM, fonctionnant
+            par cycles de deux semaines (sprints). Chaque sprint comprenait une
+            réunion quotidienne (Daily) pour le suivi des tâches, ainsi qu'une
+            reunion de fin de sprint qui combinait trois étapes essentielles :
+            la Sprint Review pour examiner les travaux réalisés, la Sprint
+            Retrospective pour identifier des pistes d'amélioration, et la
+            Sprint Planning pour planifier les prochaines étapes.
           </p>
+        </div>
+        <div
+          class="flex flex-col md:flex-row justify-between items-center gap-5"
+        >
+          <div>
+            <p>Durant ce projet j’ai été accompagné d’une équipe :</p>
+            <ul class="list-disc pl-5 mb-3">
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/benoit-dumas/"
+                  class="link link-primary"
+                  ><b>Benoît Dumas</b></a
+                >. : Maître de stage, a fourni encadrement et directives.
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/margaux-lergo/"
+                  class="link link-primary"
+                  ><b>Margaux Perrin</b></a
+                >. : Product owner, a validé les réalisations et ajusté les
+                tâches.
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/antoine-du-bois-60b429196/"
+                  class="link link-primary"
+                  ><b>Antoine Dubois</b></a
+                >. : Développeur, a aidé sur des aspects techniques spécifiques.
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/benjaminbiguet/"
+                  class="link link-primary"
+                  ><b>Benjamin Biguet</b></a
+                >. : Designer, a créé les maquettes et scénarios.
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/lucjeanniard/"
+                  class="link link-primary"
+                  ><b>Luc Jeanniard</b></a
+                >. et
+                <a
+                  href="https://www.linkedin.com/in/c%C3%A9cile-gesbert-b4571653/"
+                  class="link link-primary"
+                  ><b>Cécile Gesbert</b></a
+                >. : Support administratif.
+              </li>
+            </ul>
+          </div>
+          <img
+            src="@/assets/img/projectsSection/ErgoGames/People.svg"
+            alt=""
+            class="w-44 h-44"
+          />
         </div>
       </div>
     </div>
-  </template>
+
+    <hr class="my-10 border-2 border-red-400 rounded-md" />
+
+    <!-- Projet 2: EnoConso -->
+    <div>
+      <h1 class="font-bold text-3xl mb-6">Projet 2: EnoConso</h1>
+
+      <!-- Contexte de Projet 2 -->
+      <div class="flex flex-col gap-4 mb-10">
+        <h2 class="font-bold text-2xl">Contexte</h2>
+        <p>
+          <!-- Place your context for the second project here -->
+          Décrivez le contexte du deuxième projet ici.
+        </p>
+      </div>
+
+      <!-- Objectifs de Projet 2 -->
+      <div class="flex flex-col gap-4 mb-10">
+        <h2 class="font-bold text-2xl">Objectifs</h2>
+        <p>
+          <!-- Place your objectives for the second project here -->
+          Décrivez les objectifs du deuxième projet ici.
+        </p>
+      </div>
+
+      <!-- Réalisations de Projet 2 -->
+      <div class="flex flex-col gap-4 mb-10">
+        <h2 class="font-bold text-2xl">Réalisations</h2>
+        <p>
+          <!-- Describe your achievements for the second project here -->
+          Décrivez vos réalisations pour le deuxième projet ici.
+        </p>
+        <!-- You can add lists, images, etc. for the second project's achievements -->
+      </div>
+
+      <!-- Technologies utilisées pour Projet 2 -->
+      <div class="flex flex-col gap-4 mb-10">
+        <h2 class="font-bold text-2xl">Technologies utilisées</h2>
+        <div>
+          <ul class="list-disc pl-5">
+            <!-- List the technologies used for the second project -->
+            <li>Technologie 1</li>
+            <li>Technologie 2</li>
+            <!-- Add more technologies as needed -->
+          </ul>
+        </div>
+        <!-- You can add an image related to technologies for the second project if you have one -->
+      </div>
+
+      <!-- Méthodologie et équipe pour Projet 2 -->
+      <div class="flex flex-col gap-4 mb-10">
+        <h2 class="font-bold text-2xl">Méthodologie et équipe</h2>
+        <!-- Describe the methodology and team for the second project -->
+        <p>Décrivez la méthodologie et l'équipe pour le deuxième projet ici.</p>
+        <!-- You can add images or lists as needed for the second project -->
+      </div>
+    </div>
+
+    <hr class="my-10 border-2 border-green-400 rounded-md" />
+
+    <!-- Conclusion Générale de l'Alternance -->
+    <div>
+      <h1 class="font-bold text-3xl mb-6">Conclusion Générale</h1>
+      <div class="flex flex-col md:flex-row items-center gap-5">
+        <img
+          src="@/assets/img/projectsSection/ErgoGames/CheckList.svg"
+          alt=""
+          class="w-24 h-24"
+        />
+        <p>
+          En résumé, mon alternance m'a permis de travailler sur ces deux
+          projets significatifs, renforçant mes compétences en développement
+          logiciel et en gestion de projet. [Ajoutez ici une phrase ou deux sur
+          les principaux apprentissages ou les points forts de l'alternance dans
+          son ensemble].
+        </p>
+      </div>
+    </div>
+  </div>
+</template>
+<script setup lang="ts"></script>
