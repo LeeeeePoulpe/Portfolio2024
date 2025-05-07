@@ -8,7 +8,7 @@
         </div>
       </div>
 
-      <ProjectsTimeLine v-if="isDesktop" />
+      <ProjectsTimeLine v-if="isDesktop" @event-click="openModalWithTimelineEvent" />
 
       <div class="flex flex-row flex-wrap justify-center gap-4 mb-10">
         <button
@@ -108,7 +108,7 @@ import CarnetDeStage from "~/views/sections/projectsSection/projects/CarnetDeSta
 import LudoLabo from "~/views/sections/projectsSection/projects/LudoLabo.vue";
 import Arcsecond from "~/views/sections/projectsSection/projects/Arcsecond.vue";
 import Sciconf from "~/views/sections/projectsSection/projects/Sciconf.vue";
-import GameJam from "~/views/sections/projectsSection/projects/GameJam.vue";
+import GameJam from "./projects/GameJam.vue";
 
 const projectList = [
   {
@@ -124,7 +124,7 @@ const projectList = [
     component: GameJam2,
     image: "/GameJam2.svg",
     description:
-      "Développement d’un jeu vidéo dans “le monde merveilleux de l’IUT2”.",
+      "Développement d'un jeu vidéo dans 'le monde merveilleux de l\'IUT2'.",
     tags: ["Python", "PyGame"],
   },
   {
@@ -139,14 +139,14 @@ const projectList = [
     component: CarnetDeStage,
     image: "/CarnetDeStage.svg",
     description:
-      "Correction d’une application de répertoire d’offres et candidatures.",
+      "Correction d'une application de répertoire d'offres et candidatures.",
     tags: ["Symfony", "Android"],
   },
   {
     name: "LudoLabo",
     component: LudoLabo,
     image: "/LudoLabo.svg",
-    description: "Développement d’un jeu ludoEducatif en science physique.",
+    description: "Développement d'un jeu ludoEducatif en science physique.",
     tags: ["Unity", "Vue.Js", "Symfony"],
   },
   {
@@ -154,14 +154,14 @@ const projectList = [
     component: Arcsecond,
     image: "/Arcsecond.svg",
     description:
-      "Amélioration de la partie visuelle de la page d’accueil des portails.",
+      "Amélioration de la partie visuelle de la page d'accueil des portails.",
     tags: ["Vue.Js", "JavaScript"],
   },
   {
     name: "Sciconf",
     component: Sciconf,
     image: "/Sciconf.svg",
-    description: "Développement d’une application de gestion de conférences.",
+    description: "Développement d'une application de gestion de conférences.",
     tags: ["Java", "JavaFX"],
   },
   {
@@ -169,7 +169,7 @@ const projectList = [
     component: GameJam,
     image: "/GameJam.svg",
     description:
-      "Développement d’un jeu vidéo dans “le monde merveilleux de l’IUT2”.",
+      "Développement d'un jeu vidéo dans 'le monde merveilleux de l\'IUT2'.",
     tags: ["Python", "PyGame"],
   },
 ];
@@ -182,6 +182,15 @@ const openModal = (projectName) => {
     modalElement.showModal();
   } else {
     console.error(`Modal with name ${projectName} not found.`);
+  }
+};
+
+const openModalWithTimelineEvent = (eventName) => {
+  const projectExists = projectList.some(project => project.name === eventName);
+  if (projectExists) {
+    openModal(eventName);
+  } else {
+    console.warn(`Timeline event "${eventName}" was clicked, but no corresponding project modal was found.`);
   }
 };
 
