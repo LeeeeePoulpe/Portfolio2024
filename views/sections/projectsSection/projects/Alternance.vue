@@ -4,11 +4,11 @@
     <div class="mb-10 space-y-2">
       <h1 class="font-bold text-3xl mb-4">Mon Alternance en Développement</h1>
       <p>
-        Au cours de mon alternance chez Enogrid une entreprise spécialisée dans
+        Au cours de mon alternance chez Enogrid, une entreprise spécialisée dans
         la gestion de l'énergie et la transition énergétique, j'ai eu l'occasion
         de travailler sur deux projets passionnants. Le premier projet, "Mon
-        Energie Collective", c'est un outil en ligne qui permet aux utilisateurs
-        de crée et de mettre en place des projet d'autoconsommation collective.
+        Energie Collective", est un outil en ligne qui permet aux utilisateurs
+        de créer et de mettre en place des projets d'autoconsommation collective.
       </p>
       <p>
         Le second projet, "EnoConso", est une application qui aide les
@@ -34,64 +34,60 @@
         <div class="max-w-[700px] flex flex-col gap-4 pr-5">
           <h2 class="font-bold text-2xl">Contexte</h2>
           <p>
-            Le site des
-            <a
-              href="https://www.ergogames.fr/"
-              class="link no-underline text-[#0a5e5c]"
-              ><b>ErgoGames</b></a
-            >. est un site Web conçu pour présenter de manière ludique les
-            principes ergonomiques du numérique, tel que : les actions minimales
-            ou encore la gestion des erreurs. Il propose des jeux et un quiz
-            (toujours en développement) pour faciliter l'apprentissage de ces
-            principes et vérifier la compréhension des utilisateurs.
+            <a href="https://www.enogrid.com/" target="_blank" class="link link-primary">
+              Enogrid
+            </a>
+            est une entreprise spécialisée dans la gestion de l'énergie
+            et la transition énergétique. Fondée en 2018 par trois ingénieurs passionnés, cette start-up s'est construite 
+            autour d'une mission ambitieuse : démocratiser la transition énergétique à l'échelle locale. 
+            Elle propose des solutions innovantes pour les entreprises et les collectivités, 
+            qui simplifient la création, la gestion et le suivi de projets d'autoconsommation collective.
           </p>
           <p>
-            Ce développement a été réalisé dans le cadre d'un stage chez
-            Sogilis, une entreprise de génie logiciel basée à Grenoble,
-            spécialisée dans la création de solutions sur mesure de haute
-            qualité pour divers secteurs industriels. Elle se distingue par ses
-            valeurs fortes et son engagement envers la qualité, l'innovation et
-            l'expérience utilisateur.
+            Lors du premier semestre de mon alternance, j'ai eu l'occasion de
+            travailler sur le projet
+            <a href="https://monenergiecollective.fr/" target="_blank" class="link link-primary">
+              Mon Energie Collective
+            </a>
+            . C'est une plateforme centrale pour la mise en œuvre opérationnelle des projets d'autoconsommation collective.
+            Cet outil accompagne l'ensemble du processus, depuis la création de la Personne Morale Organisatrice (PMO)
+            jusqu'au recrutement des bénéficiaires.
           </p>
           <p>
-            Mon sujet de stage portait sur le développement du sixième jeu des
-            ErgoGames "Au pas de course !". Ce jeu a pour objectif de présenter
-            le principe ergonomique du groupement / proximité de manière simple
-            et ludique, avec une représentation visuelle interactive.
+            Pour ce projet, je suis entré dans l'entreprise en tant qu'alternant pour travailler sur le développement front-end
+            de l'application. Je travaille en collaboration avec mon tuteur, Thomas Gaillot, sur la partie front-end. 
+            Mon rôle consiste à réaliser des maquettes, puis à développer des POC (Proof of Concept) pour faire valider 
+            les nouvelles fonctionnalités par l'équipe. Une fois les POC validés, je réalise les composants et pages 
+            nécessaires à l'application en les intégrant avec le back-end.
           </p>
         </div>
         <div class="flex flex-col justify-center gap-5 w-72">
           <a
-            href="https://sogilis.com/"
+            href="https://www.enogrid.com/"
             class="self-center hover:scale-105 hover:drop-shadow-xl transition-all w-44 h-fit"
           >
             <img
               src="@/assets/img/projectsSection/ErgoGames/LogoSogilis.svg"
-              alt="ErgoGames"
+              alt="Enogrid"
               class=""
             />
           </a>
           <div class="flex flex-wrap items-center justify-between">
             <a
-              href="https://www.ergogames.fr/"
+              href="https://monenergiecollective.fr/"
               class="hover:scale-105 hover:drop-shadow-xl transition-all w-44 h-fit"
             >
               <div class="flex flex-col items-center font-bold">
                 <div
                   class="logo_first_line text-sm md:text-base -mb-2 :md-mb-2.5"
                 >
-                  Les
+                  Mon
                 </div>
                 <div class="logo_second_line text-base md:text-2xl">
-                  ERGOGAMES&nbsp;!
+                  ENERGIE COLLECTIVE
                 </div>
               </div>
             </a>
-            <img
-              src="@/assets/img/projectsSection/ErgoGames/Renard.svg"
-              alt="ErgoGames"
-              class="w-24 drop-shadow-sm"
-            />
           </div>
         </div>
       </div>
@@ -100,94 +96,77 @@
       <div class="flex flex-col gap-4 mb-10">
         <h2 class="font-bold text-2xl">Objectifs</h2>
         <p>
-          Développer un jeu interactif pour les ErgoGames afin d'enseigner le
-          principe ergonomique du groupement/proximité. Ce principe stipule que
-          les éléments proches les uns des autres sont perçus comme un groupe et
-          doivent être organisés de manière à faciliter l'utilisation et
-          l'accès.
+          Mon objectif principal lors de ce semestre était de m'intégrer dans l'équipe technique de l'application 
+          Mon Energie Collective et de comprendre le fonctionnement de l'entreprise. Je devais aussi apprendre à 
+          prendre en main une base de code importante et à comprendre le fonctionnement d'un projet d'entreprise 
+          réel avec des enjeux concrets.
         </p>
         <p>
-          Développer une interface utilisateur intuitive pour faciliter une
-          interaction fluide avec l’utilisateur. L'interface doit être
-          compréhensible et accessible pour les joueurs de tous niveaux. Le jeu
-          doit être captivant tout en transmettant clairement le principe
-          ergonomique.
+          Depuis mon arrivée, les sprints que j'ai réalisés tournaient tous autour d'un objectif commun : 
+          ajouter la gestion de la création d'un projet depuis le début. Cela impliquait de développer 
+          de nouvelles fonctionnalités comme l'intégration d'une timeline pour guider les utilisateurs à travers 
+          les différentes étapes, l'ajout d'interfaces pour faciliter la création de la PMO (Personne Morale Organisatrice), 
+          et la réalisation d'onglets permettant de créer et d'envoyer des documents essentiels comme les contrats 
+          de vente ou les bulletins d'adhésion.
         </p>
         <p>
-          Développer une page dédiée à
-          <a
-            href="https://www.ergogames.fr/principles"
-            class="link link-primary"
-            ><b> l'explication du principe ergonomique</b></a
-          >. Cette page explicative fournira une analyse détaillée du concept de
-          groupement/proximité, accompagnée d'exemples concrets et
-          d'illustrations visuelles.
+          Il fallait également m'adapter aux méthodes de travail de l'entreprise, notamment la méthodologie Agile 
+          Scrum avec des sprints de deux semaines, et développer mes compétences techniques en React et TypeScript, 
+          des technologies que je ne maîtrisais pas au départ.
         </p>
-        <div class="flex flex-wrap md:flex-row justify-center gap-20">
-          <img
-            src="@/assets/img/projectsSection/ErgoGames/MaquetteRules.svg"
-            alt="Maquette des règles"
-            class="w-60 rounded-md drop-shadow-md"
-          />
-          <img
-            src="@/assets/img/projectsSection/ErgoGames/MaquettePrinciple.svg"
-            alt="Maquette du principe"
-            class="w-64 rounded-md drop-shadow-md"
-          />
-        </div>
       </div>
 
       <!-- Réalisations -->
       <div class="flex flex-col gap-4 mb-10">
         <h2 class="font-bold text-2xl">Réalisations</h2>
         <p>
-          Le projet consistait à développer le sixième jeu des Ergo Games "Au
-          pas de course !", au cours duquel les joueurs doivent réaliser des
-          courses dans des rayons de supermarchés. Le jeu est divisé en deux
-          parties :
+          Depuis mon arrivée chez Enogrid, j'ai contribué à enrichir l'application Mon Énergie Collective 
+          de plusieurs fonctionnalités clés orientées vers un objectif commun : faciliter la création d'un 
+          projet d'autoconsommation collective dès son initiation.
         </p>
-        <div
-          class="flex flex-col md:flex-row justify-center items-center gap-10 mb-4"
-        >
-          <p>
-            Première partie : <br />
-            Affichage aléatoire.
-          </p>
-          <div class="diff aspect-[16/9] w-72 h-72">
-            <div class="diff-item-1">
-              <img
-                src="@/assets/img/projectsSection/ErgoGames/MaquetteSecondRound.svg"
-                alt=""
-              />
-            </div>
-            <div class="diff-item-2">
-              <img
-                src="@/assets/img/projectsSection/ErgoGames/MaquetteFirstRound.svg"
-                alt=""
-              />
-            </div>
-            <div class="diff-resizer"></div>
+        <div class="flex flex-col md:flex-row items-center gap-10 mb-4">
+          <div>
+            <p>Les principales réalisations incluent :</p>
+            <ul class="list-disc pl-5 mb-3">
+              <li>
+                L'intégration d'une timeline interactive pour guider les utilisateurs à travers 
+                les différentes étapes de création d'un projet
+              </li>
+              <li>
+                Le développement des interfaces pour la gestion de la PMO (Personne Morale Organisatrice),
+                élément fondamental pour lancer un projet d'autoconsommation collective
+              </li>
+              <li>
+                La création d'onglets dédiés permettant aux utilisateurs de générer et d'envoyer 
+                des documents essentiels comme les contrats de vente et les bulletins d'adhésion
+              </li>
+            </ul>
+            <p>Mon processus de développement suit un cycle itératif :</p>
+            <ul class="list-disc pl-5">
+              <li>
+                Création de maquettes sur Excalidraw pour visualiser rapidement les idées
+              </li>
+              <li>
+                Développement d'un POC (Proof of Concept) en local pour tester la faisabilité
+              </li>
+              <li>
+                Intégration avec le back-end après validation du POC
+              </li>
+              <li>
+                Déploiement sur l'environnement de recette "Kraken" pour les tests
+              </li>
+              <li>
+                Participation aux beta-tests avec les utilisateurs finaux
+              </li>
+            </ul>
           </div>
-          <p>
-            Deuxième partie : <br />
-            Affichage organisé.
-          </p>
-        </div>
-        <div>
-          <p>Livrables professionnels :</p>
-          <ul class="list-disc pl-5 mb-3">
-            <li>
-              Jeu interactif : illustrant le principe de groupement/proximité.
-            </li>
-            <li>Page explicative : détail du principe ergonomique.</li>
-          </ul>
-          <p>Livrables personnels :</p>
-          <ul class="list-disc pl-5">
-            <li>
-              Documentation et rapports de suivi : Journal de bord hebdomadaire
-              et documentation technique.
-            </li>
-          </ul>
+          <div>
+            <img
+              src="@/assets/img/projectsSection/ErgoGames/MaquetteFirstRound.svg"
+              alt="Maquette de fonctionnalité"
+              class="w-80 rounded-md drop-shadow-md"
+            />
+          </div>
         </div>
       </div>
 
@@ -199,23 +178,23 @@
             <ul class="list-disc pl-5">
               <li>
                 Framework et Langages :
-                <a href="https://vuejs.org/" class="link link-primary"
-                  ><b>Vue.js 3</b></a
+                <a href="https://reactjs.org/" class="link link-primary"
+                  ><b>React</b></a
                 >
                 et
                 <a
-                  href="https://developer.mozilla.org/fr/docs/Web/JavaScript"
+                  href="https://www.typescriptlang.org/"
                   class="link link-primary"
-                  ><b>JavaScript</b></a
+                  ><b>TypeScript</b></a
                 >
                 pour le développement front-end.
               </li>
               <li>
-                Librairies :
-                <a href="https://vuetifyjs.com/en/" class="link link-primary"
-                  ><b>Vuetify</b></a
+                Maquettage :
+                <a href="https://excalidraw.com/" class="link link-primary"
+                  ><b>Excalidraw</b></a
                 >
-                pour les composants UI.
+                pour la création rapide de maquettes.
               </li>
               <li>
                 Gestion de Versions :
@@ -225,14 +204,14 @@
                 pour le contrôle de version et la collaboration.
               </li>
               <li>
-                Design :
-                <a href="https://www.figma.com/fr-fr/" class="link link-primary"
-                  ><b>Figma</b></a
-                >
-                pour la création des maquettes.
+                Environnements :
+                <b>Kraken</b> (environnement de recette) et <b>Pré-production</b> pour les tests.
               </li>
               <li>
-                Outils de Développement : IntelliJ IDEA pour l'édition de code.
+                Outils de Développement : IDE de la suite JetBrains pour l'édition de code.
+              </li>
+              <li>
+                Communication : <b>Slack</b> pour les échanges d'équipe et <b>Confluence/Jira</b> pour la documentation.
               </li>
             </ul>
           </div>
@@ -256,61 +235,35 @@
             class="w-48 h-48"
           />
           <p>
-            Le projet a été organisé en utilisant la méthode SCRUM, fonctionnant
-            par cycles de deux semaines (sprints). Chaque sprint comprenait une
-            réunion quotidienne (Daily) pour le suivi des tâches, ainsi qu'une
-            reunion de fin de sprint qui combinait trois étapes essentielles :
-            la Sprint Review pour examiner les travaux réalisés, la Sprint
-            Retrospective pour identifier des pistes d'amélioration, et la
-            Sprint Planning pour planifier les prochaines étapes.
+            Chez Enogrid, nous utilisons une méthode Agile basée sur le framework Scrum. Nous fonctionnons 
+            par cycles de deux semaines (sprints), avec des réunions quotidiennes (Daily Stand-up) pour suivre 
+            l'avancement des tâches. Nous avons également des "Features Lunch" (équivalent du Sprint Planning) 
+            pour définir les objectifs du sprint, et des rétrospectives mensuelles pour identifier 
+            les points d'amélioration. L'entreprise favorise une organisation personnelle flexible, 
+            tant sur les horaires que sur le télétravail, ce qui me permet de m'adapter tout en restant efficace.
           </p>
         </div>
         <div
           class="flex flex-col md:flex-row justify-between items-center gap-5"
         >
           <div>
-            <p>Durant ce projet j’ai été accompagné d’une équipe :</p>
+            <p>Je travaille au sein d'une équipe technique :</p>
             <ul class="list-disc pl-5 mb-3">
               <li>
-                <a
-                  href="https://www.linkedin.com/in/benoit-dumas/"
-                  class="link link-primary"
-                  ><b>Benoît Dumas</b></a
-                >. : Maître de stage, a fourni encadrement et directives.
+                <b>Thomas Gaillot</b> : Mon tuteur, développeur front-end, qui m'accompagne et pratique régulièrement 
+                du pair programming avec moi.
               </li>
               <li>
-                <a
-                  href="https://www.linkedin.com/in/margaux-lergo/"
-                  class="link link-primary"
-                  ><b>Margaux Perrin</b></a
-                >. : Product owner, a validé les réalisations et ajusté les
-                tâches.
+                <b>Product Owner</b> : Définit les sprints et leurs objectifs, valide les réalisations.
               </li>
               <li>
-                <a
-                  href="https://www.linkedin.com/in/antoine-du-bois-60b429196/"
-                  class="link link-primary"
-                  ><b>Antoine Dubois</b></a
-                >. : Développeur, a aidé sur des aspects techniques spécifiques.
+                <b>Testeurs</b> : Vérifient le bon fonctionnement des fonctionnalités déployées sur Kraken.
               </li>
               <li>
-                <a
-                  href="https://www.linkedin.com/in/benjaminbiguet/"
-                  class="link link-primary"
-                  ><b>Benjamin Biguet</b></a
-                >. : Designer, a créé les maquettes et scénarios.
+                <b>Développeurs Back-end</b> : Avec qui je collabore pour l'intégration des fonctionnalités.
               </li>
               <li>
-                <a
-                  href="https://www.linkedin.com/in/lucjeanniard/"
-                  class="link link-primary"
-                  ><b>Luc Jeanniard</b></a
-                >. et
-                <a
-                  href="https://www.linkedin.com/in/c%C3%A9cile-gesbert-b4571653/"
-                  class="link link-primary"
-                  ><b>Cécile Gesbert</b></a
-                >. : Support administratif.
+                <b>Beta-testeurs</b> : Utilisateurs externes qui testent l'application et fournissent des retours.
               </li>
             </ul>
           </div>
@@ -319,6 +272,24 @@
             alt=""
             class="w-44 h-44"
           />
+        </div>
+        <div class="mt-4">
+          <h3 class="font-bold text-xl">Bilan de l'intégration</h3>
+          <p class="mt-2">
+            Après près de cinq mois au sein d'Enogrid, je peux affirmer que ce choix d'alternance est enrichissant, 
+            tant sur le plan professionnel que personnel. L'entreprise m'a accueilli chaleureusement, et je me sens à l'aise 
+            avec mes collègues. L'environnement de travail est stimulant et propice à l'apprentissage.
+          </p>
+          <p class="mt-2">
+            Sur le plan technique, j'ai pu développer mes compétences en React et TypeScript, des technologies que 
+            je ne maîtrisais pas auparavant. J'ai également appris à travailler en équipe sur un projet d'entreprise 
+            avec des enjeux réels, ce qui diffère significativement des projets académiques.
+          </p>
+          <p class="mt-2">
+            Cette dynamique me motive profondément à contribuer activement au projet, avec l'objectif d'aider un maximum 
+            d'utilisateurs à bénéficier des solutions innovantes proposées par l'entreprise dans le domaine de la 
+            transition énergétique.
+          </p>
         </div>
       </div>
     </div>
