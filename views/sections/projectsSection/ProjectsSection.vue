@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col justify-between bg-slate-100 p-6 drop-shadow-md">
     <div class="mb-12 items-center">
-      <div class="chat chat-start">
+      <div class="chat chat-start mb-10">
         <div class="chat-bubble drop-shadow-md">
           Java, Python, Symfony ... N'hésitez pas à lire le descriptif de mes
           projets pour en savoir plus sur mes réalisations.
