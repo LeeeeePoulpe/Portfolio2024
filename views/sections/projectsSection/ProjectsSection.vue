@@ -122,7 +122,7 @@ const projectList = [
   {
     name: "GameJam 2024",
     component: GameJam2,
-    image: "/GameJam2.svg",
+    image: "/GameJam2025.svg",
     description:
       "Développement d'un jeu vidéo dans 'le monde merveilleux de l\'IUT2'.",
     tags: ["Python", "PyGame"],
