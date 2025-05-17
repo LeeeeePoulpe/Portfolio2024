@@ -304,8 +304,15 @@
       <div class="flex flex-col gap-4 mb-10">
         <h2 class="font-bold text-2xl">Contexte</h2>
         <p>
-          <!-- Place your context for the second project here -->
-          Décrivez le contexte du deuxième projet ici.
+          Lors du second semestre de mon alternance, j'ai eu l'occasion de travailler sur le projet
+          <a href="https://enoconso.fr/" target="_blank" class="link link-primary">
+            EnoConso
+          </a>
+          . EnoConso regroupe sur une application web les différents éléments du projet pour tous les participants.
+          Notamment il donne accès à la consommation d'énergie et son historique pour tous les participants. 
+          Il présente également des éléments administratif comme les factures qui peuvent être récupérées depuis l'application.
+          La modification des informations personnelles de chaque participant est également possible depuis l'application.
+          L'application permet aussi la communication entre les participants, les producteurs et le support Enogrid.
         </p>
       </div>
 
@@ -313,8 +320,9 @@
       <div class="flex flex-col gap-4 mb-10">
         <h2 class="font-bold text-2xl">Objectifs</h2>
         <p>
-          <!-- Place your objectives for the second project here -->
-          Décrivez les objectifs du deuxième projet ici.
+          Mes encadrants ont estimé à la fin du semestre que j'avais les capacités de travailler en autonomie sur un produit déjà existant
+          mais sur lequel aucun nouveau développement majeur n'était réalisé. C'est une opportunité pour moi de pouvoir modifier cette application
+          en profondeur et de pouvoir la rendre plus utilisable et plus intuitive pour les utilisateurs.
         </p>
       </div>
 
@@ -322,10 +330,28 @@
       <div class="flex flex-col gap-4 mb-10">
         <h2 class="font-bold text-2xl">Réalisations</h2>
         <p>
-          <!-- Describe your achievements for the second project here -->
-          Décrivez vos réalisations pour le deuxième projet ici.
+          J'ai réalisé plusieurs modifications sur l'application.
+          <ul class="list-disc pl-5">
+            <li>
+              Refonte UI/UX et des couleurs de l'application pour l'accorder avec la charte graphique de 
+              <a href="https://monenergiecollective.fr/" target="_blank" class="link link-primary">
+                Mon Energie Collective
+              </a>.
+              Pour cette refonte des composants j'ai utilisé la librairie 
+              <a href="https://ui.shadcn.com/" target="_blank" class="link link-primary">
+                shadcn/ui
+              </a>.
+            </li>
+            <li>
+              Modification de la fonctionnalité pour demander à quitter une opération.
+            </li>
+            <li>
+              Étude de faisabilité pour un changement majeur du fonctionnement de l'application,
+              l'objectif étant de passer l'application sur une vue globale du projet plutôt que sur une vue individuelle par participant.
+              Suite à mes premières recherches, les changements sont réalisables mais cela demanderait un travail conséquent.
+            </li>
+          </ul>
         </p>
-        <!-- You can add lists, images, etc. for the second project's achievements -->
       </div>
 
       <!-- Technologies utilisées pour Projet 2 -->
@@ -333,21 +359,59 @@
         <h2 class="font-bold text-2xl">Technologies utilisées</h2>
         <div>
           <ul class="list-disc pl-5">
-            <!-- List the technologies used for the second project -->
-            <li>Technologie 1</li>
-            <li>Technologie 2</li>
-            <!-- Add more technologies as needed -->
+            <li>
+              Framework et Langages :
+              <a href="https://reactjs.org/" class="link link-primary"
+                ><b>React</b></a
+              >
+              et
+              <a href="https://www.typescriptlang.org/" class="link link-primary"
+                ><b>TypeScript</b></a
+              >
+              pour le développement front-end.
+            </li>
+            <li>
+              IA : 
+              <a href="https://www.cursor.com/" class="link link-primary"
+                ><b>Cursor</b></a
+              >
+              et
+              <a href="https://www.kagi.com/" class="link link-primary"
+                ><b>Kagi</b></a
+              >
+              pour la génération de code.
+            </li>
+            <li>
+              Maquettage et premiers prototypes :
+              <a href="https://v0.dev/" class="link link-primary"
+                ><b>v0</b></a
+              >
+              pour la création rapide de maquettes et de prototypes.
+            </li>
+            <li>
+                Gestion de Versions :
+                <a href="https://about.gitlab.com/" class="link link-primary"
+                  ><b>GitLab</b></a
+                >
+                pour le contrôle de version et la collaboration.
+              </li>
+              <li>
+                Environnements :
+                <b>Kraken</b> (environnement de recette) et <b>Pré-production</b> pour les tests.
+              </li>
+              <li>
+                Communication : <b>Slack</b> pour les échanges d'équipe.
+              </li>
           </ul>
         </div>
-        <!-- You can add an image related to technologies for the second project if you have one -->
       </div>
 
       <!-- Méthodologie et équipe pour Projet 2 -->
       <div class="flex flex-col gap-4 mb-10">
-        <h2 class="font-bold text-2xl">Méthodologie et équipe</h2>
-        <!-- Describe the methodology and team for the second project -->
-        <p>Décrivez la méthodologie et l'équipe pour le deuxième projet ici.</p>
-        <!-- You can add images or lists as needed for the second project -->
+        <h2 class="font-bold text-2xl">Méthodologie</h2>
+        <p>
+          J'ai travaillé en autonomie sur le projet sous une gestion agile plus souple.
+        </p>
       </div>
     </div>
 
@@ -362,13 +426,16 @@
           alt=""
           class="w-24 h-24"
         />
-        <p>
-          En résumé, mon alternance m'a permis de travailler sur ces deux
-          projets significatifs, renforçant mes compétences en développement
-          logiciel et en gestion de projet. [Ajoutez ici une phrase ou deux sur
-          les principaux apprentissages ou les points forts de l'alternance dans
-          son ensemble].
-        </p>
+        <div>
+          <p>
+            En résumé, mon alternance m'a permis de travailler sur ces deux
+            projets significatifs, renforçant mes compétences en développement
+            logiciel et en gestion de projet.
+          </p>
+          <p>
+            L'alternance n'étant pas terminée, il est encore trop tôt pour faire un bilan complet.
+          </p>
+        </div>
       </div>
     </div>
   </div>
