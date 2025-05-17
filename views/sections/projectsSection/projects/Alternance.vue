@@ -30,7 +30,7 @@
       </h1>
 
       <!-- Contexte -->
-      <div class="flex flex-col md:flex-row mb-10">
+      <div class="flex flex-col justify-between md:flex-row mb-10">
         <div class="max-w-[700px] flex flex-col gap-4 pr-5">
           <h2 class="font-bold text-2xl">Contexte</h2>
           <p>
@@ -61,34 +61,27 @@
             nécessaires à l'application en les intégrant avec le back-end.
           </p>
         </div>
-        <div class="flex flex-col justify-center gap-5 w-72">
+        <div class="flex flex-row flex-wrap justify-center gap-5 w-72 h-fit self-center">
           <a
-            href="https://www.enogrid.com/"
+              href="https://monenergiecollective.fr/"
             class="self-center hover:scale-105 hover:drop-shadow-xl transition-all w-44 h-fit"
           >
             <img
-              src="@/assets/img/projectsSection/ErgoGames/LogoSogilis.svg"
+              src="@/assets/img/projectsSection/Alternance/MECLogo.svg"
+              alt="Mon Energie Collective"
+              class=""
+            />
+          </a>
+          <a
+              href="https://www.enogrid.com/"
+            class="self-center hover:scale-105 hover:drop-shadow-xl transition-all w-44 h-fit"
+          >
+            <img
+              src="@/assets/img/projectsSection/Alternance/EnogridLogo.png"
               alt="Enogrid"
               class=""
             />
           </a>
-          <div class="flex flex-wrap items-center justify-between">
-            <a
-              href="https://monenergiecollective.fr/"
-              class="hover:scale-105 hover:drop-shadow-xl transition-all w-44 h-fit"
-            >
-              <div class="flex flex-col items-center font-bold">
-                <div
-                  class="logo_first_line text-sm md:text-base -mb-2 :md-mb-2.5"
-                >
-                  Mon
-                </div>
-                <div class="logo_second_line text-base md:text-2xl">
-                  ENERGIE COLLECTIVE
-                </div>
-              </div>
-            </a>
-          </div>
         </div>
       </div>
 
@@ -160,12 +153,17 @@
               </li>
             </ul>
           </div>
-          <div>
-            <img
-              src="@/assets/img/projectsSection/ErgoGames/MaquetteFirstRound.svg"
-              alt="Maquette de fonctionnalité"
-              class="w-80 rounded-md drop-shadow-md"
-            />
+          <div class="flex flex-col gap-4 w-96">
+              <img
+                src="@/assets/img/projectsSection/Alternance/Réalisation1.png"
+                alt="Maquette de fonctionnalité"
+                class="rounded-md drop-shadow-md"
+              />
+              <img
+                src="@/assets/img/projectsSection/Alternance/Réalisation2.png"
+                alt="Maquette de fonctionnalité"
+                class="rounded-md drop-shadow-md"
+              />
           </div>
         </div>
       </div>
@@ -215,13 +213,7 @@
               </li>
             </ul>
           </div>
-          <div>
-            <img
-              src="@/assets/img/projectsSection/ErgoGames/Technologies.svg"
-              alt=""
-              class="w-52"
-            />
-          </div>
+  
         </div>
       </div>
 
