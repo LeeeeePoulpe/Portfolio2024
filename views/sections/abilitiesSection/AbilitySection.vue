@@ -6,14 +6,16 @@
       </div>
     </div>
 
-    <div class="flex flex-col justify-center items-center w-10/12 m-auto mb-10 gap-10">
-      <CarouselTechnologies/>
-      <CarouselLanguage/>
+    <div
+      class="flex flex-col justify-center items-center w-10/12 m-auto mb-10 gap-10"
+    >
+      <TechnoCardList />
+      <LanguagesCardList />
     </div>
   </div>
 </template>
 
 <script setup>
-import CarouselTechnologies from "~/views/sections/abilitiesSection/CarouselTechnologies.vue";
-import CarouselLanguage from "~/views/sections/abilitiesSection/CarouselLanguages.vue";
+import TechnoCardList from "./TechnoCardList.vue";
+import LanguagesCardList from "./languagesCardList.vue";
 </script>

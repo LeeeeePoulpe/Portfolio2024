@@ -67,7 +67,7 @@
     <div>
       <h1 class="font-bold text-2xl mb-2">Conclusion</h1>
       <div class="flex flex-col md:flex-row items-center gap-5">
-        <img src="@/assets/img/projectsSection/GameJam.svg" alt="" class="w-44 drop-shadow-sm">
+        <img src="/GameJam.svg" alt="" class="w-44 drop-shadow-sm">
         <p>
           En conclusion, cette GameJam a été une expérience enrichissante qui nous a permis d'apprendre une nouvelle
           technologie, le Python, et de travailler en équipe. Malgré les difficultés de délais rencontrées, nous avons
